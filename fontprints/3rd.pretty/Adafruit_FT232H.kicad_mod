@@ -1,0 +1,439 @@
+(footprint "Adafruit_FT232H"
+	(version 20260206)
+	(generator "codex")
+	(generator_version "1.0")
+	(layer "F.Cu")
+	(descr "Adafruit FT232H USB-C breakout, 2.54 mm through-hole header footprint, module above carrier board")
+	(tags "Adafruit FT232H USB GPIO SPI I2C MPSSE breakout")
+	(fp_text reference "REF**"
+		(at 19.05 -2.54 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text value "Adafruit_FT232H"
+		(at 19.05 25.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/2264"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Adafruit FT232H USB-C breakout through-hole header footprint; board outline on F.SilkS/F.Fab"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 2.54 0)
+		(end 35.56 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_arc
+		(start 35.56 0)
+		(mid 37.356 0.744)
+		(end 38.1 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 38.1 2.54)
+		(end 38.1 20.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_arc
+		(start 38.1 20.32)
+		(mid 37.356 22.116)
+		(end 35.56 22.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 35.56 22.86)
+		(end 2.54 22.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_arc
+		(start 2.54 22.86)
+		(mid 0.744 22.116)
+		(end 0 20.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0 20.32)
+		(end 0 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_arc
+		(start 0 2.54)
+		(mid 0.744 0.744)
+		(end 2.54 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 35.56 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 35.56 0)
+		(mid 37.356 0.744)
+		(end 38.1 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 38.1 2.54)
+		(end 38.1 20.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 38.1 20.32)
+		(mid 37.356 22.116)
+		(end 35.56 22.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 35.56 22.86)
+		(end 2.54 22.86)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 2.54 22.86)
+		(mid 0.744 22.116)
+		(end 0 20.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0 20.32)
+		(end 0 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_arc
+		(start 0 2.54)
+		(mid 0.744 0.744)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1 -0.25)
+		(end 38.35 23.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_rect
+		(start -0.635 6.81)
+		(end 6.995 16.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_text user "USB-C"
+		(at 3.18 11.43 90)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_rect
+		(start 33.046 8.33)
+		(end 37.646 14.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_text user "QT"
+		(at 35.35 11.38 90)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_circle
+		(center 2.54 2.54)
+		(end 3.79 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 35.56 2.54)
+		(end 36.81 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 2.54 20.32)
+		(end 3.79 20.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 35.56 20.32)
+		(end 36.81 20.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 19.05 11.43 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "GND" thru_hole circle
+		(at 6.35 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C9" thru_hole circle
+		(at 8.89 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C8" thru_hole circle
+		(at 11.43 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C7" thru_hole circle
+		(at 13.97 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C6" thru_hole circle
+		(at 16.51 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C5" thru_hole circle
+		(at 19.05 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C4" thru_hole circle
+		(at 21.59 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C3" thru_hole circle
+		(at 24.13 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C2" thru_hole circle
+		(at 26.67 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C1" thru_hole circle
+		(at 29.21 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "C0" thru_hole circle
+		(at 31.75 1.27)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3V" thru_hole circle
+		(at 6.35 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "5V" thru_hole circle
+		(at 8.89 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "GND" thru_hole circle
+		(at 11.43 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D0" thru_hole circle
+		(at 13.97 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D1" thru_hole circle
+		(at 16.51 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D2" thru_hole circle
+		(at 19.05 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D3" thru_hole circle
+		(at 21.59 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D4" thru_hole circle
+		(at 24.13 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D5" thru_hole circle
+		(at 26.67 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D6" thru_hole circle
+		(at 29.21 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "D7" thru_hole circle
+		(at 31.75 21.59)
+		(size 1.6764 1.6764)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+	)
+)

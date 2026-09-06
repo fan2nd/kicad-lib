@@ -1,0 +1,300 @@
+(footprint "TF-110"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "XUNPU TF-110 microSD/TF card socket, SMD, LCSC C266613, 1.32mm height")
+	(tags "TF-110 C266613 XUNPU microSD TF card socket")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TF-110"
+		(at 0 7.2 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/256968.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XUNPU TF-110 microSD/TF card socket, LCSC C266613"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.2 -5.85)
+		(end 2.2 -5.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.95 -4.2)
+		(end -5.95 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -5.95 0.25)
+		(end -5.95 3.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 5.95 -4.2)
+		(end 5.95 -3.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 5.95 -1.55)
+		(end 5.95 3.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center 3.22 2.25)
+		(end 3.42 2.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.4 -5.9)
+		(end 6.4 -5.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 6.4 -5.9)
+		(end 6.4 6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 6.4 6.3)
+		(end -6.4 6.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -6.4 6.3)
+		(end -6.4 -5.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -5.6 -5.58)
+		(end 5.75 -5.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.75 -5.58)
+		(end 5.75 5.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.75 5.67)
+		(end -5.6 5.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -5.6 5.67)
+		(end -5.6 -5.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -5.05 1.9)
+		(end 5.05 1.9)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "CARD"
+		(at 0 -1.4 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "DAT2" smd rect
+		(at 3.2175 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "CD/DAT3" smd rect
+		(at 2.1175 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "CMD" smd rect
+		(at 1.0177 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "VDD" smd rect
+		(at -0.0824 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "CLK" smd rect
+		(at -1.1825 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "VSS" smd rect
+		(at -2.2823 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "DAT0" smd rect
+		(at -3.3824 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "DAT1" smd rect
+		(at -4.4624 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "CD/SWA" smd rect
+		(at 4.2175 3.4553)
+		(size 0.75 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "GND/SWB" smd rect
+		(at 5.4654 -2.5447)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at 5.4141 -5.2302)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at 3.7936 -5.0448)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at -3.7824 -5.0448)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at -5.4136 -5.2302)
+		(size 1.1 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at -5.6305 -0.8198)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at -5.0324 5.2302)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at 5.0677 5.2302)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "SHELL" smd rect
+		(at 5.6305 -0.1198)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+)
