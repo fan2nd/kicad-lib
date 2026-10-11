@@ -1,0 +1,266 @@
+[
+  {
+    "kind": "symbol",
+    "library": "3rd.module.motor",
+    "old": "TMC4361A-BOB",
+    "new": "Trinamic_TMC4361A-BOB",
+    "path": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc4361a-bob.kicad_sym",
+    "vendor": "Trinamic"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.motor",
+    "old": "TMC2209",
+    "new": "BIGTREETECH_TMC2209",
+    "path": "symbols/3rd.module.motor.kicad_symdir/tmc2209.kicad_sym",
+    "vendor": "BIGTREETECH",
+    "status": "reverted",
+    "reason": "User confirmed module is not BIGTREETECH; manufacturer remains unspecified.",
+    "current": "TMC2209"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.motor",
+    "old": "TMC5160-BOB",
+    "new": "Trinamic_TMC5160-BOB",
+    "path": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc5160-bob.kicad_sym",
+    "vendor": "Trinamic"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.motor",
+    "old": "TMC2160-BOB",
+    "new": "Trinamic_TMC2160-BOB",
+    "path": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc2160-bob.kicad_sym",
+    "vendor": "Trinamic"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.wifi",
+    "old": "ESPC2-01",
+    "new": "DOIT_ESPC2-01",
+    "path": "symbols/3rd.module.wifi.kicad_symdir/doit-espc2-01.kicad_sym",
+    "vendor": "DOIT"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.ic",
+    "old": "LFE5U-25F-BG256",
+    "new": "Lattice_LFE5U-25F-BG256",
+    "path": "symbols/3rd.ic.kicad_symdir/lattice-lfe5u-25f-bg256.kicad_sym",
+    "vendor": "Lattice"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.ic",
+    "old": "CC6201ST",
+    "new": "CrossChip_CC6201ST",
+    "path": "symbols/3rd.ic.kicad_symdir/crosschip-cc6201st.kicad_sym",
+    "vendor": "CrossChip"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.display",
+    "old": "ZJY096T-IG11",
+    "new": "Zhongjingyuan_ZJY096T-IG11",
+    "path": "symbols/3rd.display.kicad_symdir/zhongjingyuan-zjy096t-ig11.kicad_sym",
+    "vendor": "Zhongjingyuan"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.ble",
+    "old": "E73-2G4M54LP",
+    "new": "Ebyte_E73-2G4M54LP",
+    "path": "symbols/3rd.module.ble.kicad_symdir/ebyte-e73-2g4m54lp.kicad_sym",
+    "vendor": "Ebyte"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.ble",
+    "old": "E73-2G4M54LP_Physical",
+    "new": "Ebyte_E73-2G4M54LP_Physical",
+    "path": "symbols/3rd.module.ble.kicad_symdir/ebyte-e73-2g4m54lp-physical.kicad_sym",
+    "vendor": "Ebyte"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.rf",
+    "old": "E01C-ML01D",
+    "new": "Ebyte_E01C-ML01D",
+    "path": "symbols/3rd.module.rf.kicad_symdir/ebyte-e01c-ml01d.kicad_sym",
+    "vendor": "Ebyte"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.connector",
+    "old": "TF-110",
+    "new": "XUNPU_TF-110",
+    "path": "symbols/3rd.connector.kicad_symdir/xunpu-tf-110.kicad_sym",
+    "vendor": "XUNPU"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.connector",
+    "old": "TC2030-JTAG",
+    "new": "Tag-Connect_TC2030-JTAG",
+    "path": "symbols/3rd.connector.kicad_symdir/tag-connect-tc2030-jtag.kicad_sym",
+    "vendor": "Tag-Connect"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.connector",
+    "old": "TC2030-ESP",
+    "new": "Tag-Connect_TC2030-ESP",
+    "path": "symbols/3rd.connector.kicad_symdir/tag-connect-tc2030-esp.kicad_sym",
+    "vendor": "Tag-Connect"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "NUCLEO-C542RC_ST-MORPHO",
+    "new": "ST_NUCLEO-C542RC_ST-MORPHO",
+    "path": "symbols/3rd.coreboard.kicad_symdir/st-nucleo-c542rc-st-morpho.kicad_sym",
+    "vendor": "ST"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "MAX32655-FTHR",
+    "new": "Maxim_MAX32655-FTHR",
+    "path": "symbols/3rd.coreboard.kicad_symdir/maxim-max32655-fthr.kicad_sym",
+    "vendor": "Maxim"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "NUCLEO-U545RE-Q_ST-MORPHO",
+    "new": "ST_NUCLEO-U545RE-Q_ST-MORPHO",
+    "path": "symbols/3rd.coreboard.kicad_symdir/st-nucleo-u545re-q-st-morpho.kicad_sym",
+    "vendor": "ST"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.display",
+    "old": "ZJY096T-IG11_Solder_ThroughPCB_1.6mm",
+    "new": "Zhongjingyuan_ZJY096T-IG11_Solder_ThroughPCB_1.6mm",
+    "path": "fontprints/3rd.display.pretty/Zhongjingyuan_ZJY096T-IG11_Solder_ThroughPCB_1.6mm.kicad_mod",
+    "vendor": "Zhongjingyuan"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.display",
+    "old": "ZJY096T-IG11_Solder_Folded",
+    "new": "Zhongjingyuan_ZJY096T-IG11_Solder_Folded",
+    "path": "fontprints/3rd.display.pretty/Zhongjingyuan_ZJY096T-IG11_Solder_Folded.kicad_mod",
+    "vendor": "Zhongjingyuan"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.coreboard",
+    "old": "NUCLEO-ST-MORPHO",
+    "new": "ST_NUCLEO-ST-MORPHO",
+    "path": "fontprints/3rd.coreboard.pretty/ST_NUCLEO-ST-MORPHO.kicad_mod",
+    "vendor": "ST"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.coreboard",
+    "old": "MAX32655-FTHR",
+    "new": "Maxim_MAX32655-FTHR",
+    "path": "fontprints/3rd.coreboard.pretty/Maxim_MAX32655-FTHR.kicad_mod",
+    "vendor": "Maxim"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.connector",
+    "old": "TF-110",
+    "new": "XUNPU_TF-110",
+    "path": "fontprints/3rd.connector.pretty/XUNPU_TF-110.kicad_mod",
+    "vendor": "XUNPU"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.motor",
+    "old": "TMC2160-BOB",
+    "new": "Trinamic_TMC2160-BOB",
+    "path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC2160-BOB.kicad_mod",
+    "vendor": "Trinamic"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.motor",
+    "old": "TMC5160-BOB",
+    "new": "Trinamic_TMC5160-BOB",
+    "path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC5160-BOB.kicad_mod",
+    "vendor": "Trinamic"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.motor",
+    "old": "TMC2209",
+    "new": "BIGTREETECH_TMC2209",
+    "path": "fontprints/3rd.module.motor.pretty/TMC2209.kicad_mod",
+    "vendor": "BIGTREETECH",
+    "status": "reverted",
+    "reason": "User confirmed module is not BIGTREETECH; manufacturer remains unspecified.",
+    "current": "TMC2209"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.motor",
+    "old": "TMC4361A-BOB",
+    "new": "Trinamic_TMC4361A-BOB",
+    "path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC4361A-BOB.kicad_mod",
+    "vendor": "Trinamic"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.ble",
+    "old": "E73-2G4M54LX",
+    "new": "Ebyte_E73-2G4M54LX",
+    "path": "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LX.kicad_mod",
+    "vendor": "Ebyte"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.ble",
+    "old": "E73-2G4M54LP",
+    "new": "Ebyte_E73-2G4M54LP",
+    "path": "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LP.kicad_mod",
+    "vendor": "Ebyte"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.rf",
+    "old": "E01C-ML01D",
+    "new": "Ebyte_E01C-ML01D",
+    "path": "fontprints/3rd.module.rf.pretty/Ebyte_E01C-ML01D.kicad_mod",
+    "vendor": "Ebyte"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.wifi",
+    "old": "ESPC2-01",
+    "new": "DOIT_ESPC2-01",
+    "path": "fontprints/3rd.module.wifi.pretty/DOIT_ESPC2-01.kicad_mod",
+    "vendor": "DOIT"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.ble",
+    "old": "doBT-M03",
+    "new": "DOIOT_doBT-M03",
+    "path": "symbols/3rd.module.ble.kicad_symdir/doiot-dobt-m03.kicad_sym",
+    "vendor": "DOIOT",
+    "evidence": "User confirmed DOIOT 度云, 2026-10-05"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.module.ble",
+    "old": "doBT-M03",
+    "new": "DOIOT_doBT-M03",
+    "path": "fontprints/3rd.module.ble.pretty/DOIOT_doBT-M03.kicad_mod",
+    "vendor": "DOIOT",
+    "evidence": "User confirmed DOIOT 度云, 2026-10-05"
+  }
+]

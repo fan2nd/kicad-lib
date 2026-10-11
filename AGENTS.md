@@ -18,6 +18,14 @@ computed, layer-correct, and verifiable.
   use `0` for a side with no pin names.
 - Keep text at least one practical grid step (`2.54 mm`) from rectangles, lines,
   arcs, and other graphics when possible.
+- Place all symbol property text outside the symbol body and pin/name/number
+  area, including hidden Footprint, Datasheet, Description, keywords and filters.
+  Hidden fields must remain readable without overlap when "show hidden fields"
+  is enabled: stack them on separate horizontal rows below the full symbol and
+  visible properties, with at least 2.54 mm text-to-graphics clearance and enough
+  row spacing for the font height. Do not leave metadata at the body origin.
+  Preserve property values and intended visibility; move fields rather than
+  deleting or shortening electrical/library identifiers to solve overlap.
 - After editing `.kicad_sym`, review in KiCad or by rendered/parsed check.
 
 ## Symbol/Footprint Matching
@@ -29,6 +37,18 @@ computed, layer-correct, and verifiable.
 
 ## Footprints
 
+- Use `roundrect` for rectangular electrical pads, including rectangular pin-1
+  through-hole pads and exposed-pad (EP) lands. Preserve intentional circular,
+  oval, and non-plated mechanical holes; do not change them merely for style.
+- Use `roundrect` for rectangular EP solder-paste apertures on `F.Paste` or
+  `B.Paste`, including separate unnumbered window pads. Paste is distinct from
+  solder mask (`F.Mask`/`B.Mask`); keep the designed paste coverage and window
+  arrangement. Choose radius `min(0.25 * min(width, height), 0.25 mm)` and set
+  `roundrect_rratio = radius / min(width, height)` for new conversions.
+- Preserve pad numbers, centers, sizes, drills, layer membership and explicit
+  mask/paste margins when rounding. Verify annular rings and pin-1 visibility.
+  Document any datasheet-required shape exception. These rules apply to local
+  footprints; use installed official footprints without editing their sources.
 - Draw board outlines, cutouts, notches, and protrusions from datasheet/manual
   dimensions; compute coordinates and do not eyeball offsets.
 - Actual carrier-PCB edges, slots, cutouts, and mechanically cut features go on
@@ -60,3 +80,110 @@ computed, layer-correct, and verifiable.
 - Tangential width is `w_t = 0.5 * pitch` unless the datasheet says otherwise.
 - Measure outward normals and inside/outside lengths relative to the module
   board outline.
+
+## Naming and Library Classification
+
+- Library nicknames use lowercase dot-separated paths: `3rd.<category>` or
+  `3rd.<category>.<subcategory>`. Use meaningful product categories, not vendors
+  or individual part numbers. Reuse an existing category before adding one.
+- Current categories are `3rd.ic`, `3rd.coreboard`, `3rd.module.ble`,
+  `3rd.module.rf`, `3rd.module.wifi`, `3rd.module.motor`, `3rd.module.sensor`, `3rd.connector`,
+  `3rd.display`, `3rd.switch`, and `3rd.mechanical`.
+- Classify the actual object: a bare IC belongs to `3rd.ic`; a complete core or
+  development board belongs to `3rd.coreboard`; a functional module belongs to
+  the applicable `3rd.module.*` library. FT232H and MCP2221A Adafruit boards are
+  explicitly coreboards. Wireless coreboards also remain in `3rd.coreboard`.
+- Use `symbols/<nickname>.kicad_symdir/` and
+  `fontprints/<nickname>.pretty/`. Preserve the existing `fontprints` spelling.
+  Symbol and footprint libraries for the same category use the same nickname;
+  a category need not have both. Do not create empty libraries.
+
+### Public Symbol and Footprint Names
+
+- Prefer `[Vendor_]<OfficialModel>[_<Interface>][_<Variant>][_<Geometry>]`.
+  Preserve official model spelling, case, digits and hyphens (e.g. `doBT-M03`,
+  `E73-2G4M54LP`, `LFE5U-25F-BG256`, `TMC5160-BOB`). Use underscores between
+  added fields; do not rewrite hyphens inside an official model number.
+- Add a vendor only when it identifies a particular board or distinguishes
+  products. When used, keep the same vendor/model stem across symbol and
+  footprint; e.g. `Adafruit_FT232H`, `Waveshare_RP2350-Zero`.
+- Avoid redundant category words such as `IC`, `Module` or `CoreBoard` when the
+  library already conveys them, unless they are part of the official product
+  name or needed to distinguish designs. Do not shorten a name so far that
+  distinct pinouts or board revisions become indistinguishable.
+- Retain user-approved model stems `A4988`, `TMC2209` and `TB6612` for their
+  motor modules. A4988, TMC2209 and TB6612 remain unprefixed until their
+  board vendors are verified. The user explicitly confirmed that the current
+  TMC2209 module is not BIGTREETECH; do not restore that attribution.
+  These names describe modules in `3rd.module.motor`, not bare IC footprints.
+- Symbols should omit footprint-only geometry. Keep package/pinout identifiers
+  when necessary to select the correct electrical part, e.g. `BG256`.
+- Use explicit variant suffixes: `_Physical` for spatial symbols; `_Castellated`
+  and `_PinHeader` for distinct mounting styles; `_Left`/`_Right` for handed
+  parts; `_Standard`/`_Long` only for real board variants. Keep revisions only
+  when they distinguish incompatible geometry or pinouts.
+- Geometry fields include units: `_P2.54mm`, `_18x21mm`, `_PCB1.6mm`.
+  Use decimal points and lowercase `x`; use `2x05` for row/contact counts,
+  `M2` for a screw size, and `_Provisional` for estimated mechanical designs.
+- Public identifiers use ASCII letters, digits, hyphens, underscores and decimal
+  points; do not use whitespace, slashes, colons or Chinese text. This rule does
+  not apply to readable descriptions, pin names, pin numbers or silkscreen text.
+
+### Filenames, Values and References
+
+- A `.kicad_mod` basename must exactly equal its internal footprint name,
+  including case. Symbol files contain one top-level symbol plus its units;
+  use the lowercase public symbol name with underscores converted to hyphens
+  as the `.kicad_sym` basename. All current symbol filenames comply; record any future exceptions in the audit.
+- Nested symbol identifiers must retain the top-level name followed by KiCad's
+  `_<unit>_<style>` suffix. Keep public symbol names unique within each library.
+- `Value` normally carries the public name or the official base model. Omitting
+  layout/mounting/geometry suffixes from `Value` is valid (e.g. a `_Physical`
+  symbol still displays the same part number). Do not treat this as a broken
+  association. Legacy `fp_text value` and modern `property "Value"` are both
+  valid footprint representations.
+- Local `Footprint` references use `<nickname>:<exact-footprint-name>`.
+  Update qualified `ki_fp_filters` too. Do not use obsolete `fontprints:` or
+  `3rd:` nicknames. Preserve valid standard-library references and intentionally
+  empty footprint fields. Electrical pin/pad identifiers are independent of
+  public names and must never be renamed merely for naming consistency.
+
+### Audits and Renaming
+
+- A request to inspect naming or document rules does not itself require mass
+  renaming. Record legacy style deviations and suggested names in
+  `docs/naming-audit.md`; preserve existing public identifiers during an audit.
+  Apply this convention to new entries and requested renames.
+- For a rename, update the filename, internal name, nested symbol identifiers,
+  applicable `Value`, footprint links, qualified filters and migration records.
+  Keep genuine base-model `Value` text and descriptive technical facts intact.
+- For category changes, update both library tables and classification records;
+  retain the KiCad default-library registration. Back up global tables before
+  editing them. Do not edit unrelated existing designs or create duplicate
+  compatibility libraries automatically.
+- Preserve old-to-new mappings in `docs/library-classification.json` (file
+  moves and approved name changes) and explain public identifier migrations in
+  `README.md`. Existing schematic/PCB references need separate migration.
+- Run `python3 scripts/check_library_links.py` after naming changes. Export
+  affected symbols/footprints with KiCad CLI; for bulk reclassification use
+  `python3 scripts/check_library_links.py --export`. Check all local references,
+  pin/pad matching, case-sensitive names, and unchanged geometry. Apply the
+  symbol readability rules above if visible text changes.
+
+### Verified Vendor Prefixes
+
+- Add a missing vendor when manufacturer documentation or the user's identified
+  board establishes it. Bare ICs use the IC manufacturer; complete boards and
+  modules use the board vendor. Never infer module provenance from its main IC.
+- Use stable verified spellings: `Adafruit`, `JLC`, `Waveshare`, `WeAct`, `ST`,
+  `Maxim`, `Trinamic`, `Ebyte`, `DOIT`, `Lattice`, `CrossChip`,
+  `XUNPU`, `Tag-Connect`, `Zhongjingyuan`, `DOIOT` (度云, user-confirmed
+  for doBT-M03), and existing `Shouhan`. New verified IC/module vendors: `SiliconLabs`,
+  `TI`, `WuhanXinyuan` (武汉芯源), `Ai-Thinker` (安信可), `Kailh` (凯华), and `KZT` (凯智通), and `HongCheng` (虹成电子).
+  Keep original product brands Maxim and Trinamic even when documentation is
+  hosted by ADI; do not alternate prefixes for the same product family.
+- Keep unknown vendors and generic/custom mechanical items unprefixed. Record
+  evidence and unresolved identities in `docs/vendor-naming.md`.
+- A vendor prefix is part of the library identifier; visible Value text may
+  remain the base model to preserve readability. Update symbol/footprint names,
+  references, filters, normalized filenames and migration records together.

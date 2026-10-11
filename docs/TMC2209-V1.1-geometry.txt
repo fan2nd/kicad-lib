@@ -1,0 +1,9 @@
+TMC2209 V1.1 carrier footprint, module TOP view.
+Origin: board center. X right, Y down, units mm.
+EN=(-6.35,-8.89), VREF=(-3.81,-8.89), DIAG=(-1.27,-8.89).
+EN-VREF-DIAG alignment and 2.54mm adjacent pitch confirmed by user.
+INDEX=(-2.54,-6.35): centered between VREF and DIAG, 2.54mm below top row, confirmed by user.
+Auxiliary carrier pads: diameter 1.70mm, drill 1.00mm.
+Board: 15.24 x 20.32mm, main header pitch 2.54mm, row spacing 12.70mm.
+L4 default PDN_UART; L5 alternate solder-selected UART. Not a permanently fitted series-resistor connection.
+Historical reference only (not manufacturer identification for this module): https://github.com/bigtreetech/TMC2209-V1.1

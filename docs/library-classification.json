@@ -1,0 +1,984 @@
+[
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/a4988-stepstick.kicad_sym",
+    "new_path": "symbols/3rd.module.motor.kicad_symdir/a4988.kicad_sym",
+    "library": "3rd.module.motor",
+    "before_sha256": "067780c847132eba257bd6c8e5c6ee7e856e5feaa454225163fab16e210c5424",
+    "name_changes": {
+      "A4988-STEPSTICK": "A4988"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/adafruit-ft232h.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/adafruit-ft232h.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "d420ce0ac86b1944d2f58467894aa692e92766b210bd754521259eec1217d3a8"
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/adafruit-mcp2221a.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/adafruit-mcp2221a.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "7c74ffbfe1b95a53ff36cab7120c8f507c73925dace15723785c1a5d255eec27"
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/cc6201st.kicad_sym",
+    "new_path": "symbols/3rd.ic.kicad_symdir/crosschip-cc6201st.kicad_sym",
+    "library": "3rd.ic",
+    "before_sha256": "9c3ced069db38a9c63a824cd37ab8885a87de1b97c0d8ca3ef8c408a8e9cc960",
+    "name_changes": {
+      "CC6201ST": "CrossChip_CC6201ST"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/dobt-m03.kicad_sym",
+    "new_path": "symbols/3rd.module.ble.kicad_symdir/doiot-dobt-m03.kicad_sym",
+    "library": "3rd.module.ble",
+    "before_sha256": "c64c610702c6b61409ed2309b71c29b523c638bf78acc34ab1e067bbf18af3cf",
+    "name_changes": {
+      "doBT-M03": "DOIOT_doBT-M03"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/e01c-ml01d.kicad_sym",
+    "new_path": "symbols/3rd.module.rf.kicad_symdir/ebyte-e01c-ml01d.kicad_sym",
+    "library": "3rd.module.rf",
+    "before_sha256": "407ec29eee8182b36b139e21c7ff191c68a6e6d07107d0d285b655e7738d7416",
+    "name_changes": {
+      "E01C-ML01D": "Ebyte_E01C-ML01D"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/e73-2g4m54lp-physical.kicad_sym",
+    "new_path": "symbols/3rd.module.ble.kicad_symdir/ebyte-e73-2g4m54lp-physical.kicad_sym",
+    "library": "3rd.module.ble",
+    "before_sha256": "db48c8ee5e8245d7f77a67b8ab4042a4eb7a8ff633bbdf3f861793b631c4852c",
+    "name_changes": {
+      "E73-2G4M54LP_Physical": "Ebyte_E73-2G4M54LP_Physical"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/e73-2g4m54lp.kicad_sym",
+    "new_path": "symbols/3rd.module.ble.kicad_symdir/ebyte-e73-2g4m54lp.kicad_sym",
+    "library": "3rd.module.ble",
+    "before_sha256": "ffec6d540a095735eeed53c7382c6ece5baa0f33335608ca87bcd969d46456c7",
+    "name_changes": {
+      "E73-2G4M54LP": "Ebyte_E73-2G4M54LP"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/espc2-01.kicad_sym",
+    "new_path": "symbols/3rd.module.wifi.kicad_symdir/doit-espc2-01-n2.kicad_sym",
+    "library": "3rd.module.wifi",
+    "before_sha256": "298788aacc49ae573c60cf856ceac79d82c12138bf391746acb86a917f59fa3a",
+    "name_changes": {
+      "ESPC2-01": "DOIT_ESPC2-01-N2"
+    },
+    "public_name_migrations": [
+      {
+        "from": "DOIT_ESPC2-01",
+        "to": "DOIT_ESPC2-01-N2",
+        "reason": "User confirmed complete model ESPC2-01-N2",
+        "date": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/jlc-diqixing-ra6e2.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/jlc-diqixing-ra6e2.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "6fc2e0122216d211cba7ebc2848704b0bd8781535a6c3bdfa7f356e692b3e659",
+    "name_changes": {
+      "JLC-DiQiXing-RA6E2": "JLC_DiQiXing-RA6E2"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/jlc-diwenxing-cw32f030c8t6.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/jlc-diwenxing-cw32f030c8t6.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "89a2ae8d8313a1d8d3fb44c3d028cd3be576d39ee0893c4a2f26094cfbd094a2",
+    "name_changes": {
+      "JLC-DiWenXing-CW32F030C8T6": "JLC_DiWenXing-CW32F030C8T6"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/lfe5u-25f-bg256.kicad_sym",
+    "new_path": "symbols/3rd.ic.kicad_symdir/lattice-lfe5u-25f-bg256.kicad_sym",
+    "library": "3rd.ic",
+    "before_sha256": "3ac378de4bec0c0fa856c8329055f0e58e76d9f26f4bdb81316bcb3e01929c3e",
+    "name_changes": {
+      "LFE5U-25F-BG256": "Lattice_LFE5U-25F-BG256"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/max32655-fthr.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/maxim-max32655-fthr.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "bfd773423701e45e42bc4d9c9653cde068a09c7163de6bd2ebad08bb34395522",
+    "name_changes": {
+      "MAX32655-FTHR": "Maxim_MAX32655-FTHR"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/nucleo-c542rc-st-morpho.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/st-nucleo-c542rc-st-morpho.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "160e1ac52fc28d1db23d7500d736f859f8eb4a70e16473cb304fd0c14c651b2e",
+    "name_changes": {
+      "NUCLEO-C542RC-ST-MORPHO": "NUCLEO-C542RC_ST-MORPHO",
+      "NUCLEO-C542RC_ST-MORPHO": "ST_NUCLEO-C542RC_ST-MORPHO"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/nucleo-u545re-q-st-morpho.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/st-nucleo-u545re-q-st-morpho.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "349d9e8cfe9f96e59a22dc72840d25362226c2895e5e764322798e57ba23e06d",
+    "name_changes": {
+      "NUCLEO-U545RE-Q-ST-MORPHO": "NUCLEO-U545RE-Q_ST-MORPHO",
+      "NUCLEO-U545RE-Q_ST-MORPHO": "ST_NUCLEO-U545RE-Q_ST-MORPHO"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tb6612fng-module.kicad_sym",
+    "new_path": "symbols/3rd.module.motor.kicad_symdir/tb6612.kicad_sym",
+    "library": "3rd.module.motor",
+    "before_sha256": "0d485f67f51a5bd4d6c85ce6bc269f6966f5bcc9b50fe3332bd046a10f267ccf"
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tc2030-esp.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/tag-connect-tc2030-esp.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "14f21498230b2bb5690523f5a0e423c75a0324a8a611a4fd1eea40ac647c74e2",
+    "name_changes": {
+      "TC2030-ESP": "Tag-Connect_TC2030-ESP"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tc2030-jtag.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/tag-connect-tc2030-jtag.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "4aacaeb251b77b4d83aa7b0b2cc22bfbbb1f9e87b4f743aa4fc6d690fc97f1e0",
+    "name_changes": {
+      "TC2030-JTAG": "Tag-Connect_TC2030-JTAG"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tf-110.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/xunpu-tf-110.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "0ad6264dfa00ef619c1ae00214cd15a583bc58efb2b8b7e46a5f77dcde51aba3",
+    "name_changes": {
+      "TF-110": "XUNPU_TF-110"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tmc2160-bob.kicad_sym",
+    "new_path": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc2160-bob.kicad_sym",
+    "library": "3rd.module.motor",
+    "before_sha256": "4964174215adc7f74f0dc95418b77dd53ba8f73ff1f2b62342fc6df41ef96e94",
+    "name_changes": {
+      "TMC2160-BOB": "Trinamic_TMC2160-BOB"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tmc2209-stepstick.kicad_sym",
+    "new_path": "symbols/3rd.module.motor.kicad_symdir/tmc2209.kicad_sym",
+    "library": "3rd.module.motor",
+    "before_sha256": "7b036b4026ac3f34c3d7fed84151f3965673d765d3633752457d7ae9557c5442",
+    "name_changes": {
+      "TMC2209-STEPSTICK": "TMC2209"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tmc4361a-bob.kicad_sym",
+    "new_path": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc4361a-bob.kicad_sym",
+    "library": "3rd.module.motor",
+    "before_sha256": "9325bededb2977ae3d14657774668d78c28cdff3343daedd3c49c82476875e98",
+    "name_changes": {
+      "TMC4361A-BOB": "Trinamic_TMC4361A-BOB"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/tmc5160-bob.kicad_sym",
+    "new_path": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc5160-bob.kicad_sym",
+    "library": "3rd.module.motor",
+    "before_sha256": "c838d6f3350c6fa584d596de10d054553439fe94fdc7a48260f6f2079aa12071",
+    "name_changes": {
+      "TMC5160-BOB": "Trinamic_TMC5160-BOB"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/waveshare-esp32-c5-zero.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/waveshare-esp32-c5-zero.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "7bf490876c09b66e05c9e53703606bc6817d30a5e206d5f0ce8aee817f4d38c8",
+    "name_changes": {
+      "ESP32-C5-Zero": "Waveshare_ESP32-C5-Zero"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/waveshare-esp32-h2-zero.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/waveshare-esp32-h2-zero.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "bdacd018affd07ed9187e3bdfe7f8d14b6561ffdfa4de43335056f51dee332ae",
+    "name_changes": {
+      "ESP32-H2-Zero": "Waveshare_ESP32-H2-Zero"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/waveshare-rp2350-zero.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/waveshare-rp2350-zero.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "6941c39b9ef7035f27764544aa004bc12335bbabd4b4158d39881fbd4e65d101",
+    "name_changes": {
+      "RP2350-Zero": "Waveshare_RP2350-Zero"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/weact-stm32g431cbt6-standard.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbt6-standard.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "1e9bad9603f8546d0aedd042a28a139255365a16f525e2d1291d007813005d59",
+    "name_changes": {
+      "WeAct-STM32G431CBT6_Standard": "WeAct_STM32G431CBT6_Standard"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/weact-stm32g431cbu6-standard.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbu6-standard.kicad_sym",
+    "library": "3rd.coreboard",
+    "before_sha256": "5d78ad970f80624a83d05874cb7c8212c6850a9e62893e7acd066fdbb23ce897",
+    "name_changes": {
+      "WeAct-STM32G431CBU6_Standard": "WeAct_STM32G431CBU6_Standard"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.kicad_symdir/zjy096t-ig11.kicad_sym",
+    "new_path": "symbols/3rd.display.kicad_symdir/zhongjingyuan-zjy096t-ig11.kicad_sym",
+    "library": "3rd.display",
+    "before_sha256": "33f3a514c0a816df71354459dfa31501646f24a4b1f040c85cda8b979df51b0d",
+    "name_changes": {
+      "ZJY096T-IG11": "Zhongjingyuan_ZJY096T-IG11"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/A4988.kicad_mod",
+    "new_path": "fontprints/3rd.module.motor.pretty/A4988.kicad_mod",
+    "library": "3rd.module.motor",
+    "before_sha256": "f026867b67173c27be6ea470ee1d7f5337d6fdf4ec44f16efb9f285e8bc3d9bd",
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "f026867b67173c27be6ea470ee1d7f5337d6fdf4ec44f16efb9f285e8bc3d9bd",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "60a854135b6f40060c6665eb2b2135954b485a9604965a8a36059d36545e8897",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Adafruit_FT232H.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Adafruit_FT232H.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "51dbe3bfab2b177baaaf7a378abe1c7ed35dd0dc23ec67147644109d61eb0ff4",
+    "approved_geometry_sha256": "e3a533c90a752501caa61e4f3bdbc76bba1dc3f5b815908ea7fc5254e1957e56",
+    "geometry_changes": " 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic body outlines on silk and fab; no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic body outlines on silk and fab; no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Adafruit_MCP2221A.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Adafruit_MCP2221A.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "f386f52118ffa2bf273f7273d850b868bca1a4f15598d26c5528ac125b1d51f3",
+    "approved_geometry_sha256": "0dbef3584d1607b6e3732890b9480c28bb81c2c60b79387f5bdca50b57c64c58",
+    "geometry_changes": " 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic body outlines on silk and fab; no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic body outlines on silk and fab; no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills. 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/E01C-ML01D.kicad_mod",
+    "new_path": "fontprints/3rd.module.rf.pretty/Ebyte_E01C-ML01D.kicad_mod",
+    "library": "3rd.module.rf",
+    "before_sha256": "5ea2d1487930c2350e349483ab0cb7db982f37758559781aaf6913acb2b262bc",
+    "name_changes": {
+      "E01C-ML01D": "Ebyte_E01C-ML01D"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "61b963a4a7da42b59032ca9a468bce21bff3487a0d5ca124772fc3cb6058903f",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "f7c6ebb3d283d3b671072efbba5ae18d5a96e3272341f07f830208094ea68ddb",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/E73-2G4M54LP.kicad_mod",
+    "new_path": "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LP.kicad_mod",
+    "library": "3rd.module.ble",
+    "before_sha256": "580e2cb47712d52a7169a6bd3203d11351db76e485c3a4c8adc5e8288764555d",
+    "name_changes": {
+      "E73-2G4M54LP": "Ebyte_E73-2G4M54LP"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "b6469ecea197604d266dfd2a6a25915a0da37a7635c55ec54837fae8e811344e",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "e12e0598f2f6375cd20786095f112484d759a6604ca1e2f252da2213870e73c6",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/E73-2G4M54LX.kicad_mod",
+    "new_path": "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LX.kicad_mod",
+    "library": "3rd.module.ble",
+    "before_sha256": "f6c529dd96ca2cbe8253a4c5041d09675ef0323c8674dd3eda306f6c199f20cb",
+    "name_changes": {
+      "E73-2G4M54LX": "Ebyte_E73-2G4M54LX"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "2ed56cd4b0bbbb005e2754193714c0db7aa646cb3b0386ee0d5c0dc118ae40d8",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "5af70607bf6e7292d8362161d66c3c7d276d71dddff19418ef02ebbbc6dfe5f5",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/ESPC2-01.kicad_mod",
+    "new_path": "fontprints/3rd.module.wifi.pretty/DOIT_ESPC2-01-N2.kicad_mod",
+    "library": "3rd.module.wifi",
+    "before_sha256": "6635b7ad0e107705f7fb53d65948914266bef790404d08c4932bc37af38266df",
+    "name_changes": {
+      "ESPC2-01": "DOIT_ESPC2-01-N2"
+    },
+    "text_changes": {
+      "ESPC2-01 ESP8684/ESP32-C2 Wi-Fi and Bluetooth LE module, ESP-01-compatible 2x4 2.54mm header": "ESPC2-01-N2 ESP8684/ESP32-C2 Wi-Fi and Bluetooth LE module, ESP-01-compatible 2x4 2.54mm header",
+      "ESPC2-01 ESP8684 ESP32-C2 Wi-Fi BLE Module": "ESPC2-01-N2 ESP8684 ESP32-C2 Wi-Fi BLE Module",
+      "ESPC2-01": "ESPC2-01-N2",
+      "ESPC2-01 ESP8684/ESP32-C2 Wi-Fi and Bluetooth LE module": "ESPC2-01-N2 ESP8684/ESP32-C2 Wi-Fi and Bluetooth LE module"
+    },
+    "public_name_migrations": [
+      {
+        "from": "DOIT_ESPC2-01",
+        "to": "DOIT_ESPC2-01-N2",
+        "reason": "User confirmed complete model ESPC2-01-N2",
+        "date": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Enclosure_JTAG_50x50_M2_IDC20_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.mechanical.pretty/Enclosure_JTAG_50x50mm_M2_IDC20_Provisional.kicad_mod",
+    "library": "3rd.mechanical",
+    "before_sha256": "ffa5214a95c233f61a55d3886118db96e13fa073e89f7c8d247d002572107481",
+    "name_changes": {
+      "Enclosure_JTAG_50x50_M2_IDC20_Provisional": "Enclosure_JTAG_50x50mm_M2_IDC20_Provisional"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/JLC-DiQiXing-RA6E2_P2.54.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/JLC_DiQiXing-RA6E2_P2.54mm.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "d65c80ecbd191e6cb22615192a10e9f432d131f9fae8cc2c64745ef2ee7698e2",
+    "name_changes": {
+      "JLC-DiQiXing-RA6E2_P2.54": "JLC_DiQiXing-RA6E2_P2.54mm",
+      "JLC-DiQiXing-RA6E2": "JLC_DiQiXing-RA6E2"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "45d069e5ba8f25b220b05f85c4309b1a8f0ef39177eafce7e2145902c3cc1381",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "4ccd5cf3969a0719c5bdb401c3b8a43fbb238aee9ef159a0d7200dd76b8a7645",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/JLC-DiWenXing-CW32F030C8T6_P2.54.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/JLC_DiWenXing-CW32F030C8T6_P2.54mm.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "cd2a5dacee00ac4765ac0e291e6b30c5ceb1078588168f66670f34cbcfc9f3aa",
+    "name_changes": {
+      "JLC-DiWenXing-CW32F030C8T6_P2.54": "JLC_DiWenXing-CW32F030C8T6_P2.54mm",
+      "JLC-DiWenXing-CW32F030C8T6": "JLC_DiWenXing-CW32F030C8T6"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "314bdc5d33a879ddbb58b446adb0d6dfe24e16e8c71305cd495f32acf81cfc0c",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "c7f3b615998cd3df6b5b7e869e74a1b636bb2232c655c493760a135c786cfb1d",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/MAX32655-FTHR.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Maxim_MAX32655-FTHR.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "099be738e69e7f8d739946316ea0925df269150220235f7712b2f91d957aefbe",
+    "name_changes": {
+      "MAX32655-FTHR": "Maxim_MAX32655-FTHR"
+    },
+    "approved_geometry_sha256": "7fbebbc3326855ac6edbe0f6fbaedeb46d818b07a32d50d7fd6b605e2eadbb81",
+    "geometry_changes": " 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/NUCLEO-ST-MORPHO.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/ST_NUCLEO-ST-MORPHO.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "410e0e2e5b5b042ae159762d6f4e1c05b877d09c26c0ce2e06eb91833239f988",
+    "name_changes": {
+      "NUCLEO-ST-MORPHO": "ST_NUCLEO-ST-MORPHO"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/PinHeaderSocket_2x05_P2.00mm_ClampBoard_PCB_Left.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/PinHeaderSocket_2x05_P2.00mm_ClampBoard_PCB_Left.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "5a08ec13bc69b3c30b7d140bc4c68b0eebf0fd1b16aa616200f62766d52ee4b0",
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "5a08ec13bc69b3c30b7d140bc4c68b0eebf0fd1b16aa616200f62766d52ee4b0",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "2cfd088b565285cf3010a0a12f756a6086c583692f7b0713d025870b9c45860c",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/PinHeaderSocket_2x05_P2.00mm_ClampBoard_PCB_Right.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/PinHeaderSocket_2x05_P2.00mm_ClampBoard_PCB_Right.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "351835ffc800e91fb94140545c45570634e53da68eadb7b3c58b2ed15a59788d",
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "351835ffc800e91fb94140545c45570634e53da68eadb7b3c58b2ed15a59788d",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "72146c0dc0caad0a92d967fb9a914db9efce0acf6a305f09b2b107d791dcc80c",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/SW_SPDT_Shouhan_MSK12CO2.kicad_mod",
+    "new_path": "fontprints/3rd.switch.pretty/SW_SPDT_Shouhan_MSK12CO2.kicad_mod",
+    "library": "3rd.switch",
+    "before_sha256": "953cdedf469cee2f6c1e87d648f7b5d4c9ba60daf102964f8c5b32d8d4417d1e",
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "953cdedf469cee2f6c1e87d648f7b5d4c9ba60daf102964f8c5b32d8d4417d1e",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "5cfa067920f0bd7105cb23052d3aea93975a56a0f9d4bc8af0a305cd1430f17b",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/TB6612FNG-Module_18x21_P2.54.kicad_mod",
+    "new_path": "fontprints/3rd.module.motor.pretty/TB6612.kicad_mod",
+    "library": "3rd.module.motor",
+    "before_sha256": "d60ff8ad77aacf1f6a6e890ff3eb07c021b83cb36be5161839ea9d6caccba323",
+    "name_changes": {
+      "TB6612FNG-Module_18x21_P2.54": "TB6612"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "409f4ae6e638a025fa2429f16ccf905e666b4645a6c68c36c14660b7b7f36042",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "17f3e710b15501bed999ff98af7a856c2074f0144c6fa595abdc73ad17093ea9",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/TF-110.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/XUNPU_TF-110.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "853ab8971b49fcf630c43f6a434ec5a881335e658f7b132a3e1c5109a61ac012",
+    "name_changes": {
+      "TF-110": "XUNPU_TF-110"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "26187a6d02e62e32013565bbe6a0d9da7fabf0a296031e3648f48d8ade5dce65",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "e7a8d827c1774bba9f14612dbf5344216fa539892d3450052687a62c6dd92755",
+    "geometry_changes": "2026-10-10 user requested redraw from TF-110 Rev A datasheet: recomputed recommended lands, keepouts and outlines, corrected normally-closed card detect symbol; legacy electrical identifiers preserved. See docs/tf110.md. 2026-10-11: add exact LCSC C266613 STEP model; Z +0.05 mm, geometry unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/TMC2160-BOB.kicad_mod",
+    "new_path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC2160-BOB.kicad_mod",
+    "library": "3rd.module.motor",
+    "before_sha256": "d4b57360df3f5ac448cb40e242a2d5a3bd800522efb5c994b80da3d78c368fcb",
+    "name_changes": {
+      "TMC2160-BOB": "Trinamic_TMC2160-BOB"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "5aa1a7a4115572fe9f201857d97fe094c46dee8b778f2004c12f998e898a52a0",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "8ac8bc7b55265bd5bca1703512594243725a87891479643fd98d3cf148d853d9",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/TMC2209.kicad_mod",
+    "new_path": "fontprints/3rd.module.motor.pretty/TMC2209.kicad_mod",
+    "library": "3rd.module.motor",
+    "before_sha256": "48fe71f9010d0f25ef7a8592df10a9f9e053d023c73c7fc523c3e725a06e99da",
+    "name_changes": {},
+    "text_changes": {
+      "BIGTREETECH TMC2209 V1.1; 2x8 plus VREF DIAG INDEX; INDEX centered between VREF and DIAG, 2.54mm below top row; auxiliary geometry confirmed by user": "TMC2209 V1.1; 2x8 plus VREF DIAG INDEX; INDEX centered between VREF and DIAG, 2.54mm below top row; auxiliary geometry confirmed by user"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "49dea6951b36df952ea7c68b5382bbfbc232cce5937022adbda72f75e58fd56b",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "ad61695d255b3e7df466562cd704f5e2107b477fc086f333613049ea16d803e1",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/TMC4361A-BOB.kicad_mod",
+    "new_path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC4361A-BOB.kicad_mod",
+    "library": "3rd.module.motor",
+    "before_sha256": "bb5ed4dfab0dc69f9c31de34001069b841b0de83c6b482522162172982188124",
+    "name_changes": {
+      "TMC4361A-BOB": "Trinamic_TMC4361A-BOB"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "889576e105c27678322e41e9a4d6f65d9276b7976f6293c03efc5c911e5cd6d2",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "e6444bb95aa0a6b3e4468cbc67322d7ec00d5792cd80e78e7bf77b1ea6c05e53",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/TMC5160-BOB.kicad_mod",
+    "new_path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC5160-BOB.kicad_mod",
+    "library": "3rd.module.motor",
+    "before_sha256": "610e82e36dca5621ded4c295793681c2f5bb6189f1363eb568c30f9bb42cfe05",
+    "name_changes": {
+      "TMC5160-BOB": "Trinamic_TMC5160-BOB"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "659071c434c4e046abdf88c5f7f706482b206db1b204c262f4458499cd924c90",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "8c19c109d7aaec89ad86c1cbe1427f61e891ee5d2625a76518cb9d7b5c8ae9bd",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Waveshare_ESP32-C5-Zero_Castellated.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Waveshare_ESP32-C5-Zero_Castellated.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "2ae10606196a93931f0016e3b711205008291d63447744fd066c0ea97eeda87f",
+    "approved_geometry_sha256": "d8c778af534ca9fde8bb6b6eb8c02ee5fbf41166ba0940426381d6babb6a5446",
+    "geometry_changes": " 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Waveshare_ESP32-C5-Zero_PinHeader.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Waveshare_ESP32-C5-Zero_PinHeader.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "e7b134d33285f2b16aeda2c222874afda08bbf51705514ca04eca90c784eec63",
+    "approved_geometry_sha256": "23c1eaf8fa40af9fca41a4dab29b1a7eb420eed43dbd9ed1cb8783938cf79a6a",
+    "geometry_changes": " 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Waveshare_ESP32-H2-Zero_Castellated.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Waveshare_ESP32-H2-Zero_Castellated.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "36f4a353faafde6eb8f91e76bf6ec5a8bc156205128a1d68ec025b96be0ed23c"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Waveshare_ESP32-H2-Zero_PinHeader.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Waveshare_ESP32-H2-Zero_PinHeader.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "dcdf3d21c43ac1d5a610bf5ef9f251d4d27e54e868d59b7acae47a403117148c"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Waveshare_RP2350-Zero_Castellated.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Waveshare_RP2350-Zero_Castellated.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "04b66b2468fcfcce3056fa6d9123d610f8aab4215e43a4d131675e8f353f9b40"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/Waveshare_RP2350-Zero_PinHeader.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/Waveshare_RP2350-Zero_PinHeader.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "044d4b8d748fbf301c5b8d1b453200a6308ee64a31d4e0d55e5cd42d7d94500e"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/WeAct-STM32G431CoreBoard_Standard_P2.54.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/WeAct_STM32G431CoreBoard_Standard_P2.54mm.kicad_mod",
+    "library": "3rd.coreboard",
+    "before_sha256": "8661508d2d4a8e95ec1c91a36ca40baba9cac2b6d196b9ece36732aeaf666bee",
+    "name_changes": {
+      "WeAct-STM32G431CoreBoard_Standard_P2.54": "WeAct_STM32G431CoreBoard_Standard_P2.54mm"
+    },
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "ce8c3d8978af3dc0d06ab324ab17001c1fc603a77c95c4ac32067115977101fe",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ],
+    "approved_geometry_sha256": "6ed29d6533e68658042408185039b8c88841725a6d10b7ecc0852aef67734a95",
+    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/ZJY096T-IG11_Solder_Folded.kicad_mod",
+    "new_path": "fontprints/3rd.display.pretty/Zhongjingyuan_ZJY096T-IG11_Solder_Folded.kicad_mod",
+    "library": "3rd.display",
+    "before_sha256": "001d6464767fd2ffca9cf12dafb5e744b1fe5fc346cfee787bbdd009c392b5ab",
+    "name_changes": {
+      "ZJY096T-IG11_Solder_Folded": "Zhongjingyuan_ZJY096T-IG11_Solder_Folded"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/ZJY096T-IG11_Solder_ThroughPCB_1.6mm.kicad_mod",
+    "new_path": "fontprints/3rd.display.pretty/Zhongjingyuan_ZJY096T-IG11_Solder_ThroughPCB_1.6mm.kicad_mod",
+    "library": "3rd.display",
+    "before_sha256": "c32b4a25ac2cb4a960266765d4474f0cedfc1d880f3a89a79151f0d63ac7070a",
+    "name_changes": {
+      "ZJY096T-IG11_Solder_ThroughPCB_1.6mm": "Zhongjingyuan_ZJY096T-IG11_Solder_ThroughPCB_1.6mm"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.pretty/doBT-M03.kicad_mod",
+    "new_path": "fontprints/3rd.module.ble.pretty/DOIOT_doBT-M03.kicad_mod",
+    "library": "3rd.module.ble",
+    "before_sha256": "53f2b8b6b3233c44e979470de6861f1f00e72467072e5ecbccd05bbf8b9554bc",
+    "name_changes": {
+      "doBT-M03": "DOIOT_doBT-M03"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/kzt-sop8-narrow.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/kzt-sop8-150mil.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "4b99c7ac0a37f3b95e7aac72f71af32e1af892f4f6b2c9a34687a64d2f122b84",
+    "name_changes": {
+      "KZT_SOP8_Narrow": "KZT_SOP8_150mil"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/KZT_SOP8_Narrow_20x14.4mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/KZT_SOP8_150mil.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "d8a63175cea2c76643737438130ab954802f86876dba6074620089f79d22bc8a",
+    "name_changes": {
+      "KZT_SOP8_Narrow_20x14.4mm": "KZT_SOP8_150mil"
+    },
+    "approved_geometry_sha256": "e97bd010a54965b3b092dbc065828f3949eff7410ca3c1ec4ecf0d5dca197bb7",
+    "geometry_changes": "User requested rounded corners and chamfer; 1mm outline details estimated from screenshot. Pads and holes unchanged.; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "geometry_history": [
+      {
+        "date": "2026-10-05",
+        "before_sha256": "4880053499899e075bc275ffaeacdbbc0e4a1f8935c6e3c9949cff69577357ac",
+        "reason": "User requested rectangular pad rounding; all other geometry preserved"
+      }
+    ]
+  },
+  {
+    "kind": "symbol_removed",
+    "old_path": "symbols/3rd.ic.kicad_symdir/siliconlabs-cp2102c-gqfn24.kicad_sym",
+    "old_identifier": "3rd.ic:SiliconLabs_CP2102C-GQFN24",
+    "replacement_identifier": "Interface_USB:CP2102C-Axx-xQFN24",
+    "before_sha256": "e846b8ae18dfa2aa6e705699b15b0b10e046f0650126df6159c80c7236563be0",
+    "reason": "User requested removal of symbols already provided by installed KiCad official library",
+    "date": "2026-10-05"
+  },
+  {
+    "kind": "symbol_removed",
+    "old_path": "symbols/3rd.ic.kicad_symdir/ti-drv8311h.kicad_sym",
+    "old_identifier": "3rd.ic:TI_DRV8311H",
+    "replacement_identifier": "Driver_Motor:DRV8311H",
+    "before_sha256": "6acfafaa84c6b0fc7e56369e4d06dac277362324f5eee0d86f1098433090896e",
+    "reason": "User requested removal of symbols already provided by installed KiCad official library",
+    "date": "2026-10-05"
+  },
+  {
+    "kind": "symbol_removed",
+    "old_path": "symbols/3rd.ic.kicad_symdir/ti-drv8837dsgr.kicad_sym",
+    "old_identifier": "3rd.ic:TI_DRV8837DSGR",
+    "replacement_identifier": "Driver_Motor:DRV8837",
+    "before_sha256": "c60aa946b0ef53a701e1b8858a1216098360b36b1282a8c5fe5bcefac1e1b516",
+    "reason": "User requested removal of symbols already provided by installed KiCad official library",
+    "date": "2026-10-05"
+  },
+  {
+    "kind": "footprint_removed",
+    "old_path": "fontprints/3rd.ic.pretty/SiliconLabs_CP2102C-GQFN24.kicad_mod",
+    "old_identifier": "3rd.ic:SiliconLabs_CP2102C-GQFN24",
+    "replacement_identifier": "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm",
+    "before_sha256": "5821638da49c576d3ea36d238e1c593534826a7d9c202534a8c269bc98c7712a",
+    "reason": "User approved replacement with installed official footprint",
+    "date": "2026-10-05"
+  },
+  {
+    "kind": "footprint_removed",
+    "old_path": "fontprints/3rd.ic.pretty/SiliconLabs_CP2102C-GQFN28.kicad_mod",
+    "old_identifier": "3rd.ic:SiliconLabs_CP2102C-GQFN28",
+    "replacement_identifier": "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm",
+    "before_sha256": "81cb20faec867513edc2ac5e8cddddb35bc7d42b780936bbb5b56d5429549172",
+    "reason": "User approved replacement with installed official footprint",
+    "date": "2026-10-05"
+  },
+  {
+    "kind": "footprint_removed",
+    "old_path": "fontprints/3rd.ic.pretty/TI_DRV8837DSGR.kicad_mod",
+    "old_identifier": "3rd.ic:TI_DRV8837DSGR",
+    "replacement_identifier": "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+    "before_sha256": "997620c43ef77f9dd790e0d8b74777868980959ba24d4de745106121a2e43c4f",
+    "reason": "User approved replacement with installed official footprint",
+    "date": "2026-10-05"
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/hc-dc-044-2.5-03b.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/hongcheng-hc-dc-044-2.5-03b.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "2b9373160b3f572fee72256f151f6260d5cb46b2cf6c565c6ba3095d97ca41dd",
+    "reason": "New user-requested HC-DC-044-2.5-03B; replaces unpublished 03A draft",
+    "name_changes": {
+      "HC-DC-044-2.5-03B": "HongCheng_HC-DC-044-2.5-03B"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/HC-DC-044-2.5-03B.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/BarrelJack_DC-044_Horizontal.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "721fa42670d1c158c31199cbe620495b551f2e685d0596bae9f73d61565a73a1",
+    "reason": "New 03B footprint from manufacturer dimensions with LCSC numbering",
+    "name_changes": {
+      "HC-DC-044-2.5-03B": "BarrelJack_DC-044_Horizontal"
+    },
+    "identifier_history": [
+      {
+        "old_identifier": "3rd.connector:HongCheng_HC-DC-044-2.5-03B",
+        "new_identifier": "3rd.connector:DC-044_5521_5525_Horizontal",
+        "reason": "User confirmed shared 5521/5525 footprint",
+        "date": "2026-10-05"
+      },
+      {
+        "old_identifier": "3rd.connector:DC-044_5521_5525_Horizontal",
+        "new_identifier": "3rd.connector:BarrelJack_DC-044_Horizontal",
+        "reason": "User requested official BarrelJack naming style",
+        "date": "2026-10-05"
+      }
+    ],
+    "text_changes": {
+      "HC-DC-044-2.5-03B": "DC-044_5521_5525",
+      "HC Hong Cheng HC-DC-044-2.5-03B; C55014014. Opening left, top view: 2 sleeve upper, 3 NC middle, 1 center lower. 2-3 closed without plug. Manufacturer dimensions; numbering cross-checked with LCSC EasyEDA library bbb8346b0b954d139a75231b50438ca8.": "DC-044 horizontal barrel jack; shared 5521/5525 footprint (user-confirmed); HC Hong Cheng HC-DC-044-2.5-03B; C55014014. Opening left, top view: 2 sleeve upper, 3 NC middle, 1 center lower. 2-3 closed without plug. Manufacturer dimensions; numbering cross-checked with LCSC EasyEDA library bbb8346b0b954d139a75231b50438ca8."
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.sensor.kicad_symdir/vl53l0x-4plus2.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/vl53l0x-4plus2.kicad_sym",
+    "library": "3rd.module.sensor",
+    "before_sha256": "ca05156867a806feb59cfa93cd68239a292d4124774cbeb4eafdc4e1cf3f8707",
+    "reason": "User supplied purple VL53L0X module photograph; new sensor category; provisional mechanical estimates",
+    "date": "2026-10-09"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/VL53L0X_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/VL53L0X_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "d404f47ed0c5706f7e752f0c83cbb4b36922a4d26613995a9169a427e4552b87",
+    "reason": "User supplied purple VL53L0X module photograph; new sensor category; provisional mechanical estimates",
+    "date": "2026-10-09"
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.sensor.kicad_symdir/sht3x-dis-4plus2.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/sht3x-dis-4plus2.kicad_sym",
+    "library": "3rd.module.sensor",
+    "before_sha256": "e0ee9703d5d8d3f463a5bc425372b18362d406733855c5204d0575baf024023f",
+    "reason": "User requested SHT3x-DIS black 4+2 sensor module; provisional mechanical estimates from photographs",
+    "date": "2026-10-09"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/SHT3x-DIS_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/SHT3x-DIS_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "c2d9e82a9351cea79c2a529661c27e06d49714b5a88dca2e657a3e59a6678716",
+    "reason": "User requested SHT3x-DIS black 4+2 sensor module; provisional mechanical estimates from photographs",
+    "date": "2026-10-09"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/mikroBUS_Socket_2x08_P2.54mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/mikroBUS_Socket_S_2x08_P2.54mm.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "506906fe6dcc9dc5b8addc5d8e1bb369c7b2ccbb323779d766128b3d74eb870c",
+    "date": "2026-10-09",
+    "reason": "mikroBUS v2 PDF interface implementation; module bottom pad margin documented as design choice",
+    "name_changes": {
+      "mikroBUS_Socket_2x08_P2.54mm": "mikroBUS_Socket_S_2x08_P2.54mm"
+    },
+    "approved_geometry_sha256": "4ced34b797df191ce2ad2ef37d7855e2d1f1afe45aa4263ba63949b6999df429",
+    "geometry_changes": "2026-10-09 user requested horizontal footprint text and S/M/L socket variants; original electrical pads preserved; socket module envelope and courtyard sized to variant. 2026-10-09: socket outer silk uses R2.54mm corners and separate orientation slash, following PDF appearance; radius is an implementation choice, not a dimensioned requirement. Pads unchanged. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/mikroBUS_Module_S_25.4x28.6mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/mikroBUS_Module_S_25.4x28.6mm.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "c3ea9401e8fcaa29d411621194248e05515e93a11d75d36103a81e52bc8d13b6",
+    "date": "2026-10-09",
+    "reason": "mikroBUS v2 PDF interface implementation; module bottom pad margin documented as design choice",
+    "approved_geometry_sha256": "59512e751018a75068f83429610a5a69b26ad4b71ffeae0509fee102480ca584",
+    "geometry_changes": "2026-10-09 user requested horizontal footprint text and S/M/L socket variants; original electrical pads preserved; socket module envelope and courtyard sized to variant. Added underside B.SilkS male-header U outlines and first-pin dividers per user request; board-edge sides omitted to keep silk on PCB. Pads and Edge.Cuts unchanged. Shortened backside orientation slash to clear header silk. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. User requested removal of module backside orientation slash; actual Edge.Cuts chamfer and socket slash preserved. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged. User requested module front vertical pin text closer to headers: centers now 1.80mm inboard of pad centers; text direction, size and electrical geometry preserved. 2026-10-10: board-name silk now user text ${BoardName}, backed by symbol and footprint custom field BoardName; Value moved to hidden F.Fab so schematic Value updates cannot replace board-name silk. User requested module Reference hidden; socket Reference remains visible."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/mikroBUS_Module_M_25.4x42.9mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/mikroBUS_Module_M_25.4x42.9mm.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "bf66a3dd182a78b55bf29e9009ea239b07a383e80b4ec8b1ff1c26cc698433b8",
+    "date": "2026-10-09",
+    "reason": "mikroBUS v2 PDF interface implementation; module bottom pad margin documented as design choice",
+    "approved_geometry_sha256": "4e8a5677a02985c7d2659a80e86b1cd9be67d1e1b76a1902f80ca712d7114641",
+    "geometry_changes": "2026-10-09 user requested horizontal footprint text and S/M/L socket variants; original electrical pads preserved; socket module envelope and courtyard sized to variant. Added underside B.SilkS male-header U outlines and first-pin dividers per user request; board-edge sides omitted to keep silk on PCB. Pads and Edge.Cuts unchanged. Shortened backside orientation slash to clear header silk. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. User requested removal of module backside orientation slash; actual Edge.Cuts chamfer and socket slash preserved. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged. User requested module front vertical pin text closer to headers: centers now 1.80mm inboard of pad centers; text direction, size and electrical geometry preserved. 2026-10-10: board-name silk now user text ${BoardName}, backed by symbol and footprint custom field BoardName; Value moved to hidden F.Fab so schematic Value updates cannot replace board-name silk. User requested module Reference hidden; socket Reference remains visible."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/mikroBUS_Module_L_25.4x57.15mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/mikroBUS_Module_L_25.4x57.15mm.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "7cb0c6c445b537c27d50d7ada7cd45b1c95fa9d2a3bd18629fc45f290d883d76",
+    "date": "2026-10-09",
+    "reason": "mikroBUS v2 PDF interface implementation; module bottom pad margin documented as design choice",
+    "approved_geometry_sha256": "42d9ebbdb5e461152752f09301d5d8a89dc2f8c1b1f15864f17810628415a0f6",
+    "geometry_changes": "2026-10-09 user requested horizontal footprint text and S/M/L socket variants; original electrical pads preserved; socket module envelope and courtyard sized to variant. Added underside B.SilkS male-header U outlines and first-pin dividers per user request; board-edge sides omitted to keep silk on PCB. Pads and Edge.Cuts unchanged. Shortened backside orientation slash to clear header silk. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. User requested removal of module backside orientation slash; actual Edge.Cuts chamfer and socket slash preserved. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged. User requested module front vertical pin text closer to headers: centers now 1.80mm inboard of pad centers; text direction, size and electrical geometry preserved. 2026-10-10: board-name silk now user text ${BoardName}, backed by symbol and footprint custom field BoardName; Value moved to hidden F.Fab so schematic Value updates cannot replace board-name silk. User requested module Reference hidden; socket Reference remains visible."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/mikrobus-socket.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/mikrobus-socket.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "e268228c59406551ff311ea8dc3b198e530c99e6ad4a3b3cbab76912fd236cc7",
+    "date": "2026-10-09",
+    "reason": "mikroBUS v2 PDF interface implementation; module bottom pad margin documented as design choice"
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/mikrobus-module.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/mikrobus-module.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "e295a2f5fde872f7dc2872e04154c70ff89839fe3ddf9f45d12bd3a3f7887c02",
+    "date": "2026-10-09",
+    "reason": "mikroBUS v2 PDF interface implementation; module bottom pad margin documented as design choice"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/mikroBUS_Socket_M_2x08_P2.54mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/mikroBUS_Socket_M_2x08_P2.54mm.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "82a17c5dd0b0905e3476971f175e822dc970a56fe2973bfd11a587b5fd84623f",
+    "date": "2026-10-09",
+    "reason": "User requested S/M/L socket placement variants; pad geometry identical.",
+    "approved_geometry_sha256": "8d5d1ef4ef7608bd114be0c00a682e77d9fd816801166ac2d79886b78a11e25f",
+    "geometry_changes": " 2026-10-09: socket outer silk uses R2.54mm corners and separate orientation slash, following PDF appearance; radius is an implementation choice, not a dimensioned requirement. Pads unchanged. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/mikroBUS_Socket_L_2x08_P2.54mm.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/mikroBUS_Socket_L_2x08_P2.54mm.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "22225bdd1d87cdf92e2cfaa9e2c53a146212611f8fd6e983e6055a8bacafc92b",
+    "date": "2026-10-09",
+    "reason": "User requested S/M/L socket placement variants; pad geometry identical.",
+    "approved_geometry_sha256": "50254ba986a80c22f6e331385e912e7da5b5aad4196bee8576d3a916fb9b1159",
+    "geometry_changes": " 2026-10-09: socket outer silk uses R2.54mm corners and separate orientation slash, following PDF appearance; radius is an implementation choice, not a dimensioned requirement. Pads unchanged. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged."
+  }
+]

@@ -1,1 +1,34 @@
+# macOS
 .DS_Store
+._*
+
+# KiCad local state, locks and automatic backups
+*.kicad_prl
+*.lck
+~*.lck
+~*.kicad_*
+_autosave-*
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_sym.bak
+
+# Python / editor caches
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.swp
+*.swo
+*~
+
+# Generated previews and local pre-edit snapshots
+/docs/previews/
+/docs/tf110-before-redraw/
+
+# Local environment / credentials
+.env
+.env.*
+!.env.example

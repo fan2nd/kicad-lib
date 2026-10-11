@@ -1,0 +1,2 @@
+No pending exterior functional labels in this batch.
+E73 LP/LX and both ZJY096T display variants: added functional labels removed by user request.

@@ -1,0 +1,107 @@
+[
+  {
+    "kind": "symbol",
+    "library": "3rd.module.motor",
+    "old": "TMC2209-STEPSTICK",
+    "new": "TMC2209",
+    "path": "symbols/3rd.module.motor.kicad_symdir/tmc2209.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.module.motor",
+    "old": "A4988-STEPSTICK",
+    "new": "A4988",
+    "path": "symbols/3rd.module.motor.kicad_symdir/a4988.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "NUCLEO-C542RC-ST-MORPHO",
+    "new": "NUCLEO-C542RC_ST-MORPHO",
+    "path": "symbols/3rd.coreboard.kicad_symdir/nucleo-c542rc-st-morpho.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "JLC-DiWenXing-CW32F030C8T6",
+    "new": "JLC_DiWenXing-CW32F030C8T6",
+    "path": "symbols/3rd.coreboard.kicad_symdir/jlc-diwenxing-cw32f030c8t6.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "ESP32-C5-Zero",
+    "new": "Waveshare_ESP32-C5-Zero",
+    "path": "symbols/3rd.coreboard.kicad_symdir/waveshare-esp32-c5-zero.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "NUCLEO-U545RE-Q-ST-MORPHO",
+    "new": "NUCLEO-U545RE-Q_ST-MORPHO",
+    "path": "symbols/3rd.coreboard.kicad_symdir/nucleo-u545re-q-st-morpho.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "ESP32-H2-Zero",
+    "new": "Waveshare_ESP32-H2-Zero",
+    "path": "symbols/3rd.coreboard.kicad_symdir/waveshare-esp32-h2-zero.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "RP2350-Zero",
+    "new": "Waveshare_RP2350-Zero",
+    "path": "symbols/3rd.coreboard.kicad_symdir/waveshare-rp2350-zero.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "WeAct-STM32G431CBU6_Standard",
+    "new": "WeAct_STM32G431CBU6_Standard",
+    "path": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbu6-standard.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "WeAct-STM32G431CBT6_Standard",
+    "new": "WeAct_STM32G431CBT6_Standard",
+    "path": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbt6-standard.kicad_sym"
+  },
+  {
+    "kind": "symbol",
+    "library": "3rd.coreboard",
+    "old": "JLC-DiQiXing-RA6E2",
+    "new": "JLC_DiQiXing-RA6E2",
+    "path": "symbols/3rd.coreboard.kicad_symdir/jlc-diqixing-ra6e2.kicad_sym"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.coreboard",
+    "old": "JLC-DiQiXing-RA6E2_P2.54",
+    "new": "JLC_DiQiXing-RA6E2_P2.54mm",
+    "path": "fontprints/3rd.coreboard.pretty/JLC_DiQiXing-RA6E2_P2.54mm.kicad_mod"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.coreboard",
+    "old": "WeAct-STM32G431CoreBoard_Standard_P2.54",
+    "new": "WeAct_STM32G431CoreBoard_Standard_P2.54mm",
+    "path": "fontprints/3rd.coreboard.pretty/WeAct_STM32G431CoreBoard_Standard_P2.54mm.kicad_mod"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.coreboard",
+    "old": "JLC-DiWenXing-CW32F030C8T6_P2.54",
+    "new": "JLC_DiWenXing-CW32F030C8T6_P2.54mm",
+    "path": "fontprints/3rd.coreboard.pretty/JLC_DiWenXing-CW32F030C8T6_P2.54mm.kicad_mod"
+  },
+  {
+    "kind": "footprint",
+    "library": "3rd.mechanical",
+    "old": "Enclosure_JTAG_50x50_M2_IDC20_Provisional",
+    "new": "Enclosure_JTAG_50x50mm_M2_IDC20_Provisional",
+    "path": "fontprints/3rd.mechanical.pretty/Enclosure_JTAG_50x50mm_M2_IDC20_Provisional.kicad_mod"
+  }
+]

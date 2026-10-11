@@ -1,0 +1,134 @@
+[
+  {
+    "path": "fontprints/3rd.connector.pretty/KZT_SOP8_150mil.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "4880053499899e075bc275ffaeacdbbc0e4a1f8935c6e3c9949cff69577357ac",
+    "after_sha256": "e97bd010a54965b3b092dbc065828f3949eff7410ca3c1ec4ecf0d5dca197bb7"
+  },
+  {
+    "path": "fontprints/3rd.connector.pretty/KZT_SOP8_208mil.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "14b7ea587368249ef30ebdc3036b55089cbe9685582a9b85e23b76b386315e26",
+    "after_sha256": "84ee465dac4a71dfbd80df4b31cdd1aa3ce4dfe956ce8a35a18d27d87c347fcb"
+  },
+  {
+    "path": "fontprints/3rd.connector.pretty/KZT_SOP8_295mil.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "b9f4ba3991b0a0d852bdbd34aa3b5e41e98e043ed8d802cb9c581cb5805118a9",
+    "after_sha256": "3bf1179efd098a8392bbbdeca04f0f7e72477c9eecfad97c445858fb80ceb0f9"
+  },
+  {
+    "path": "fontprints/3rd.connector.pretty/PinHeaderSocket_2x05_P2.00mm_ClampBoard_PCB_Left.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "5a08ec13bc69b3c30b7d140bc4c68b0eebf0fd1b16aa616200f62766d52ee4b0",
+    "after_sha256": "2cfd088b565285cf3010a0a12f756a6086c583692f7b0713d025870b9c45860c"
+  },
+  {
+    "path": "fontprints/3rd.connector.pretty/PinHeaderSocket_2x05_P2.00mm_ClampBoard_PCB_Right.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "351835ffc800e91fb94140545c45570634e53da68eadb7b3c58b2ed15a59788d",
+    "after_sha256": "72146c0dc0caad0a92d967fb9a914db9efce0acf6a305f09b2b107d791dcc80c"
+  },
+  {
+    "path": "fontprints/3rd.connector.pretty/XUNPU_TF-110.kicad_mod",
+    "converted_pads": 18,
+    "before_sha256": "26187a6d02e62e32013565bbe6a0d9da7fabf0a296031e3648f48d8ade5dce65",
+    "after_sha256": "e709d7e8f2cef6c54980cf2daeda37e454d5b2cabef34eb93e13503815cd65d2"
+  },
+  {
+    "path": "fontprints/3rd.coreboard.pretty/JLC_DiQiXing-RA6E2_P2.54mm.kicad_mod",
+    "converted_pads": 3,
+    "before_sha256": "45d069e5ba8f25b220b05f85c4309b1a8f0ef39177eafce7e2145902c3cc1381",
+    "after_sha256": "ab6d252940c7b7c48e9f5b7c8d884a779ec9a1f2753137d5183edb9f053ae82a"
+  },
+  {
+    "path": "fontprints/3rd.coreboard.pretty/JLC_DiWenXing-CW32F030C8T6_P2.54mm.kicad_mod",
+    "converted_pads": 3,
+    "before_sha256": "314bdc5d33a879ddbb58b446adb0d6dfe24e16e8c71305cd495f32acf81cfc0c",
+    "after_sha256": "fe3e666bd3a0994eae9e251883eb9da54809b803f5945f6bd5675ffabd99d9fa"
+  },
+  {
+    "path": "fontprints/3rd.coreboard.pretty/WeAct_STM32G431CoreBoard_Standard_P2.54mm.kicad_mod",
+    "converted_pads": 2,
+    "before_sha256": "ce8c3d8978af3dc0d06ab324ab17001c1fc603a77c95c4ac32067115977101fe",
+    "after_sha256": "6ed29d6533e68658042408185039b8c88841725a6d10b7ecc0852aef67734a95"
+  },
+  {
+    "path": "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LP.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "b6469ecea197604d266dfd2a6a25915a0da37a7635c55ec54837fae8e811344e",
+    "after_sha256": "e12e0598f2f6375cd20786095f112484d759a6604ca1e2f252da2213870e73c6"
+  },
+  {
+    "path": "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LX.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "2ed56cd4b0bbbb005e2754193714c0db7aa646cb3b0386ee0d5c0dc118ae40d8",
+    "after_sha256": "5af70607bf6e7292d8362161d66c3c7d276d71dddff19418ef02ebbbc6dfe5f5"
+  },
+  {
+    "path": "fontprints/3rd.module.motor.pretty/A4988.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "f026867b67173c27be6ea470ee1d7f5337d6fdf4ec44f16efb9f285e8bc3d9bd",
+    "after_sha256": "60a854135b6f40060c6665eb2b2135954b485a9604965a8a36059d36545e8897"
+  },
+  {
+    "path": "fontprints/3rd.module.motor.pretty/TB6612.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "409f4ae6e638a025fa2429f16ccf905e666b4645a6c68c36c14660b7b7f36042",
+    "after_sha256": "17f3e710b15501bed999ff98af7a856c2074f0144c6fa595abdc73ad17093ea9"
+  },
+  {
+    "path": "fontprints/3rd.module.motor.pretty/TMC2209.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "49dea6951b36df952ea7c68b5382bbfbc232cce5937022adbda72f75e58fd56b",
+    "after_sha256": "ad61695d255b3e7df466562cd704f5e2107b477fc086f333613049ea16d803e1"
+  },
+  {
+    "path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC2160-BOB.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "5aa1a7a4115572fe9f201857d97fe094c46dee8b778f2004c12f998e898a52a0",
+    "after_sha256": "8ac8bc7b55265bd5bca1703512594243725a87891479643fd98d3cf148d853d9"
+  },
+  {
+    "path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC4361A-BOB.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "889576e105c27678322e41e9a4d6f65d9276b7976f6293c03efc5c911e5cd6d2",
+    "after_sha256": "e6444bb95aa0a6b3e4468cbc67322d7ec00d5792cd80e78e7bf77b1ea6c05e53"
+  },
+  {
+    "path": "fontprints/3rd.module.motor.pretty/Trinamic_TMC5160-BOB.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "659071c434c4e046abdf88c5f7f706482b206db1b204c262f4458499cd924c90",
+    "after_sha256": "8c19c109d7aaec89ad86c1cbe1427f61e891ee5d2625a76518cb9d7b5c8ae9bd"
+  },
+  {
+    "path": "fontprints/3rd.module.rf.pretty/Ai-Thinker_NF-03_Castellated.kicad_mod",
+    "converted_pads": 8,
+    "before_sha256": "2ca8dfa78a70840116c2a5969b9d4ae61b8d2e842bb880d186b76a081af5528d",
+    "after_sha256": "a285b7381bb97500dac85f5dff365c42991bf0392e3529aee5b358f459ddbaf6"
+  },
+  {
+    "path": "fontprints/3rd.module.rf.pretty/Ebyte_E01C-ML01D.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "61b963a4a7da42b59032ca9a468bce21bff3487a0d5ca124772fc3cb6058903f",
+    "after_sha256": "f7c6ebb3d283d3b671072efbba5ae18d5a96e3272341f07f830208094ea68ddb"
+  },
+  {
+    "path": "fontprints/3rd.switch.pretty/Kailh_PG1350_Solder.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "f091346c4f6f3d68d7f72f4e510492673f2137319b6a7c3ddebda81a586c0658",
+    "after_sha256": "39f7cd1f4568a8b0f993b19297b12f9dd25dec040cc0f4afa398a73aff1752a3"
+  },
+  {
+    "path": "fontprints/3rd.switch.pretty/Kailh_PG1353_Solder.kicad_mod",
+    "converted_pads": 1,
+    "before_sha256": "d084b061cdb9f316c87f6feadf96479937855976bfb8b985bceba21b918e7f13",
+    "after_sha256": "f488ff2749be2fc921ae233b98234f31b0f14983e8e7559cd23617e931d0c144"
+  },
+  {
+    "path": "fontprints/3rd.switch.pretty/SW_SPDT_Shouhan_MSK12CO2.kicad_mod",
+    "converted_pads": 7,
+    "before_sha256": "953cdedf469cee2f6c1e87d648f7b5d4c9ba60daf102964f8c5b32d8d4417d1e",
+    "after_sha256": "5cfa067920f0bd7105cb23052d3aea93975a56a0f9d4bc8af0a305cd1430f17b"
+  }
+]

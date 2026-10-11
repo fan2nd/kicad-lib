@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "3rd.connector") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.connector.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.coreboard") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.coreboard.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.display") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.display.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.ic") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.ic.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.module.ble") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.module.ble.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.module.motor") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.module.motor.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.module.rf") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.module.rf.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.module.wifi") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.module.wifi.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.switch") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.switch.kicad_symdir") (options "") (descr ""))
+  (lib (name "3rd.module.sensor") (type "KiCad") (uri "${KIPRJMOD}/symbols/3rd.module.sensor.kicad_symdir") (options "") (descr "Sensor modules"))
+)

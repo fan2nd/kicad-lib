@@ -1,0 +1,11 @@
+CW32F030C8T6 DiWenXing and RA6E2 DiQiXing
+Top view, USB at top, module above carrier; no Edge.Cuts.
+Board 22.86mm X x 53.34mm Y (official labeled dimensions).
+Main headers: x=+/-7.62mm; y=-24.13+i*2.54mm (i=0..19).
+Row spacing 15.24mm, end margins 2.54mm, side margins 3.81mm; inferred from official PCB images on 2.54mm grid as authorized by user.
+SWD H1: y=21.59mm, x=3.81,1.27,-1.27,-3.81mm for pins 1..4; inferred.
+Corner R1.27mm and USB 9x7.37mm envelope estimated; verify mechanics on actual board.
+BOOT jumper stays on module and is not a carrier mating connector.
+CW main rows: left H5 pins20..1, right H2 pins1..20; RA left H3 pins20..1, right H2 pins1..20.
+Sources: https://oshwhub.com/li-chuang-kai-fa-ban/li-chuang-di-wen-xing-cw32f030c8t6-kai-fa-ban
+https://oshwhub.com/li-chuang-kai-fa-ban/di-qi-xing-ra6e20-kai-fa-ban
