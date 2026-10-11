@@ -9,7 +9,7 @@ def text(k,s,x,y,size=.75,l='F.SilkS',hide=False):return f'(fp_text {k} "{s}" (a
 def rect(x1,y1,x2,y2,l):
  p=[(x1,y1),(x2,y1),(x2,y2),(x1,y2)];return [line(a,b,l) for a,b in zip(p,p[1:]+p[:1])]
 for model,src,W,H in [('MCP2221A','MCP2221',25.4,17.78),('FT232H','FT232H',38.1,22.86)]:
- name='Adafruit_'+model;b=E.parse(R/f'docs/Adafruit_{src}.brd').find('.//board')
+ name='Adafruit_'+model;b=E.parse(R/f'docs/Adafruit_{model}_PCB.brd').find('.//board')
  f=[f'(footprint "{name}" (version 20240108) (generator "project_library") (layer "F.Cu") (attr through_hole)',f'(descr "Adafruit {model} USB-C board above carrier; official Eagle outline and header coordinates; mounting holes shown as reference circles, no carrier drilling")',text('reference','REF**',W/2,-2,1),text('value',name,W/2,H+2,1,'F.Fab',True)]
  def cv(x,y):return (x,H-y)
  for w in b.findall('./plain/wire'):
@@ -56,7 +56,7 @@ for model,src,W,H in [('MCP2221A','MCP2221',25.4,17.78),('FT232H','FT232H',38.1,
  content=re.sub(r'(\(fp_text reference "REF\*\*" )\(at [^)]+\)',r'\g<1>(at 0 -2)',content)
  content=re.sub(r'(\(fp_text value "[^"]+" )\(at [^)]+\)',lambda m:m.group(1)+f'(at 0 {W+2})',content)
  path.write_text(content)
- jf=R/'docs/library-classification.json';j=json.loads(jf.read_text())
+ jf=R/'scripts/data/library-classification.json';j=json.loads(jf.read_text())
  for r in j:
   if r.get('new_path')==str(path.relative_to(R)):
    r['approved_geometry_sha256']=hashlib.sha256(path.read_bytes()).hexdigest();r['geometry_changes']=r.get('geometry_changes','')+' 2026-10-10: redraw from official Adafruit Eagle USB-C boards; header coordinates/net names verified, rounded board outline and mounting reference circles, horizontal internal labels including MCP RST; USB-C and Qwiic outlines on fab only (silk outlines reverted at user request); no Edge.Cuts or mandatory mounting drills.'

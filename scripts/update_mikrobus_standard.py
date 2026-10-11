@@ -2,7 +2,7 @@
 from pathlib import Path
 import json, math, re, hashlib
 R=Path(__file__).resolve().parents[1]
-contours=json.loads((R/'docs/mikrobus-logo-contours.json').read_text())['contours']
+contours=json.loads((R/'scripts/data/mikrobus-logo-contours.json').read_text())['contours']
 def line(a,b,layer,w=.12):return f'(fp_line (start {a[0]:.6f} {a[1]:.6f}) (end {b[0]:.6f} {b[1]:.6f}) (stroke (width {w}) (type solid)) (layer "{layer}"))'
 def arc(c,a,b,layer):
  def pt(t):return f'{c[0]+2.54*math.cos(t):.6f} {c[1]+2.54*math.sin(t):.6f}'
@@ -50,7 +50,7 @@ for p in (R/'fontprints/3rd.connector.pretty').glob('mikroBUS_*.kicad_mod'):
   out.extend(logo(11.43,-3.55,'F.SilkS'))
   out.extend(logo(11.43,-3.55,'B.SilkS'))
  out.append(')');new='\n'.join(out)+'\n';assert pads==[l for l in new.splitlines() if l.startswith('(pad')];p.write_text(new);changed.append(str(p.relative_to(R)))
-p=R/'docs/library-classification.json';j=json.loads(p.read_text())
+p=R/'scripts/data/library-classification.json';j=json.loads(p.read_text())
 for row in j:
  if row.get('new_path') in changed:
   row['approved_geometry_sha256']=hashlib.sha256((R/row['new_path']).read_bytes()).hexdigest();row['geometry_changes']+=' 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved.'

@@ -152,7 +152,7 @@ computed, layer-correct, and verifiable.
 
 - A request to inspect naming or document rules does not itself require mass
   renaming. Record legacy style deviations and suggested names in
-  `docs/naming-audit.md`; preserve existing public identifiers during an audit.
+  `README.md`; preserve existing public identifiers during an audit.
   Apply this convention to new entries and requested renames.
 - For a rename, update the filename, internal name, nested symbol identifiers,
   applicable `Value`, footprint links, qualified filters and migration records.
@@ -161,7 +161,7 @@ computed, layer-correct, and verifiable.
   retain the KiCad default-library registration. Back up global tables before
   editing them. Do not edit unrelated existing designs or create duplicate
   compatibility libraries automatically.
-- Preserve old-to-new mappings in `docs/library-classification.json` (file
+- Preserve old-to-new mappings in `scripts/data/library-classification.json` (file
   moves and approved name changes) and explain public identifier migrations in
   `README.md`. Existing schematic/PCB references need separate migration.
 - Run `python3 scripts/check_library_links.py` after naming changes. Export
@@ -183,7 +183,24 @@ computed, layer-correct, and verifiable.
   Keep original product brands Maxim and Trinamic even when documentation is
   hosted by ADI; do not alternate prefixes for the same product family.
 - Keep unknown vendors and generic/custom mechanical items unprefixed. Record
-  evidence and unresolved identities in `docs/vendor-naming.md`.
+  evidence and unresolved identities in `README.md`.
 - A vendor prefix is part of the library identifier; visible Value text may
   remain the base model to preserve readability. Update symbol/footprint names,
   references, filters, normalized filenames and migration records together.
+
+## Source Documents
+
+- Keep `docs/` exclusively for original manufacturer/user-supplied source
+  documents: datasheets, manuals, dimension drawings, schematics, PCB sources,
+  reference images and original pinout tables. Preserve their bytes on rename.
+- Name sources `[Vendor_]<OfficialModel>_<DocumentType>[_<Version>].<ext>`;
+  use ASCII names, underscores between fields and lowercase extensions.
+  Reuse verified vendor/model spellings above; never infer an unknown vendor.
+  Use `Datasheet`, `UserManual`, `Dimensions`, `Schematic`, `PCB`, `Mounting`,
+  `Pinout` or `StandardSpecification` as appropriate. Preserve source revisions.
+- Do not put generated previews, working notes, backup snapshots, audit exports
+  or redundant JSON into `docs/`. Store previews outside it (e.g. `/tmp`).
+  Keep only script-required machine data in `scripts/data/`; record essential
+  usage caveats, attribution and migration guidance in `README.md`.
+- After document renames or cleanup, update script inputs and documentation
+  links. Do not recreate removed JSON reports from generators.

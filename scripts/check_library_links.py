@@ -38,7 +38,7 @@ for p in symbols:
   nums={get(v,'number')[1] for v in walk(sym,'pin')};pads=fps[ref]
   if nums!=pads:errors.append(f'{p.name}: symbol-only {sorted(nums-pads)}, pad-only {sorted(pads-nums)}')
   linked+=1
-for row in json.loads((ROOT/'docs/library-classification.json').read_text()):
+for row in json.loads((ROOT/'scripts/data/library-classification.json').read_text()):
  if row['kind']=='footprint':
   content=(ROOT/row['new_path']).read_bytes()
   if row.get('approved_geometry_sha256'):

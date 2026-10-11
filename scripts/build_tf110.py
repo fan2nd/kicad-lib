@@ -1,5 +1,5 @@
 """TF-110 rev A manufacturer recommended PCB land pattern, dimensions in mm.
-Origin: rear-edge centre x=0,y=-5.625. See docs/tf110.md for dimension chains.
+Origin: rear-edge centre x=0,y=-5.625. Dimensions follow docs/XUNPU_TF-110_Datasheet_RevA.pdf.
 """
 from pathlib import Path
 import json,hashlib,math
@@ -117,9 +117,8 @@ s.append(')');s.append(f'(symbol "{name}_1_1"')
 items=[('DAT2','DAT2',-25.4,15.24,0,'passive',False),('CD/DAT3','DAT3/CD',-25.4,10.16,0,'passive',False),('CMD','CMD',-25.4,5.08,0,'passive',False),('CLK','CLK',-25.4,0,0,'passive',False),('DAT0','DAT0',-25.4,-5.08,0,'passive',False),('DAT1','DAT1',-25.4,-10.16,0,'passive',False),('VDD','VDD',25.4,15.24,180,'power_in',False),('VSS','VSS',25.4,10.16,180,'power_in',False),('SHELL','SHELL',25.4,5.08,180,'passive',False),('CD/SWA','',25.4,-10.16,180,'passive',True),('GND/SWB','',25.4,-20.32,180,'passive',True)]
 for num,label,x,y,angle,typ,hide in items:s.append(f'(pin {typ} line (at {x} {y} {angle}) (length 10.16) (name "{label}" (effects (font (size 1.27 1.27))'+(' hide' if hide else '')+f')) (number "{num}" (effects (font (size 1.27 1.27)))))')
 s.append(')))');(R/f'symbols/{lib}.kicad_symdir/xunpu-tf-110.kicad_sym').write_text('\n'.join(s)+'\n')
-p=R/'docs/library-classification.json';j=json.loads(p.read_text())
+p=R/'scripts/data/library-classification.json';j=json.loads(p.read_text())
 for row in j:
  if row.get('new_path')==str(fp.relative_to(R)):
-  row['approved_geometry_sha256']=hashlib.sha256(fp.read_bytes()).hexdigest();row['geometry_changes']='2026-10-10 user requested redraw from TF-110 Rev A datasheet: recomputed recommended lands, keepouts and outlines, corrected normally-closed card detect symbol; legacy electrical identifiers preserved. See docs/tf110.md.'
+  row['approved_geometry_sha256']=hashlib.sha256(fp.read_bytes()).hexdigest();row['geometry_changes']='2026-10-10 user requested redraw from TF-110 Rev A datasheet: recomputed recommended lands, keepouts and outlines, corrected normally-closed card detect symbol; legacy electrical identifiers preserved. See docs/XUNPU_TF-110_Datasheet_RevA.pdf.'
 p.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n')
-(R/'docs/tf110-pad-dimensions.json').write_text(json.dumps(pads,indent=2)+'\n')
