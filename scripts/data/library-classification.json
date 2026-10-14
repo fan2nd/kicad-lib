@@ -145,13 +145,22 @@
   {
     "kind": "symbol",
     "old_path": "symbols/3rd.kicad_symdir/nucleo-u545re-q-st-morpho.kicad_sym",
-    "new_path": "symbols/3rd.coreboard.kicad_symdir/st-nucleo-u545re-q-st-morpho.kicad_sym",
+    "new_path": "symbols/3rd.coreboard.kicad_symdir/st-nucleo-u545re-st-morpho.kicad_sym",
     "library": "3rd.coreboard",
     "before_sha256": "349d9e8cfe9f96e59a22dc72840d25362226c2895e5e764322798e57ba23e06d",
     "name_changes": {
       "NUCLEO-U545RE-Q-ST-MORPHO": "NUCLEO-U545RE-Q_ST-MORPHO",
-      "NUCLEO-U545RE-Q_ST-MORPHO": "ST_NUCLEO-U545RE-Q_ST-MORPHO"
-    }
+      "NUCLEO-U545RE-Q_ST-MORPHO": "ST_NUCLEO-U545RE-Q_ST-MORPHO",
+      "ST_NUCLEO-U545RE-Q_ST-MORPHO": "ST_NUCLEO-U545RE_ST-MORPHO"
+    },
+    "public_name_migrations": [
+      {
+        "from": "ST_NUCLEO-U545RE-Q_ST-MORPHO",
+        "to": "ST_NUCLEO-U545RE_ST-MORPHO",
+        "date": "2026-10-15",
+        "reason": "User requested removing -Q from public symbol name; official source URL and technical description retained."
+      }
+    ]
   },
   {
     "kind": "symbol",
