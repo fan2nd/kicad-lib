@@ -262,16 +262,6 @@
   },
   {
     "kind": "symbol",
-    "old_path": "symbols/3rd.kicad_symdir/weact-stm32g431cbt6-standard.kicad_sym",
-    "new_path": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbt6-standard.kicad_sym",
-    "library": "3rd.coreboard",
-    "before_sha256": "1e9bad9603f8546d0aedd042a28a139255365a16f525e2d1291d007813005d59",
-    "name_changes": {
-      "WeAct-STM32G431CBT6_Standard": "WeAct_STM32G431CBT6_Standard"
-    }
-  },
-  {
-    "kind": "symbol",
     "old_path": "symbols/3rd.kicad_symdir/weact-stm32g431cbu6-standard.kicad_sym",
     "new_path": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbu6-standard.kicad_sym",
     "library": "3rd.coreboard",
@@ -303,8 +293,26 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "60a854135b6f40060c6665eb2b2135954b485a9604965a8a36059d36545e8897",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "bc29a80f23b8758ff182ed0d9e3c04726bc2253ba173dcb3018f8fae6d2028d3",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "L1": "EN_N",
+      "L2": "MS1",
+      "L3": "MS2",
+      "L4": "MS3",
+      "L5": "RST_N",
+      "L6": "SLP_N",
+      "L7": "STEP",
+      "L8": "DIR",
+      "R1": "VMOT",
+      "R2": "GND",
+      "R3": "2B",
+      "R4": "2A",
+      "R5": "1A",
+      "R6": "1B",
+      "R7": "VDD",
+      "R8": "GND"
+    }
   },
   {
     "kind": "footprint",
@@ -359,8 +367,50 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "e12e0598f2f6375cd20786095f112484d759a6604ca1e2f252da2213870e73c6",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "5c1bc52f8f0be38344207d1bf4b0ff9c2e1415ad5fcd5ffd8cba011cb2d65819",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "9": "VDD",
+      "19": "nRESET",
+      "11": "SWCLK",
+      "12": "SWDIO",
+      "29": "P0.00",
+      "26": "P0.01",
+      "32": "P0.02",
+      "34": "P0.03",
+      "33": "P0.04",
+      "10": "GND",
+      "30": "GND",
+      "31": "GND",
+      "37": "GND",
+      "38": "GND",
+      "39": "GND",
+      "40": "GND",
+      "8": "P1.02",
+      "13": "P1.03",
+      "7": "P1.04",
+      "15": "P1.05",
+      "14": "P1.06",
+      "16": "P1.07",
+      "17": "P1.08",
+      "1": "P1.09",
+      "2": "P1.10",
+      "3": "P1.11",
+      "4": "P1.12",
+      "5": "P1.13",
+      "6": "P1.14",
+      "18": "P2.00",
+      "20": "P2.01",
+      "21": "P2.02",
+      "22": "P2.03",
+      "27": "P2.04",
+      "28": "P2.05",
+      "23": "P2.06",
+      "36": "P2.07",
+      "24": "P2.08",
+      "35": "P2.09",
+      "25": "P2.10"
+    }
   },
   {
     "kind": "footprint",
@@ -378,8 +428,50 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "5af70607bf6e7292d8362161d66c3c7d276d71dddff19418ef02ebbbc6dfe5f5",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "dfddad6666bd4a7c6c488bf0e5559ca79358c86ae0f2d3bd95f2039d395d9530",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "9": "VDD",
+      "19": "nRESET",
+      "11": "SWCLK",
+      "12": "SWDIO",
+      "29": "P0.00",
+      "26": "P0.01",
+      "32": "P0.02",
+      "34": "P0.03",
+      "33": "P0.04",
+      "10": "GND",
+      "30": "GND",
+      "31": "GND",
+      "37": "GND",
+      "38": "GND",
+      "39": "GND",
+      "40": "GND",
+      "8": "P1.02",
+      "13": "P1.03",
+      "7": "P1.04",
+      "15": "P1.05",
+      "14": "P1.06",
+      "16": "P1.07",
+      "17": "P1.08",
+      "1": "P1.09",
+      "2": "P1.10",
+      "3": "P1.11",
+      "4": "P1.12",
+      "5": "P1.13",
+      "6": "P1.14",
+      "18": "P2.00",
+      "20": "P2.01",
+      "21": "P2.02",
+      "22": "P2.03",
+      "27": "P2.04",
+      "28": "P2.05",
+      "23": "P2.06",
+      "36": "P2.07",
+      "24": "P2.08",
+      "35": "P2.09",
+      "25": "P2.10"
+    }
   },
   {
     "kind": "footprint",
@@ -432,8 +524,54 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "4ccd5cf3969a0719c5bdb401c3b8a43fbb238aee9ef159a0d7200dd76b8a7645",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+    "approved_geometry_sha256": "04652dbb5b56dc9b72311c4879f24712158511429b57cbde8d7f9f8152cb15be",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged.",
+    "pad_number_changes_20261014": {
+      "H3-20": "P109",
+      "H3-19": "P110",
+      "H3-18": "P111",
+      "H3-17": "P112",
+      "H3-16": "P104",
+      "H3-15": "P103",
+      "H3-14": "P102",
+      "H3-13": "P101",
+      "H3-12": "P100",
+      "H3-11": "P500",
+      "H3-10": "P015",
+      "H3-9": "P014",
+      "H3-8": "P013",
+      "H3-7": "P003",
+      "H3-6": "P002",
+      "H3-5": "P001",
+      "H3-4": "P000",
+      "H3-3": "5V",
+      "H3-2": "GND",
+      "H3-1": "3V3",
+      "H2-1": "GND",
+      "H2-2": "GND",
+      "H2-3": "3V3",
+      "H2-4": "NRST",
+      "H2-5": "P301",
+      "H2-6": "P302",
+      "H2-7": "P200",
+      "H2-8": "P206",
+      "H2-9": "P207",
+      "H2-10": "P814",
+      "H2-11": "P815",
+      "H2-12": "P407",
+      "H2-13": "P408",
+      "H2-14": "P409",
+      "H2-15": "P212",
+      "H2-16": "P213",
+      "H2-17": "P403",
+      "H2-18": "P402",
+      "H2-19": "GND",
+      "H2-20": "3V3",
+      "H1-1": "GND",
+      "H1-2": "P300",
+      "H1-3": "P108",
+      "H1-4": "3V3"
+    }
   },
   {
     "kind": "footprint",
@@ -452,8 +590,54 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "c7f3b615998cd3df6b5b7e869e74a1b636bb2232c655c493760a135c786cfb1d",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+    "approved_geometry_sha256": "b0f062d9ed8ca4d8f5f00fbed1e21e8c265c408c51ecd6fcc409d3aef0dacf6e",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged.",
+    "pad_number_changes_20261014": {
+      "H5-20": "PB12",
+      "H5-19": "PB13",
+      "H5-18": "PB14",
+      "H5-17": "PB15",
+      "H5-16": "PA8",
+      "H5-15": "PA9",
+      "H5-14": "PA10",
+      "H5-13": "PA11",
+      "H5-12": "PA12",
+      "H5-11": "PA15",
+      "H5-10": "PB3",
+      "H5-9": "PB4",
+      "H5-8": "PB5",
+      "H5-7": "PB6",
+      "H5-6": "PB7",
+      "H5-5": "PB8",
+      "H5-4": "PB9",
+      "H5-3": "5V",
+      "H5-2": "GND",
+      "H5-1": "3V3",
+      "H2-1": "GND",
+      "H2-2": "GND",
+      "H2-3": "3V3",
+      "H2-4": "NRST",
+      "H2-5": "PB11",
+      "H2-6": "PB10",
+      "H2-7": "PB1",
+      "H2-8": "PB0",
+      "H2-9": "PA7",
+      "H2-10": "PA6",
+      "H2-11": "PA5",
+      "H2-12": "PA4",
+      "H2-13": "PA3",
+      "H2-14": "PA2",
+      "H2-15": "PA1",
+      "H2-16": "PA0",
+      "H2-17": "PC15",
+      "H2-18": "PC14",
+      "H2-19": "PC13",
+      "H2-20": "3V3",
+      "H1-1": "GND",
+      "H1-2": "PA14",
+      "H1-3": "PA13",
+      "H1-4": "VMCU"
+    }
   },
   {
     "kind": "footprint",
@@ -464,8 +648,38 @@
     "name_changes": {
       "MAX32655-FTHR": "Maxim_MAX32655-FTHR"
     },
-    "approved_geometry_sha256": "7fbebbc3326855ac6edbe0f6fbaedeb46d818b07a32d50d7fd6b605e2eadbb81",
-    "geometry_changes": " 2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged."
+    "approved_geometry_sha256": "a31a7c44882941393adf5ec8c8695f9dcd860e0c219cefc764774b3496897ff8",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace.  2026-10-10: isolated vertical pin labels changed to horizontal, positioned inside board; pads unchanged.",
+    "pad_number_changes_20261014": {
+      "J7-1": "SYS",
+      "J7-2": "PWR",
+      "J7-3": "VBUS",
+      "J7-4": "P1_6",
+      "J7-5": "P1_7",
+      "J7-6": "P0_25",
+      "J7-7": "P0_24",
+      "J7-8": "P0_20",
+      "J7-9": "P1_8",
+      "J7-10": "P1_9",
+      "J7-11": "P0_30",
+      "J7-12": "P0_31",
+      "J9-1": "RST",
+      "J9-2": "3V3",
+      "J9-3": "1V8",
+      "J9-4": "GND",
+      "J9-5": "P2_0",
+      "J9-6": "P2_1",
+      "J9-7": "P2_2",
+      "J9-8": "P2_3",
+      "J9-9": "P2_4",
+      "J9-10": "P2_5",
+      "J9-11": "P0_23",
+      "J9-12": "P0_21",
+      "J9-13": "P0_22",
+      "J9-14": "P2_6",
+      "J9-15": "P2_7",
+      "J9-16": "GND"
+    }
   },
   {
     "kind": "footprint",
@@ -541,8 +755,26 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "17f3e710b15501bed999ff98af7a856c2074f0144c6fa595abdc73ad17093ea9",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "f9c7f360c3b118ac1f00b933fee63e1d8283c58b63fd101656b7589bd1868870",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "16": "PWMA",
+      "15": "AIN2",
+      "14": "AIN1",
+      "13": "STBY",
+      "12": "BIN1",
+      "11": "BIN2",
+      "10": "PWMB",
+      "9": "GND",
+      "1": "VM",
+      "2": "VCC",
+      "3": "GND",
+      "4": "AO1",
+      "5": "AO2",
+      "6": "BO2",
+      "7": "BO1",
+      "8": "GND"
+    }
   },
   {
     "kind": "footprint",
@@ -579,8 +811,32 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "8ac8bc7b55265bd5bca1703512594243725a87891479643fd98d3cf148d853d9",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "bd5a9ad50b63306474d4dae6fdf4f4b709d5eccef4d5ac5435d5a1ece989ff93",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "1": "VCC_IO",
+      "2": "GND",
+      "3": "CSN",
+      "4": "SCK",
+      "5": "SDI",
+      "6": "SDO",
+      "7": "DIAG0",
+      "8": "DIAG1",
+      "9": "DRV_ENN",
+      "10": "STEP",
+      "11": "DIR",
+      "12": "VS",
+      "13": "GND",
+      "14": "B2",
+      "15": "B1",
+      "16": "A2",
+      "17": "A1",
+      "18": "GND",
+      "19": "GND",
+      "20": "DCIN",
+      "21": "DCEN",
+      "22": "DCO"
+    }
   },
   {
     "kind": "footprint",
@@ -599,8 +855,26 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "ad61695d255b3e7df466562cd704f5e2107b477fc086f333613049ea16d803e1",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "7a26a1fcd63213b0d3067faaa1ac7b7d3069cdc320357786020c78f1ee5fbd73",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "L1": "EN_N",
+      "L2": "MS1",
+      "L3": "MS2",
+      "L4": "PDN",
+      "L5": "PDN_ALT",
+      "L6": "CLK",
+      "L7": "STEP",
+      "L8": "DIR",
+      "R1": "VM",
+      "R2": "GND",
+      "R3": "A2",
+      "R4": "A1",
+      "R5": "B1",
+      "R6": "B2",
+      "R7": "VDD",
+      "R8": "GND"
+    }
   },
   {
     "kind": "footprint",
@@ -618,8 +892,43 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "e6444bb95aa0a6b3e4468cbc67322d7ec00d5792cd80e78e7bf77b1ea6c05e53",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "937c82e67c6b8250982c2add279c79ab05e2ec8d131cd6879fd6f472354ca596",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "1": "VCC",
+      "2": "GND",
+      "3": "CLK",
+      "4": "NRST",
+      "5": "CSN",
+      "6": "SCK",
+      "7": "SDI",
+      "8": "SDO",
+      "9": "HOME_REF",
+      "10": "STOPR",
+      "11": "STOPL",
+      "12": "NFREEZE",
+      "13": "START",
+      "14": "STPIN",
+      "15": "DIRIN",
+      "16": "INTR",
+      "17": "TARGET_R",
+      "18": "CSN_DRV",
+      "19": "SCK_DRV",
+      "20": "SDO_DRV",
+      "21": "SDI_DRV",
+      "22": "STPOUT",
+      "23": "DIROUT",
+      "24": "ANEG",
+      "25": "A",
+      "26": "BNEG",
+      "27": "B",
+      "28": "NNEG",
+      "29": "N",
+      "30": "GND",
+      "31": "DCSTEP_STALL",
+      "32": "DC_OUT",
+      "33": "STDBY_CLK"
+    }
   },
   {
     "kind": "footprint",
@@ -637,8 +946,32 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "8c19c109d7aaec89ad86c1cbe1427f61e891ee5d2625a76518cb9d7b5c8ae9bd",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "4ce50de96de1a8804614004d91e3578cabe8ef1bdae110d81aa8abeabbdb65e3",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "1": "VCC_IO",
+      "2": "GND",
+      "3": "CSN",
+      "4": "SCK",
+      "5": "SDI",
+      "6": "SDO",
+      "7": "GND",
+      "8": "CLK16",
+      "9": "DRV_ENN",
+      "10": "REFL/STEP",
+      "11": "REFR/DIR",
+      "12": "VS",
+      "13": "GND",
+      "14": "B2",
+      "15": "B1",
+      "16": "A2",
+      "17": "A1",
+      "18": "GND",
+      "19": "DIAG0",
+      "20": "ENCA",
+      "21": "ENCB",
+      "22": "ENCN"
+    }
   },
   {
     "kind": "footprint",
@@ -689,11 +1022,12 @@
   {
     "kind": "footprint",
     "old_path": "fontprints/3rd.pretty/WeAct-STM32G431CoreBoard_Standard_P2.54.kicad_mod",
-    "new_path": "fontprints/3rd.coreboard.pretty/WeAct_STM32G431CoreBoard_Standard_P2.54mm.kicad_mod",
+    "new_path": "fontprints/3rd.coreboard.pretty/WeAct_STM32G431CBU6_Standard_P2.54mm.kicad_mod",
     "library": "3rd.coreboard",
     "before_sha256": "8661508d2d4a8e95ec1c91a36ca40baba9cac2b6d196b9ece36732aeaf666bee",
     "name_changes": {
-      "WeAct-STM32G431CoreBoard_Standard_P2.54": "WeAct_STM32G431CoreBoard_Standard_P2.54mm"
+      "WeAct-STM32G431CoreBoard_Standard_P2.54": "WeAct_STM32G431CoreBoard_Standard_P2.54mm",
+      "WeAct_STM32G431CoreBoard_Standard_P2.54mm": "WeAct_STM32G431CBU6_Standard_P2.54mm"
     },
     "geometry_history": [
       {
@@ -702,8 +1036,58 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "6ed29d6533e68658042408185039b8c88841725a6d10b7ecc0852aef67734a95",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "5e943d66e440cc84a57b4d7b4b451b9fe02f015aeae8e205b054686e874a38d7",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "pad_number_changes_20261014": {
+      "P1-1": "VCC",
+      "P1-2": "VCC",
+      "P1-3": "GND",
+      "P1-4": "GND",
+      "P1-5": "PB12",
+      "P1-6": "PB13",
+      "P1-7": "PB14",
+      "P1-8": "PB15",
+      "P1-9": "PC6",
+      "P1-10": "PA8",
+      "P1-11": "PA9",
+      "P1-12": "PA10",
+      "P1-13": "PA11",
+      "P1-14": "PA12",
+      "P1-15": "PA15",
+      "P1-16": "PC10",
+      "P1-17": "PC11",
+      "P1-18": "PB3",
+      "P1-19": "PB4",
+      "P1-20": "PB5",
+      "P1-21": "PB6",
+      "P1-22": "PB7",
+      "P1-23": "PB8_BOOT0",
+      "P1-24": "PB9",
+      "P2-1": "3V3",
+      "P2-2": "3V3",
+      "P2-3": "GND",
+      "P2-4": "GND",
+      "P2-5": "PB10",
+      "P2-6": "PB11",
+      "P2-7": "PB2",
+      "P2-8": "VREF+",
+      "P2-9": "PB0",
+      "P2-10": "PB1",
+      "P2-11": "PA7",
+      "P2-12": "PC4",
+      "P2-13": "PA5",
+      "P2-14": "PA6",
+      "P2-15": "PA3",
+      "P2-16": "PA4",
+      "P2-17": "PA1",
+      "P2-18": "PA2",
+      "P2-19": "NRST",
+      "P2-20": "PA0",
+      "P2-21": "PC14",
+      "P2-22": "PC15",
+      "P2-23": "VB",
+      "P2-24": "PC13"
+    }
   },
   {
     "kind": "footprint",
@@ -879,20 +1263,28 @@
   {
     "kind": "symbol",
     "old_path": "symbols/3rd.module.sensor.kicad_symdir/sht3x-dis-4plus2.kicad_sym",
-    "new_path": "symbols/3rd.module.sensor.kicad_symdir/sht3x-dis-4plus2.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/gy-sht3x.kicad_sym",
     "library": "3rd.module.sensor",
     "before_sha256": "e0ee9703d5d8d3f463a5bc425372b18362d406733855c5204d0575baf024023f",
     "reason": "User requested SHT3x-DIS black 4+2 sensor module; provisional mechanical estimates from photographs",
-    "date": "2026-10-09"
+    "date": "2026-10-09",
+    "name_changes": {
+      "SHT3x-DIS_4Plus2": "GY-SHT3x"
+    }
   },
   {
     "kind": "footprint",
     "old_path": "fontprints/3rd.module.sensor.pretty/SHT3x-DIS_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
-    "new_path": "fontprints/3rd.module.sensor.pretty/SHT3x-DIS_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/GY-SHT3x_PinHeader_P2.54mm_13x10mm_Provisional.kicad_mod",
     "library": "3rd.module.sensor",
     "before_sha256": "c2d9e82a9351cea79c2a529661c27e06d49714b5a88dca2e657a3e59a6678716",
     "reason": "User requested SHT3x-DIS black 4+2 sensor module; provisional mechanical estimates from photographs",
-    "date": "2026-10-09"
+    "date": "2026-10-09",
+    "name_changes": {
+      "SHT3x-DIS_4Plus2_PinHeader_P2.54mm_13x10mm_Provisional": "GY-SHT3x_PinHeader_P2.54mm_13x10mm_Provisional"
+    },
+    "approved_geometry_sha256": "0d654a7873153e18403d93f1b3df2e18d4bcda9057444f9bbfd2daabab995629",
+    "geometry_changes": "User rename SHT3x-DIS_4Plus2 to GY-SHT3x; geometry and electrical identifiers unchanged; visible Value/silk updated."
   },
   {
     "kind": "footprint",
@@ -980,5 +1372,1050 @@
     "reason": "User requested S/M/L socket placement variants; pad geometry identical.",
     "approved_geometry_sha256": "50254ba986a80c22f6e331385e912e7da5b5aad4196bee8576d3a916fb9b1159",
     "geometry_changes": " 2026-10-09: socket outer silk uses R2.54mm corners and separate orientation slash, following PDF appearance; radius is an implementation choice, not a dimensioned requirement. Pads unchanged. User requested all mikroBUS pads circular and no first-pin marks: removed two module header divider lines; pad numbers, positions, sizes and drills preserved; orientation chamfer/slash retained. User requested header silk nominal body width 2.54mm: changed +/-1.39mm offsets to +/-1.27mm, end at19.05mm; module board-edge clipping retained. Electrical pads unchanged. 2026-10-10: user requests official manual markings, overriding prior horizontal-front choice. Official PDF vector logo, open-top fixed socket silk, vertical module-front labels, horizontal rear labels, editable BOARD_NAME; original electrical pads and board outlines preserved. 2026-10-10: user approved header-adjacent alignment for horizontal pin labels: viewed left column left-justified, viewed right column right-justified; backside mirror respected. Vertical module-front labels unchanged."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.crystal.kicad_symdir/oscillator-4pin.kicad_sym",
+    "new_path": "symbols/3rd.crystal.kicad_symdir/yxc-yso680pr.kicad_sym",
+    "library": "3rd.crystal",
+    "before_sha256": "7d281a41073ee4f593894f236fa7c54d0549fb759b7472063b616994a7acc32d",
+    "reason": "Generic 4-pin active oscillator symbol following YXC YSO680PR pin assignment.",
+    "date": "2026-10-11",
+    "name_changes": {
+      "Oscillator_4Pin": "YXC_YSO680PR"
+    },
+    "public_name_migrations": [
+      {
+        "date": "2026-10-14",
+        "from": "Oscillator_4Pin",
+        "to": "YXC_YSO680PR",
+        "reason": "User requested verified YXC model identifiers and datasheet dimensions."
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.crystal.pretty/Oscillator_SMD_3225_4Pin_3.2x2.5mm.kicad_mod",
+    "new_path": "fontprints/3rd.crystal.pretty/YXC_YSO680PR_3225_3.2x2.5mm.kicad_mod",
+    "library": "3rd.crystal",
+    "before_sha256": "548c0e1d72f5da408d8e5ebd15b7b6221f4383498d7b250744e414a011aa4e4c",
+    "reason": "YXC YSO680PR published 3225 active oscillator land pattern and pin assignment.",
+    "date": "2026-10-11",
+    "approved_geometry_sha256": "68191ae95dd1e24e52afd2c670b0475240f68bbf69444abceb51962ff8d43a51",
+    "geometry_changes": "2026-10-14: verified manufacturer PDF drawings; YSX221SL corrected to 1.00x0.90mm lands at 1.85x1.55mm centers and 2.5x2.05mm body. Other land dimensions retained; silk clearance and courtyard corrected; REF** restored; YXC model naming.",
+    "name_changes": {
+      "Oscillator_SMD_3225_4Pin_3.2x2.5mm": "YXC_YSO680PR_3225_3.2x2.5mm"
+    },
+    "public_name_migrations": [
+      {
+        "date": "2026-10-14",
+        "from": "Oscillator_SMD_3225_4Pin_3.2x2.5mm",
+        "to": "YXC_YSO680PR_3225_3.2x2.5mm",
+        "reason": "User requested verified YXC model identifiers and datasheet dimensions."
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.crystal.pretty/Oscillator_SMD_2520_4Pin_2.5x2.0mm.kicad_mod",
+    "new_path": "fontprints/3rd.crystal.pretty/YXC_YSO680PR_2520_2.5x2.0mm.kicad_mod",
+    "library": "3rd.crystal",
+    "before_sha256": "58eaa9b99702aeba0015684a1b8c97932bda33d7b4da7aff36d9bc3e00208f37",
+    "reason": "YXC YSO680PR published 2520 active oscillator land pattern and pin assignment.",
+    "date": "2026-10-11",
+    "approved_geometry_sha256": "afa597f0e1392a8eacf62b3b65b539949481e0aa53b600b263f4fe497b3d26ee",
+    "geometry_changes": "2026-10-14: verified manufacturer PDF drawings; YSX221SL corrected to 1.00x0.90mm lands at 1.85x1.55mm centers and 2.5x2.05mm body. Other land dimensions retained; silk clearance and courtyard corrected; REF** restored; YXC model naming.",
+    "name_changes": {
+      "Oscillator_SMD_2520_4Pin_2.5x2.0mm": "YXC_YSO680PR_2520_2.5x2.0mm"
+    },
+    "public_name_migrations": [
+      {
+        "date": "2026-10-14",
+        "from": "Oscillator_SMD_2520_4Pin_2.5x2.0mm",
+        "to": "YXC_YSO680PR_2520_2.5x2.0mm",
+        "reason": "User requested verified YXC model identifiers and datasheet dimensions."
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.crystal.pretty/Crystal_SMD_2520_4Pin_2.5x2.0mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.crystal.pretty/YXC_YSX221SL_2520_2.5x2.05mm.kicad_mod",
+    "library": "3rd.crystal",
+    "before_sha256": "73f17ea5255bc220fe693749704b804e3e07a9752c2c62707064b6a958ab7751",
+    "reason": "YXC YSX221SL published 2.5x2.0mm passive crystal recommended land pattern.",
+    "date": "2026-10-11",
+    "name_changes": {
+      "Crystal_SMD_2520_4Pin_2.5x2.0mm_Provisional": "Crystal_SMD_2520_4Pin_2.5x2.0mm",
+      "Crystal_SMD_2520_4Pin_2.5x2.0mm": "YXC_YSX221SL_2520_2.5x2.05mm"
+    },
+    "public_name_migrations": [
+      {
+        "from": "Crystal_SMD_2520_4Pin_2.5x2.0mm_Provisional",
+        "to": "Crystal_SMD_2520_4Pin_2.5x2.0mm",
+        "reason": "Replaced the estimate with YXC YSX221SL published land pattern; removed provisional suffix.",
+        "date": "2026-10-11"
+      },
+      {
+        "date": "2026-10-14",
+        "from": "Crystal_SMD_2520_4Pin_2.5x2.0mm",
+        "to": "YXC_YSX221SL_2520_2.5x2.05mm",
+        "reason": "User requested verified YXC model identifiers and datasheet dimensions."
+      }
+    ],
+    "approved_geometry_sha256": "ee3fc5d4fe4363fbfe4c66bda659cb429a6bc968980fb5837748c52f665eff63",
+    "geometry_changes": "2026-10-14: verified manufacturer PDF drawings; YSX221SL corrected to 1.00x0.90mm lands at 1.85x1.55mm centers and 2.5x2.05mm body. Other land dimensions retained; silk clearance and courtyard corrected; REF** restored; YXC model naming."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.crystal.kicad_symdir/crystal-4pin.kicad_sym",
+    "new_path": "symbols/3rd.crystal.kicad_symdir/yxc-ysx321sl.kicad_sym",
+    "library": "3rd.crystal",
+    "before_sha256": "1d220780e0db9c2fb2016d58b15000d24214526cd10c9bce29f65dafa8ef5282",
+    "date": "2026-10-14",
+    "reason": "User requested local generic crystal entries or separate provisional ZY-MPU6050 mounting variants.",
+    "name_changes": {
+      "Crystal_4Pin": "YXC_YSX321SL"
+    },
+    "public_name_migrations": [
+      {
+        "date": "2026-10-14",
+        "from": "Crystal_4Pin",
+        "to": "YXC_YSX321SL",
+        "reason": "User requested verified YXC model identifiers and datasheet dimensions."
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.crystal.pretty/Crystal_SMD_3225_4Pin_3.2x2.5mm.kicad_mod",
+    "new_path": "fontprints/3rd.crystal.pretty/YXC_YSX321SL_3225_3.2x2.5mm.kicad_mod",
+    "library": "3rd.crystal",
+    "before_sha256": "37a464b0c62d0831715c8e770261d8cae8445c23d2836ca2bf6c04108e630f65",
+    "date": "2026-10-14",
+    "reason": "User requested local generic crystal entries or separate provisional ZY-MPU6050 mounting variants.",
+    "name_changes": {
+      "Crystal_SMD_3225_4Pin_3.2x2.5mm": "YXC_YSX321SL_3225_3.2x2.5mm"
+    },
+    "public_name_migrations": [
+      {
+        "date": "2026-10-14",
+        "from": "Crystal_SMD_3225_4Pin_3.2x2.5mm",
+        "to": "YXC_YSX321SL_3225_3.2x2.5mm",
+        "reason": "User requested verified YXC model identifiers and datasheet dimensions."
+      }
+    ],
+    "approved_geometry_sha256": "73e2d8a5dca5a42da9b0c8abf46a8fd819a96e3dba4df62accc5043e8071842a",
+    "geometry_changes": "2026-10-14: verified manufacturer PDF drawings; YSX221SL corrected to 1.00x0.90mm lands at 1.85x1.55mm centers and 2.5x2.05mm body. Other land dimensions retained; silk clearance and courtyard corrected; REF** restored; YXC model naming."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.sensor.kicad_symdir/zy-mpu6050.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/zy-mpu6050.kicad_sym",
+    "library": "3rd.module.sensor",
+    "before_sha256": "0fef57dc25bcbacbfb793b4ed772779fbe8c45d33562917c5b23a62b54dd11ca",
+    "date": "2026-10-14",
+    "reason": "User requested local generic crystal entries or separate provisional ZY-MPU6050 mounting variants."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/ZY-MPU6050_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/ZY-MPU6050_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "b82ae5df4eeca9622707bb3d5305aebceadde5672ca1ceced2151f69aafca200",
+    "date": "2026-10-14",
+    "reason": "User requested local generic crystal entries or separate provisional ZY-MPU6050 mounting variants.",
+    "approved_geometry_sha256": "873623fe0bb9aefc2cb36bb7be3919c37c8d988a3aef3250e4edf388950b26ac",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ",
+    "pad_number_changes_20261014": {
+      "1": "VCC",
+      "2": "GND",
+      "3": "SCL",
+      "4": "SDA",
+      "8": "INT",
+      "7": "AUX_DA",
+      "6": "AUX_CL",
+      "5": "AD0"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/ZY-MPU6050_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/ZY-MPU6050_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "87c5e6cd048a57b86d192da99a6fcbb7cbdeab442d0ecad8506efd9cd9a98508",
+    "date": "2026-10-14",
+    "reason": "User requested local generic crystal entries or separate provisional ZY-MPU6050 mounting variants.",
+    "approved_geometry_sha256": "9750d14338e79c25a18d9e4b68f50088e7df7f124a0992bc52aa640bf8e5980b",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. 2026-10-14: user requested continuous header-version silkscreen; replaced interrupted sides with closed envelope at x=+/-7.6mm, copper-to-silk clearance0.29mm; F.Fab exact nominal body retained; courtyard widened to+/-7.85mm. Pad geometry unchanged; ADS1115/BMP280 photo ratios support 12.70mm row spacing.",
+    "pad_number_changes_20261014": {
+      "1": "VCC",
+      "2": "GND",
+      "3": "SCL",
+      "4": "SDA",
+      "8": "INT",
+      "7": "AUX_DA",
+      "6": "AUX_CL",
+      "5": "AD0"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.sensor.kicad_symdir/ads1115-8pin.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/zy-ads1115.kicad_sym",
+    "library": "3rd.module.sensor",
+    "before_sha256": "f153d52d0c62c7dd0261de7410906284117a1cb8a31c80ab8f37f8edea6f7d45",
+    "date": "2026-10-14",
+    "reason": "User images: module pin assignment, nominal body dimensions; provisional 2.54mm pitch and 12.70mm header spacing.",
+    "name_changes": {
+      "ADS1115_8Pin": "ZY-ADS1115"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.sensor.kicad_symdir/bmp280-8pin.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/zy-bmp280.kicad_sym",
+    "library": "3rd.module.sensor",
+    "before_sha256": "388434ef3fda02ccefb6d3343a0d06243434e7921876c1999a39fc71c716da8a",
+    "date": "2026-10-14",
+    "reason": "User images: module pin assignment, nominal body dimensions; provisional 2.54mm pitch and 12.70mm header spacing.",
+    "name_changes": {
+      "BMP280_8Pin": "ZY-BMP280"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/ADS1115_8Pin_PinHeader_P2.54mm_14x11mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/ZY-ADS1115_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "d5ee67774301274118c323904b859548a867f30ab870b959f5786b56adaf2ea6",
+    "date": "2026-10-14",
+    "reason": "User images: module pin assignment, nominal body dimensions; provisional 2.54mm pitch and 12.70mm header spacing.",
+    "approved_geometry_sha256": "9228333198a8714ad0f79d1b778808499b8e70ff0236df72cf6855d0e4ecbf92",
+    "geometry_changes": "2026-10-14: user overrides prior14x11 body with BMP28015x12 geometry; copied corresponding BMP280 mechanical/pad layout, preserving ADS1115 function labels and electrical pad numbers. Functional pad IDs VCC/GND/SCL/SDA/AIN0..AIN3 applied per user module numbering rule, symbol updated together. User rename ADS1115_8Pin to ZY-ADS1115; geometry and functional identifiers unchanged.",
+    "name_changes": {
+      "ADS1115_8Pin_PinHeader_P2.54mm_14x11mm_Provisional": "ADS1115_8Pin_PinHeader_P2.54mm_15x12mm_Provisional",
+      "ADS1115_8Pin_PinHeader_P2.54mm_15x12mm_Provisional": "ZY-ADS1115_PinHeader_P2.54mm_15x12mm_Provisional"
+    },
+    "public_name_migrations": [
+      {
+        "from": "ADS1115_8Pin_PinHeader_P2.54mm_14x11mm_Provisional",
+        "to": "ADS1115_8Pin_PinHeader_P2.54mm_15x12mm_Provisional",
+        "date": "2026-10-14",
+        "reason": "User specified ADS1115 same mechanics as BMP28015x12mm."
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/ADS1115_8Pin_Castellated_P2.54mm_14x11mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/ZY-ADS1115_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "b729b854abde6849db3d7b794ae51ee63571f6ca9e17c3c64cea94d180db5064",
+    "date": "2026-10-14",
+    "reason": "User images: module pin assignment, nominal body dimensions; provisional 2.54mm pitch and 12.70mm header spacing.",
+    "name_changes": {
+      "ADS1115_8Pin_Castellated_P2.54mm_14x11mm_Provisional": "ADS1115_8Pin_Castellated_P2.54mm_15x12mm_Provisional",
+      "ADS1115_8Pin_Castellated_P2.54mm_15x12mm_Provisional": "ZY-ADS1115_Castellated_P2.54mm_15x12mm_Provisional"
+    },
+    "public_name_migrations": [
+      {
+        "from": "ADS1115_8Pin_Castellated_P2.54mm_14x11mm_Provisional",
+        "to": "ADS1115_8Pin_Castellated_P2.54mm_15x12mm_Provisional",
+        "date": "2026-10-14",
+        "reason": "User specified ADS1115 same mechanics as BMP28015x12mm."
+      }
+    ],
+    "approved_geometry_sha256": "ffc4d3a286f04d8f91d738ebc6b82f24cd4e04b327b6ebb176c29b5575137849",
+    "geometry_changes": "2026-10-14: user overrides prior14x11 body with BMP28015x12 geometry; copied corresponding BMP280 mechanical/pad layout, preserving ADS1115 function labels and electrical pad numbers. Functional pad IDs VCC/GND/SCL/SDA/AIN0..AIN3 applied per user module numbering rule, symbol updated together. User rename ADS1115_8Pin to ZY-ADS1115; geometry and functional identifiers unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/BMP280_8Pin_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/ZY-BMP280_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "fb7be3ed40cbff57543af904b6c085b1fd1c4471f61e6d43c427b07bbdca8a9f",
+    "date": "2026-10-14",
+    "reason": "User images: module pin assignment, nominal body dimensions; provisional 2.54mm pitch and 12.70mm header spacing.",
+    "approved_geometry_sha256": "3fbfe10ee3a3b72bfabc77159a753ca1784714a285c5e26f1ee42a515a901f50",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace.  User rename BMP280_8Pin to ZY-BMP280; geometry and pad identifiers unchanged.",
+    "pad_number_changes_20261014": {
+      "1": "VCC",
+      "2": "GND",
+      "3": "SCL",
+      "4": "SDA",
+      "8": "3V3",
+      "7": "GND",
+      "6": "SDO",
+      "5": "NC_5"
+    },
+    "name_changes": {
+      "BMP280_8Pin_Castellated_P2.54mm_15x12mm_Provisional": "ZY-BMP280_Castellated_P2.54mm_15x12mm_Provisional"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/BMP280_8Pin_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/ZY-BMP280_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "2e5e911ac0b676f6b420ad4131c4dcbe7ba10c2985f1495afc59ee99f8d498cb",
+    "date": "2026-10-14",
+    "reason": "User images: module pin assignment, nominal body dimensions; provisional 2.54mm pitch and 12.70mm header spacing.",
+    "approved_geometry_sha256": "b8292ffdc2ca20eacb9bfc0f81e83c87fa69d3d4eee8c03c929ce6f49989621a",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. 2026-10-14: user requested continuous header-version silkscreen; replaced interrupted sides with closed envelope at x=+/-7.6mm, copper-to-silk clearance0.29mm; F.Fab exact nominal body retained; courtyard widened to+/-7.85mm. Pad geometry unchanged; ADS1115/BMP280 photo ratios support 12.70mm row spacing. User rename BMP280_8Pin to ZY-BMP280; geometry and pad identifiers unchanged.",
+    "pad_number_changes_20261014": {
+      "1": "VCC",
+      "2": "GND",
+      "3": "SCL",
+      "4": "SDA",
+      "8": "3V3",
+      "7": "GND",
+      "6": "SDO",
+      "5": "NC_5"
+    },
+    "name_changes": {
+      "BMP280_8Pin_PinHeader_P2.54mm_15x12mm_Provisional": "ZY-BMP280_PinHeader_P2.54mm_15x12mm_Provisional"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.crystal.kicad_symdir/yxc-ysx221sl.kicad_sym",
+    "new_path": "symbols/3rd.crystal.kicad_symdir/yxc-ysx221sl.kicad_sym",
+    "library": "3rd.crystal",
+    "before_sha256": "87cf077b5c32cfb833c8fee4c31ad01fd7bf85fe2a93912019340fbcafaf6fa3",
+    "date": "2026-10-14",
+    "reason": "Separate model-specific YXC YSX221SL passive crystal symbol; replaces generic symbol when selecting 2520."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.rf.pretty/Ai-Thinker_NF-03_Castellated.kicad_mod",
+    "new_path": "fontprints/3rd.module.rf.pretty/Ai-Thinker_NF-03_Castellated.kicad_mod",
+    "library": "3rd.module.rf",
+    "before_sha256": "026491b8a9b00697bdfb4d5d371e316f2e4a95be63290fce028ba2c7117e5df9",
+    "date": "2026-10-14",
+    "reason": "User requested auxiliary pad under right square via, explicitly connected to GND by sharing pad 2; center from dimension drawing (5.081,-2.532), chosen land 1.2x1.2mm; local 0.25mm keepout relief, no drill.",
+    "approved_geometry_sha256": "4f0cb75e01cec5765ecd3b677897a4b692d670740404b8ccf72ecda505b529ef",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. 2026-10-14: keep auxiliary GND pad 2 center (5.081,-2.532); width 2*0.919=1.838mm so right edge equals module x=6mm; height1.2mm retained; silk interrupted with0.2mm copper clearance and antenna keepout locally relieved by0.25mm. User then specified 1.3x1.3mm; keep right edge x=6mm, center becomes (5.35,-2.532), offset +0.269mm from original via center; radius0.25mm; silk/keepout clearances preserved.",
+    "pad_number_changes_20261014": {
+      "1": "VCC",
+      "3": "CE",
+      "4": "CSN",
+      "5": "SCK",
+      "6": "MOSI",
+      "7": "MISO",
+      "8": "IRQ",
+      "2": "GND"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/MH-ET-LIVE_MAX30102_PinHeader_P2.54mm_20x15mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/MH-ET-LIVE_MAX30102_PinHeader_P2.54mm_20x15mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "e5c95576e2c40cc44225c38fdac11dc5c9ebc99c5de8b2cab9099a6e9d23e05d",
+    "date": "2026-10-14",
+    "reason": "User MH-ET LIVE MAX30102 photos; provisional20x15 body, header2.54pitch10.16row; separate header and castellated variants; RD/IRD passive, internal wiring unverified.",
+    "approved_geometry_sha256": "4d0a213cc653dd2f01765ac77a1cef08490f0d4bbeecd6b75fb9ee69e4908d7a",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ",
+    "pad_number_changes_20261014": {
+      "1": "VIN",
+      "2": "SDA",
+      "3": "SCL",
+      "4": "GND",
+      "8": "INT",
+      "7": "IRD",
+      "6": "RD",
+      "5": "GND"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.sensor.pretty/MH-ET-LIVE_MAX30102_Castellated_P2.54mm_20x15mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.sensor.pretty/MH-ET-LIVE_MAX30102_Castellated_P2.54mm_20x15mm_Provisional.kicad_mod",
+    "library": "3rd.module.sensor",
+    "before_sha256": "09a973138afcd8d3305ae8b00a23b60563132a1d6ee885b0a8ca034b8d398642",
+    "date": "2026-10-14",
+    "reason": "User MH-ET LIVE MAX30102 photos; provisional20x15 body, header2.54pitch10.16row; separate header and castellated variants; RD/IRD passive, internal wiring unverified.",
+    "approved_geometry_sha256": "33631326ab01e6eaa687042b8503b7e8b57ce3a34f335f4d5a2d8fbe2c64ed6e",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ",
+    "pad_number_changes_20261014": {
+      "1": "VIN",
+      "2": "SDA",
+      "3": "SCL",
+      "4": "GND",
+      "8": "INT",
+      "7": "IRD",
+      "6": "RD",
+      "5": "GND"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.sensor.kicad_symdir/mh-et-live-max30102.kicad_sym",
+    "new_path": "symbols/3rd.module.sensor.kicad_symdir/mh-et-live-max30102.kicad_sym",
+    "library": "3rd.module.sensor",
+    "before_sha256": "0ef25ab523c1953eefff552b6c8320e7566717a541cc3ad37db05848030b2435",
+    "date": "2026-10-14",
+    "reason": "User MH-ET LIVE MAX30102 photos; provisional20x15 body, header2.54pitch10.16row; separate header and castellated variants; RD/IRD passive, internal wiring unverified."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.display.kicad_symdir/ssd1306-spi-128x64.kicad_sym",
+    "new_path": "symbols/3rd.module.display.kicad_symdir/ssd1306-spi-128x64.kicad_sym",
+    "library": "3rd.module.display",
+    "before_sha256": "043d70d7d8998b322b63bac04f832782a0ecdeeb09bf3e1e72b74a8e38c12bfa",
+    "date": "2026-10-14",
+    "reason": "User requested SSD1306 OLED modules and functional pin/pad IDs; SPI27.3x27.8 user-measured with estimated mechanics.",
+    "category_changes": "2026-10-14: user requested complete OLED modules in 3rd.module.display; bare displays stay in 3rd.display."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.display.kicad_symdir/ssd1306-i2c-128x64.kicad_sym",
+    "new_path": "symbols/3rd.module.display.kicad_symdir/ssd1306-i2c-128x64.kicad_sym",
+    "library": "3rd.module.display",
+    "before_sha256": "a1db1274016c1ebe42b9141e83fa213ad01b7fa8c91e787e83509d2e09ff4875",
+    "date": "2026-10-14",
+    "reason": "User requested SSD1306 OLED modules and functional pin/pad IDs; SPI27.3x27.8 user-measured with estimated mechanics.",
+    "category_changes": "2026-10-14: user requested complete OLED modules in 3rd.module.display; bare displays stay in 3rd.display."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.display.pretty/SSD1306_SPI_128x64_PinHeader_P2.54mm_27.3x27.8mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.display.pretty/SSD1306_SPI_128x64_PinHeader_P2.54mm_27.3x27.8mm.kicad_mod",
+    "library": "3rd.module.display",
+    "before_sha256": "e91fa7e9ee1c641090403d2970c53c840269d72989ba2aab3470a14f38387526",
+    "date": "2026-10-14",
+    "reason": "User requested SSD1306 OLED modules and functional pin/pad IDs; SPI27.3x27.8 user-measured with estimated mechanics.",
+    "category_changes": "2026-10-14: user requested complete OLED modules in 3rd.module.display; bare displays stay in 3rd.display.",
+    "approved_geometry_sha256": "00512d6fa1750cf1c1cbc129d9615dc5f145972050e5b0b6a00e2ba9bed55514",
+    "geometry_changes": "2026-10-14 SPI drawing: holes2mm at +/-11.65,+/-11.9; header x=-7.62..7.62 y=-12.4; panel26.7x19.26; active21.744x10.864; notch width14 and depth2 inferred from lower-hole center alignment; category3rd.module.display.",
+    "name_changes": {
+      "SSD1306_SPI_128x64_PinHeader_P2.54mm_27.3x27.8mm_Provisional": "SSD1306_SPI_128x64_PinHeader_P2.54mm_27.3x27.8mm"
+    },
+    "public_name_migrations": [
+      {
+        "from": "SSD1306_SPI_128x64_PinHeader_P2.54mm_27.3x27.8mm_Provisional",
+        "to": "SSD1306_SPI_128x64_PinHeader_P2.54mm_27.3x27.8mm",
+        "date": "2026-10-14",
+        "reason": "User supplied actual SPI mechanical drawing; removed provisional suffix."
+      }
+    ]
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.display.pretty/SSD1306_I2C_128x64_PinHeader_P2.54mm_27.3x27.8mm.kicad_mod",
+    "new_path": "fontprints/3rd.module.display.pretty/SSD1306_I2C_128x64_PinHeader_P2.54mm_27.3x27.8mm.kicad_mod",
+    "library": "3rd.module.display",
+    "before_sha256": "0cdb567b1495e2da70cdabc2edf678e095b146340b69c6413b092254e2c30bc3",
+    "date": "2026-10-14",
+    "reason": "Added dimensioned 0.96in I2C variant from user drawing; notch depth1.9 inferred from alignment with lower hole centers."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.interface.pretty/ZY-MAX485_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.interface.pretty/ZY-MAX485_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.interface",
+    "before_sha256": "67b17c342e371805ef0a738daaece8cecb2dd1ccd675e8bff62cecf8f7a6e4b4",
+    "date": "2026-10-14",
+    "reason": "New ZY-MAX485 module from user schematic/photo; 15x12mm board, 2.54mm pitch and 12.7mm column spacing estimated from image; functional pin identifiers."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.interface.pretty/ZY-MAX485_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.interface.pretty/ZY-MAX485_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.interface",
+    "before_sha256": "d01b22a92c2aab09e2c67302a2150d25ac8a247d8cb53ce238f630f105d119f8",
+    "date": "2026-10-14",
+    "reason": "New ZY-MAX485 module from user schematic/photo; 15x12mm board, 2.54mm pitch and 12.7mm column spacing estimated from image; functional pin identifiers."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.interface.kicad_symdir/zy-max485.kicad_sym",
+    "new_path": "symbols/3rd.module.interface.kicad_symdir/zy-max485.kicad_sym",
+    "library": "3rd.module.interface",
+    "before_sha256": "2dbd49993bf79f083dd308ccf64f22a6092fb1d666079ccc574e64aa6cf55b62",
+    "date": "2026-10-14",
+    "reason": "New ZY-MAX485 module from user schematic/photo; 15x12mm board, 2.54mm pitch and 12.7mm column spacing estimated from image; functional pin identifiers."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.power.pretty/MP2225GJ-Z_PinHeader_18x13mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.power.pretty/MP2225GJ-Z_PinHeader_18x13mm_Provisional.kicad_mod",
+    "library": "3rd.module.power",
+    "before_sha256": "ac6c963776fd9d8938f0c5f8aebf99dd9de42d05f4f77c39f3dbf1f5e323b9d1",
+    "date": "2026-10-14",
+    "reason": "New generic buck symbols and user dimensioned 18x13 module; provisional unspecified geometry documented in README.",
+    "approved_geometry_sha256": "3f87609030e87ae6c3dc1cd5c199bb6436b458bb17192062e54c9261bd820c93",
+    "geometry_changes": "User requested removal of header EN pad; close header silk and shrink courtyard; add EN default ON, H=ON/L=OFF silk to both variants; restore complete castellated F.Fab top edge."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.power.pretty/MP2225GJ-Z_Castellated_18x13mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.power.pretty/MP2225GJ-Z_Castellated_18x13mm_Provisional.kicad_mod",
+    "library": "3rd.module.power",
+    "before_sha256": "1b33a5f2e6f01cf920930865232ff04921ad01e15ede64bc48e2ec79222730ed",
+    "date": "2026-10-14",
+    "reason": "New generic buck symbols and user dimensioned 18x13 module; provisional unspecified geometry documented in README.",
+    "approved_geometry_sha256": "204d7124fab608a08ddc0fb02f90e874f8375bb7af7bdf858ffb546308313066",
+    "geometry_changes": "User requested removal of header EN pad; close header silk and shrink courtyard; add EN default ON, H=ON/L=OFF silk to both variants; restore complete castellated F.Fab top edge. User-requested correction: four power lands 4x2.4mm at x=+/-7.8 y=+/-4.6; 0.8mm external extension, R0.25; sparse-contact pitch-formula exception. Silk labels and courtyard adjusted; EN unchanged."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.power.kicad_symdir/buck-en.kicad_sym",
+    "new_path": "symbols/3rd.module.power.kicad_symdir/buck-en.kicad_sym",
+    "library": "3rd.module.power",
+    "before_sha256": "dde9556c3a6931acaf7940954dae879ac05db61bcbda3e60717fefe416cc69e8",
+    "date": "2026-10-14",
+    "reason": "New generic buck symbols and user dimensioned 18x13 module; provisional unspecified geometry documented in README."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.power.kicad_symdir/buck.kicad_sym",
+    "new_path": "symbols/3rd.module.power.kicad_symdir/buck.kicad_sym",
+    "library": "3rd.module.power",
+    "before_sha256": "496624cd730fd3fe56d2df38469c0a65031b0fcab202bb8a0acd4c13cc31dc18",
+    "date": "2026-10-14",
+    "reason": "New generic buck symbols and user dimensioned 18x13 module; provisional unspecified geometry documented in README."
+  },
+  {
+    "kind": "pin_identifier_migration",
+    "date": "2026-10-14",
+    "reason": "User requested functional identifiers for modules and non-generic coreboards; CBU6 only, CBT6 removed. NC contacts remain unique.",
+    "mappings": [
+      {
+        "symbol": "symbols/3rd.coreboard.kicad_symdir/jlc-diqixing-ra6e2.kicad_sym",
+        "pin_number_changes": {
+          "H3-20": "P109",
+          "H3-19": "P110",
+          "H3-18": "P111",
+          "H3-17": "P112",
+          "H3-16": "P104",
+          "H3-15": "P103",
+          "H3-14": "P102",
+          "H3-13": "P101",
+          "H3-12": "P100",
+          "H3-11": "P500",
+          "H3-10": "P015",
+          "H3-9": "P014",
+          "H3-8": "P013",
+          "H3-7": "P003",
+          "H3-6": "P002",
+          "H3-5": "P001",
+          "H3-4": "P000",
+          "H3-3": "5V",
+          "H3-2": "GND",
+          "H3-1": "3V3",
+          "H2-1": "GND",
+          "H2-2": "GND",
+          "H2-3": "3V3",
+          "H2-4": "NRST",
+          "H2-5": "P301",
+          "H2-6": "P302",
+          "H2-7": "P200",
+          "H2-8": "P206",
+          "H2-9": "P207",
+          "H2-10": "P814",
+          "H2-11": "P815",
+          "H2-12": "P407",
+          "H2-13": "P408",
+          "H2-14": "P409",
+          "H2-15": "P212",
+          "H2-16": "P213",
+          "H2-17": "P403",
+          "H2-18": "P402",
+          "H2-19": "GND",
+          "H2-20": "3V3",
+          "H1-1": "GND",
+          "H1-2": "P300",
+          "H1-3": "P108",
+          "H1-4": "3V3"
+        },
+        "footprints": [
+          "fontprints/3rd.coreboard.pretty/JLC_DiQiXing-RA6E2_P2.54mm.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.coreboard.kicad_symdir/jlc-diwenxing-cw32f030c8t6.kicad_sym",
+        "pin_number_changes": {
+          "H5-20": "PB12",
+          "H5-19": "PB13",
+          "H5-18": "PB14",
+          "H5-17": "PB15",
+          "H5-16": "PA8",
+          "H5-15": "PA9",
+          "H5-14": "PA10",
+          "H5-13": "PA11",
+          "H5-12": "PA12",
+          "H5-11": "PA15",
+          "H5-10": "PB3",
+          "H5-9": "PB4",
+          "H5-8": "PB5",
+          "H5-7": "PB6",
+          "H5-6": "PB7",
+          "H5-5": "PB8",
+          "H5-4": "PB9",
+          "H5-3": "5V",
+          "H5-2": "GND",
+          "H5-1": "3V3",
+          "H2-1": "GND",
+          "H2-2": "GND",
+          "H2-3": "3V3",
+          "H2-4": "NRST",
+          "H2-5": "PB11",
+          "H2-6": "PB10",
+          "H2-7": "PB1",
+          "H2-8": "PB0",
+          "H2-9": "PA7",
+          "H2-10": "PA6",
+          "H2-11": "PA5",
+          "H2-12": "PA4",
+          "H2-13": "PA3",
+          "H2-14": "PA2",
+          "H2-15": "PA1",
+          "H2-16": "PA0",
+          "H2-17": "PC15",
+          "H2-18": "PC14",
+          "H2-19": "PC13",
+          "H2-20": "3V3",
+          "H1-1": "GND",
+          "H1-2": "PA14",
+          "H1-3": "PA13",
+          "H1-4": "VMCU"
+        },
+        "footprints": [
+          "fontprints/3rd.coreboard.pretty/JLC_DiWenXing-CW32F030C8T6_P2.54mm.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.coreboard.kicad_symdir/maxim-max32655-fthr.kicad_sym",
+        "pin_number_changes": {
+          "J7-1": "SYS",
+          "J7-2": "PWR",
+          "J7-3": "VBUS",
+          "J7-4": "P1_6",
+          "J7-5": "P1_7",
+          "J7-6": "P0_25",
+          "J7-7": "P0_24",
+          "J7-8": "P0_20",
+          "J7-9": "P1_8",
+          "J7-10": "P1_9",
+          "J7-11": "P0_30",
+          "J7-12": "P0_31",
+          "J9-1": "RST",
+          "J9-2": "3V3",
+          "J9-3": "1V8",
+          "J9-4": "GND",
+          "J9-5": "P2_0",
+          "J9-6": "P2_1",
+          "J9-7": "P2_2",
+          "J9-8": "P2_3",
+          "J9-9": "P2_4",
+          "J9-10": "P2_5",
+          "J9-11": "P0_23",
+          "J9-12": "P0_21",
+          "J9-13": "P0_22",
+          "J9-14": "P2_6",
+          "J9-15": "P2_7",
+          "J9-16": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.coreboard.pretty/Maxim_MAX32655-FTHR.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.coreboard.kicad_symdir/weact-stm32g431cbu6-standard.kicad_sym",
+        "pin_number_changes": {
+          "P1-1": "VCC",
+          "P1-2": "VCC",
+          "P1-3": "GND",
+          "P1-4": "GND",
+          "P1-5": "PB12",
+          "P1-6": "PB13",
+          "P1-7": "PB14",
+          "P1-8": "PB15",
+          "P1-9": "PC6",
+          "P1-10": "PA8",
+          "P1-11": "PA9",
+          "P1-12": "PA10",
+          "P1-13": "PA11",
+          "P1-14": "PA12",
+          "P1-15": "PA15",
+          "P1-16": "PC10",
+          "P1-17": "PC11",
+          "P1-18": "PB3",
+          "P1-19": "PB4",
+          "P1-20": "PB5",
+          "P1-21": "PB6",
+          "P1-22": "PB7",
+          "P1-23": "PB8_BOOT0",
+          "P1-24": "PB9",
+          "P2-1": "3V3",
+          "P2-2": "3V3",
+          "P2-3": "GND",
+          "P2-4": "GND",
+          "P2-5": "PB10",
+          "P2-6": "PB11",
+          "P2-7": "PB2",
+          "P2-8": "VREF+",
+          "P2-9": "PB0",
+          "P2-10": "PB1",
+          "P2-11": "PA7",
+          "P2-12": "PC4",
+          "P2-13": "PA5",
+          "P2-14": "PA6",
+          "P2-15": "PA3",
+          "P2-16": "PA4",
+          "P2-17": "PA1",
+          "P2-18": "PA2",
+          "P2-19": "NRST",
+          "P2-20": "PA0",
+          "P2-21": "PC14",
+          "P2-22": "PC15",
+          "P2-23": "VB",
+          "P2-24": "PC13"
+        },
+        "footprints": [
+          "fontprints/3rd.coreboard.pretty/WeAct_STM32G431CBU6_Standard_P2.54mm.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.ble.kicad_symdir/ebyte-e73-2g4m54lp-physical.kicad_sym",
+        "pin_number_changes": {
+          "1": "P1.09",
+          "28": "P2.05",
+          "2": "P1.10",
+          "27": "P2.04",
+          "3": "P1.11",
+          "26": "P0.01",
+          "4": "P1.12",
+          "25": "P2.10",
+          "5": "P1.13",
+          "24": "P2.08",
+          "6": "P1.14",
+          "23": "P2.06",
+          "7": "P1.04",
+          "22": "P2.03",
+          "8": "P1.02",
+          "21": "P2.02",
+          "9": "VDD",
+          "20": "P2.01",
+          "10": "GND",
+          "19": "nRESET",
+          "36": "P2.07",
+          "11": "SWCLK",
+          "35": "P2.09",
+          "12": "SWDIO",
+          "34": "P0.03",
+          "13": "P1.03",
+          "33": "P0.04",
+          "14": "P1.06",
+          "32": "P0.02",
+          "15": "P1.05",
+          "31": "GND",
+          "16": "P1.07",
+          "30": "GND",
+          "17": "P1.08",
+          "29": "P0.00",
+          "18": "P2.00",
+          "37": "GND",
+          "38": "GND",
+          "40": "GND",
+          "39": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LP.kicad_mod",
+          "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LX.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.ble.kicad_symdir/ebyte-e73-2g4m54lp.kicad_sym",
+        "pin_number_changes": {
+          "9": "VDD",
+          "19": "nRESET",
+          "11": "SWCLK",
+          "12": "SWDIO",
+          "29": "P0.00",
+          "26": "P0.01",
+          "32": "P0.02",
+          "34": "P0.03",
+          "33": "P0.04",
+          "10": "GND",
+          "30": "GND",
+          "31": "GND",
+          "37": "GND",
+          "38": "GND",
+          "39": "GND",
+          "40": "GND",
+          "8": "P1.02",
+          "13": "P1.03",
+          "7": "P1.04",
+          "15": "P1.05",
+          "14": "P1.06",
+          "16": "P1.07",
+          "17": "P1.08",
+          "1": "P1.09",
+          "2": "P1.10",
+          "3": "P1.11",
+          "4": "P1.12",
+          "5": "P1.13",
+          "6": "P1.14",
+          "18": "P2.00",
+          "20": "P2.01",
+          "21": "P2.02",
+          "22": "P2.03",
+          "27": "P2.04",
+          "28": "P2.05",
+          "23": "P2.06",
+          "36": "P2.07",
+          "24": "P2.08",
+          "35": "P2.09",
+          "25": "P2.10"
+        },
+        "footprints": [
+          "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LP.kicad_mod",
+          "fontprints/3rd.module.ble.pretty/Ebyte_E73-2G4M54LX.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.motor.kicad_symdir/a4988.kicad_sym",
+        "pin_number_changes": {
+          "L1": "EN_N",
+          "L2": "MS1",
+          "L3": "MS2",
+          "L4": "MS3",
+          "L5": "RST_N",
+          "L6": "SLP_N",
+          "L7": "STEP",
+          "L8": "DIR",
+          "R1": "VMOT",
+          "R2": "GND",
+          "R3": "2B",
+          "R4": "2A",
+          "R5": "1A",
+          "R6": "1B",
+          "R7": "VDD",
+          "R8": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.module.motor.pretty/A4988.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.motor.kicad_symdir/tb6612.kicad_sym",
+        "pin_number_changes": {
+          "16": "PWMA",
+          "15": "AIN2",
+          "14": "AIN1",
+          "13": "STBY",
+          "12": "BIN1",
+          "11": "BIN2",
+          "10": "PWMB",
+          "9": "GND",
+          "1": "VM",
+          "2": "VCC",
+          "3": "GND",
+          "4": "AO1",
+          "5": "AO2",
+          "6": "BO2",
+          "7": "BO1",
+          "8": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.module.motor.pretty/TB6612.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.motor.kicad_symdir/tmc2209.kicad_sym",
+        "pin_number_changes": {
+          "L1": "EN_N",
+          "L2": "MS1",
+          "L3": "MS2",
+          "L4": "PDN",
+          "L5": "PDN_ALT",
+          "L6": "CLK",
+          "L7": "STEP",
+          "L8": "DIR",
+          "R1": "VM",
+          "R2": "GND",
+          "R3": "A2",
+          "R4": "A1",
+          "R5": "B1",
+          "R6": "B2",
+          "R7": "VDD",
+          "R8": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.module.motor.pretty/TMC2209.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc2160-bob.kicad_sym",
+        "pin_number_changes": {
+          "1": "VCC_IO",
+          "2": "GND",
+          "3": "CSN",
+          "4": "SCK",
+          "5": "SDI",
+          "6": "SDO",
+          "7": "DIAG0",
+          "8": "DIAG1",
+          "9": "DRV_ENN",
+          "10": "STEP",
+          "11": "DIR",
+          "12": "VS",
+          "13": "GND",
+          "14": "B2",
+          "15": "B1",
+          "16": "A2",
+          "17": "A1",
+          "18": "GND",
+          "19": "GND",
+          "20": "DCIN",
+          "21": "DCEN",
+          "22": "DCO"
+        },
+        "footprints": [
+          "fontprints/3rd.module.motor.pretty/Trinamic_TMC2160-BOB.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc4361a-bob.kicad_sym",
+        "pin_number_changes": {
+          "1": "VCC",
+          "2": "GND",
+          "3": "CLK",
+          "4": "NRST",
+          "5": "CSN",
+          "6": "SCK",
+          "7": "SDI",
+          "8": "SDO",
+          "9": "HOME_REF",
+          "10": "STOPR",
+          "11": "STOPL",
+          "12": "NFREEZE",
+          "13": "START",
+          "14": "STPIN",
+          "15": "DIRIN",
+          "16": "INTR",
+          "17": "TARGET_R",
+          "18": "CSN_DRV",
+          "19": "SCK_DRV",
+          "20": "SDO_DRV",
+          "21": "SDI_DRV",
+          "22": "STPOUT",
+          "23": "DIROUT",
+          "24": "ANEG",
+          "25": "A",
+          "26": "BNEG",
+          "27": "B",
+          "28": "NNEG",
+          "29": "N",
+          "30": "GND",
+          "31": "DCSTEP_STALL",
+          "32": "DC_OUT",
+          "33": "STDBY_CLK"
+        },
+        "footprints": [
+          "fontprints/3rd.module.motor.pretty/Trinamic_TMC4361A-BOB.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.motor.kicad_symdir/trinamic-tmc5160-bob.kicad_sym",
+        "pin_number_changes": {
+          "1": "VCC_IO",
+          "2": "GND",
+          "3": "CSN",
+          "4": "SCK",
+          "5": "SDI",
+          "6": "SDO",
+          "7": "GND",
+          "8": "CLK16",
+          "9": "DRV_ENN",
+          "10": "REFL/STEP",
+          "11": "REFR/DIR",
+          "12": "VS",
+          "13": "GND",
+          "14": "B2",
+          "15": "B1",
+          "16": "A2",
+          "17": "A1",
+          "18": "GND",
+          "19": "DIAG0",
+          "20": "ENCA",
+          "21": "ENCB",
+          "22": "ENCN"
+        },
+        "footprints": [
+          "fontprints/3rd.module.motor.pretty/Trinamic_TMC5160-BOB.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.rf.kicad_symdir/ai-thinker-nf-03.kicad_sym",
+        "pin_number_changes": {
+          "1": "VCC",
+          "3": "CE",
+          "4": "CSN",
+          "5": "SCK",
+          "6": "MOSI",
+          "7": "MISO",
+          "8": "IRQ",
+          "2": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.module.rf.pretty/Ai-Thinker_NF-03_Castellated.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.sensor.kicad_symdir/zy-bmp280.kicad_sym",
+        "pin_number_changes": {
+          "1": "VCC",
+          "2": "GND",
+          "3": "SCL",
+          "4": "SDA",
+          "8": "3V3",
+          "7": "GND",
+          "6": "SDO",
+          "5": "NC_5"
+        },
+        "footprints": [
+          "fontprints/3rd.module.sensor.pretty/ZY-BMP280_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+          "fontprints/3rd.module.sensor.pretty/ZY-BMP280_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.sensor.kicad_symdir/mh-et-live-max30102.kicad_sym",
+        "pin_number_changes": {
+          "1": "VIN",
+          "2": "SDA",
+          "3": "SCL",
+          "4": "GND",
+          "8": "INT",
+          "7": "IRD",
+          "6": "RD",
+          "5": "GND"
+        },
+        "footprints": [
+          "fontprints/3rd.module.sensor.pretty/MH-ET-LIVE_MAX30102_Castellated_P2.54mm_20x15mm_Provisional.kicad_mod",
+          "fontprints/3rd.module.sensor.pretty/MH-ET-LIVE_MAX30102_PinHeader_P2.54mm_20x15mm_Provisional.kicad_mod"
+        ]
+      },
+      {
+        "symbol": "symbols/3rd.module.sensor.kicad_symdir/zy-mpu6050.kicad_sym",
+        "pin_number_changes": {
+          "1": "VCC",
+          "2": "GND",
+          "3": "SCL",
+          "4": "SDA",
+          "8": "INT",
+          "7": "AUX_DA",
+          "6": "AUX_CL",
+          "5": "AD0"
+        },
+        "footprints": [
+          "fontprints/3rd.module.sensor.pretty/ZY-MPU6050_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+          "fontprints/3rd.module.sensor.pretty/ZY-MPU6050_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod"
+        ]
+      }
+    ]
   }
 ]

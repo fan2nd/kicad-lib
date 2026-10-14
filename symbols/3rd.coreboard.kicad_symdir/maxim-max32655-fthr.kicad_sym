@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "3rd.coreboard:Maxim_MAX32655-FTHR"
-			(at 0 -33.0200 0)
+			(at 0 -31.7500 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32655fthr.html"
-			(at 0 -38.1000 0)
+			(at 0 -36.8300 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Description" "MAX32655FTHR Feather-compatible evaluation board expansion headers"
-			(at 0 -43.1800 0)
+			(at 0 -41.9100 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -62,7 +62,7 @@
 			)
 		)
 		(property "ki_keywords" "MAX32655FTHR MAX32655 Feather Adafruit BLE"
-			(at 0 -48.2600 0)
+			(at 0 -46.9900 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -116,7 +116,7 @@
 						)
 					)
 				)
-				(number "J7-1"
+				(number "SYS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -134,7 +134,7 @@
 						)
 					)
 				)
-				(number "J7-2"
+				(number "PWR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,7 +152,7 @@
 						)
 					)
 				)
-				(number "J7-3"
+				(number "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -170,7 +170,7 @@
 						)
 					)
 				)
-				(number "J7-4"
+				(number "P1_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -188,7 +188,7 @@
 						)
 					)
 				)
-				(number "J7-5"
+				(number "P1_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -206,7 +206,7 @@
 						)
 					)
 				)
-				(number "J7-6"
+				(number "P0_25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -224,7 +224,7 @@
 						)
 					)
 				)
-				(number "J7-7"
+				(number "P0_24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -242,7 +242,7 @@
 						)
 					)
 				)
-				(number "J7-8"
+				(number "P0_20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -260,7 +260,7 @@
 						)
 					)
 				)
-				(number "J7-9"
+				(number "P1_8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -278,7 +278,7 @@
 						)
 					)
 				)
-				(number "J7-10"
+				(number "P1_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -296,7 +296,7 @@
 						)
 					)
 				)
-				(number "J7-11"
+				(number "P0_30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -314,7 +314,7 @@
 						)
 					)
 				)
-				(number "J7-12"
+				(number "P0_31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -332,7 +332,7 @@
 						)
 					)
 				)
-				(number "J9-1"
+				(number "RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -350,7 +350,7 @@
 						)
 					)
 				)
-				(number "J9-2"
+				(number "3V3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -368,7 +368,7 @@
 						)
 					)
 				)
-				(number "J9-3"
+				(number "1V8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -386,7 +386,7 @@
 						)
 					)
 				)
-				(number "J9-4"
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -404,7 +404,7 @@
 						)
 					)
 				)
-				(number "J9-5"
+				(number "P2_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -422,7 +422,7 @@
 						)
 					)
 				)
-				(number "J9-6"
+				(number "P2_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -440,7 +440,7 @@
 						)
 					)
 				)
-				(number "J9-7"
+				(number "P2_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -458,7 +458,7 @@
 						)
 					)
 				)
-				(number "J9-8"
+				(number "P2_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -476,7 +476,7 @@
 						)
 					)
 				)
-				(number "J9-9"
+				(number "P2_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -494,7 +494,7 @@
 						)
 					)
 				)
-				(number "J9-10"
+				(number "P2_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -512,7 +512,7 @@
 						)
 					)
 				)
-				(number "J9-11"
+				(number "P0_23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -530,7 +530,7 @@
 						)
 					)
 				)
-				(number "J9-12"
+				(number "P0_21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -548,7 +548,7 @@
 						)
 					)
 				)
-				(number "J9-13"
+				(number "P0_22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -566,7 +566,7 @@
 						)
 					)
 				)
-				(number "J9-14"
+				(number "P2_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -584,7 +584,7 @@
 						)
 					)
 				)
-				(number "J9-15"
+				(number "P2_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -602,7 +602,7 @@
 						)
 					)
 				)
-				(number "J9-16"
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)

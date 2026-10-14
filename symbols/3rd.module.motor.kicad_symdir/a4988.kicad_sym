@@ -89,8 +89,8 @@
 		)
 		(symbol "A4988_1_1"
 			(pin input line
-				(at -15.24 8.89 0)
-				(length 5.08)
+				(at -17.7800 8.8900 0)
+				(length 7.62)
 				(name "~{EN}"
 					(effects
 						(font
@@ -98,7 +98,7 @@
 						)
 					)
 				)
-				(number "L1"
+				(number "EN_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -116,7 +116,7 @@
 						)
 					)
 				)
-				(number "L2"
+				(number "MS1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -134,7 +134,7 @@
 						)
 					)
 				)
-				(number "L3"
+				(number "MS2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -152,7 +152,7 @@
 						)
 					)
 				)
-				(number "L4"
+				(number "MS3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -161,8 +161,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -1.27 0)
-				(length 5.08)
+				(at -17.7800 -1.2700 0)
+				(length 7.62)
 				(name "~{RST}"
 					(effects
 						(font
@@ -170,7 +170,7 @@
 						)
 					)
 				)
-				(number "L5"
+				(number "RST_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -179,8 +179,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -3.81 0)
-				(length 5.08)
+				(at -17.7800 -3.8100 0)
+				(length 7.62)
 				(name "~{SLP}"
 					(effects
 						(font
@@ -188,7 +188,7 @@
 						)
 					)
 				)
-				(number "L6"
+				(number "SLP_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -197,8 +197,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -6.35 0)
-				(length 5.08)
+				(at -17.7800 -6.3500 0)
+				(length 7.62)
 				(name "STEP"
 					(effects
 						(font
@@ -206,7 +206,7 @@
 						)
 					)
 				)
-				(number "L7"
+				(number "STEP"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -224,7 +224,7 @@
 						)
 					)
 				)
-				(number "L8"
+				(number "DIR"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -233,8 +233,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 8.89 180)
-				(length 5.08)
+				(at 17.7800 8.8900 180)
+				(length 7.62)
 				(name "VMOT"
 					(effects
 						(font
@@ -242,7 +242,7 @@
 						)
 					)
 				)
-				(number "R1"
+				(number "VMOT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -260,7 +260,7 @@
 						)
 					)
 				)
-				(number "R2"
+				(number "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -278,7 +278,7 @@
 						)
 					)
 				)
-				(number "R3"
+				(number "2B"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -296,7 +296,7 @@
 						)
 					)
 				)
-				(number "R4"
+				(number "2A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -314,7 +314,7 @@
 						)
 					)
 				)
-				(number "R5"
+				(number "1A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -332,7 +332,7 @@
 						)
 					)
 				)
-				(number "R6"
+				(number "1B"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -350,7 +350,7 @@
 						)
 					)
 				)
-				(number "R7"
+				(number "VDD"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -368,7 +368,7 @@
 						)
 					)
 				)
-				(number "R8"
+				(number "GND"
 					(effects
 						(font
 							(size 1.016 1.016)

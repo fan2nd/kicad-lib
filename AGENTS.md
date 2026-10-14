@@ -30,6 +30,16 @@ computed, layer-correct, and verifiable.
 
 ## Symbol/Footprint Matching
 
+- For all module and non-generic coreboard symbols and footprints, use functional identifiers for
+  symbol pin numbers and footprint pad names (e.g. GND, VCC, SCL, SDA, SCLK,
+  MOSI, RES, DC, CS), rather than arbitrary sequential numbers. Use the same
+  identifier for multiple contacts on a verified common net. Apply this to new entries and requested edits; migrate existing designs separately.
+  Generic interchangeable interfaces (e.g. NUCLEO ST-MORPHO and mikroBUS)
+  retain their standard connector/contact numbering. GPIO identifiers use the
+  port name; alternate-function labels may remain in the visible pin name.
+  Keep distinct NC/unverified contacts unique (e.g. NC_5); never merge them
+  merely because their display labels match. Preserve separate voltage rails.
+
 - Symbol pin `number` fields are the electrical identifiers matched to footprint
   pad names; functional pads such as `GND`, `RX`, or `3V3` require exact
   matching symbol pin numbers.
@@ -66,6 +76,12 @@ computed, layer-correct, and verifiable.
 
 ## Castellated Pads
 
+- For sparse, individually sized power contacts, do not treat the distance
+  between remote terminals as a regular castellated-pad pitch. Size lands from
+  the actual terminal geometry and required solder extension; document estimates
+  and retain `_Provisional` where dimensions are unverified. MP2225GJ-Z 18x13mm
+  is an approved exception: four power lands 4x2.4mm, 0.8mm out / 3.2mm in.
+
 - SMD pads must extend past the module outline without running too far under it.
 - Via/no-via is based on the original module board's castellated-hole style, not
   whether the carrier footprint uses SMD pads.
@@ -86,13 +102,15 @@ computed, layer-correct, and verifiable.
 - Library nicknames use lowercase dot-separated paths: `3rd.<category>` or
   `3rd.<category>.<subcategory>`. Use meaningful product categories, not vendors
   or individual part numbers. Reuse an existing category before adding one.
-- Current categories are `3rd.ic`, `3rd.coreboard`, `3rd.module.ble`,
+- Current categories are `3rd.ic`, `3rd.coreboard`, `3rd.crystal`, `3rd.module.ble`,
   `3rd.module.rf`, `3rd.module.wifi`, `3rd.module.motor`, `3rd.module.sensor`, `3rd.connector`,
-  `3rd.display`, `3rd.switch`, and `3rd.mechanical`.
+  `3rd.display`, `3rd.module.display`, `3rd.module.interface`, `3rd.module.power`, `3rd.switch`, and `3rd.mechanical`.
 - Classify the actual object: a bare IC belongs to `3rd.ic`; a complete core or
   development board belongs to `3rd.coreboard`; a functional module belongs to
   the applicable `3rd.module.*` library. FT232H and MCP2221A Adafruit boards are
   explicitly coreboards. Wireless coreboards also remain in `3rd.coreboard`.
+- Display modules with a carrier board/headers belong to `3rd.module.display`;
+  bare display panels and their FPC landing patterns remain in `3rd.display`.
 - Use `symbols/<nickname>.kicad_symdir/` and
   `fontprints/<nickname>.pretty/`. Preserve the existing `fontprints` spelling.
   Symbol and footprint libraries for the same category use the same nickname;
@@ -179,7 +197,7 @@ computed, layer-correct, and verifiable.
   `Maxim`, `Trinamic`, `Ebyte`, `DOIT`, `Lattice`, `CrossChip`,
   `XUNPU`, `Tag-Connect`, `Zhongjingyuan`, `DOIOT` (度云, user-confirmed
   for doBT-M03), and existing `Shouhan`. New verified IC/module vendors: `SiliconLabs`,
-  `TI`, `WuhanXinyuan` (武汉芯源), `Ai-Thinker` (安信可), `Kailh` (凯华), and `KZT` (凯智通), and `HongCheng` (虹成电子).
+  `TI`, `WuhanXinyuan` (武汉芯源), `Ai-Thinker` (安信可), `Kailh` (凯华), `KZT` (凯智通), `HongCheng` (虹成电子), and `YXC` (扬兴).
   Keep original product brands Maxim and Trinamic even when documentation is
   hosted by ADI; do not alternate prefixes for the same product family.
 - Keep unknown vendors and generic/custom mechanical items unprefixed. Record
