@@ -2426,5 +2426,21 @@
         ]
       }
     ]
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.interface.kicad_symdir/w5500-lite.kicad_sym",
+    "new_path": "symbols/3rd.module.interface.kicad_symdir/w5500-lite.kicad_sym",
+    "library": "3rd.module.interface",
+    "name_changes": {},
+    "source": "User-supplied W5500 Lite pinout and dimensions, 2026-10-15"
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.interface.pretty/W5500_Lite_PinHeader_P2.54mm_23x25mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.interface.pretty/W5500_Lite_PinHeader_P2.54mm_23x25mm_Provisional.kicad_mod",
+    "library": "3rd.module.interface",
+    "before_sha256": "4f160502668a598c4fef1840d26a70bed24f393d2601368f41f69e9f9fdb4e06",
+    "name_changes": {}
   }
 ]

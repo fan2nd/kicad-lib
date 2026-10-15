@@ -2,6 +2,12 @@
 
 按器件实际形态和用途分类。符号采用 KiCad 10 的 `.kicad_symdir` 目录库，封装采用 `.pretty` 库；库昵称与目录名保持一致。
 
+## W5500 Lite 以太网模块
+
+新增 `3rd.module.interface:W5500_Lite`，关联 `W5500_Lite_PinHeader_P2.54mm_23x25mm_Provisional`。按用户提供的 [尺寸图](docs/W5500_Lite_Dimensions.jpg)、[元件面照片](docs/W5500_Lite_Pinout.png) 及最新 [尺寸和引脚图](docs/W5500_Lite_Dimensions_Pinout.png) 绘制；未知板厂不添加 WIZnet、USR 等厂商前缀。模块位于底板上方，RJ45 插口朝上，J1 左列从上至下为 GND/GND/MOSI/SCLK/CS/INT，J2 右列为 GND/3V3/3V3/NC/RST/MISO。照片 MO/MI 对应 MOSI/MISO；J2-4 按照片 NC 标识保留独立 `NC`，不套用其他版本的 PWDN。CS、INT、RST 低有效。符号和焊盘均使用功能编号，重复 GND/3V3 分别共网。
+
+PCB 为 23×25 mm，排针列距 20.32 mm、纵向针距 2.54 mm；板中心为原点，列中心 x=±10.16 mm。最新图首针距底边 18.50 mm、末针距底边 5.80 mm，因此首针 y=-6.00 mm、末针 y=6.70 mm，距顶边为 6.50 mm；以此覆盖首张表中不闭合的 I=6.40 mm。底板焊盘 1.8 mm、钻孔 1.0 mm 为排针适配尺寸；两列首针用圆角矩形，其余圆形。RJ45 宽度 16.10 mm、前端伸出 PCB 3.50 mm 按首张尺寸表绘制；后端暂估至 y=11.30 mm，仅在 F.Fab 标识。F.SilkS 保留模块板框、RJ45 前端轮廓及板内水平功能文字，不在底板生成 RJ45 固定孔或 Edge.Cuts。RJ45 后端等机械细节未全部标注，保留 `_Provisional`。供电为 3.3 V，电源供电能力按用户资料大于 200 mA。
+
 ## 待检查清单
 
 - [x] `Trinamic_TMC4361A-BOB`：2026-10-15 按官方 BOB 手册 Rev1.0 第 1 页模块顶视图／接口表、第 2 页原理图核对。两侧 30 个接点和顶部 3 个接点的名称、功能编号及位置顺序均匹配，无需改名或对调焊盘。
