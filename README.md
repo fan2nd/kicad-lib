@@ -4,10 +4,39 @@
 
 ## 待检查清单
 
-- [ ] `Trinamic_TMC4361A-BOB`：核对模块实际引脚顺序、功能与当前符号引脚编号／封装焊盘名的对应关系，复核数字编号迁移为功能编号的映射。
+- [x] `Trinamic_TMC4361A-BOB`：2026-10-15 按官方 BOB 手册 Rev1.0 第 1 页模块顶视图／接口表、第 2 页原理图核对。两侧 30 个接点和顶部 3 个接点的名称、功能编号及位置顺序均匹配，无需改名或对调焊盘。
 - [ ] `Trinamic_TMC2160-BOB`：核对模块实际引脚顺序、功能与当前符号引脚编号／封装焊盘名的对应关系，复核数字编号迁移为功能编号的映射。
 
-以上项目尚未完成核实；符号与封装的编号集合一致性检查不代表物理引脚映射已经确认。
+未勾选项目尚未完成核实；符号与封装的编号集合一致性检查不代表物理引脚映射已经确认。
+
+TMC4361A-BOB 核对依据：[官方模块原理图及顶视图](docs/Trinamic_TMC4361A-BOB_Datasheet_Rev1.0.pdf)。文档版本为 Rev1.0，照片中的板版为 1.1。模块功能名与裸芯片定义的关键差异如下：
+
+| BOB 功能编号 | 芯片脚号／名称 | 说明 |
+| --- | --- | --- |
+| CLK / NRST / CSN / SCK | 38 CLK_EXT / 39 RST / 2 SCSIN / 3 SCKIN | 使用模块网络名称 |
+| SDI / SDO | 4 SDIIN / 7 SDOIN | 控制端 SPI 输入／输出 |
+| CSN_DRV / SCK_DRV | 30 SCSDRV / 29 SCKDRV | 驱动端片选／时钟 |
+| SDO_DRV | 28 SDIDRV | 来自外接驱动器 SDO；对本模块是输入 |
+| SDI_DRV | 27 SDODRV | 送往外接驱动器 SDI；对本模块是输出 |
+| TARGET_R / NFREEZE | 31 TARGET_REACHED / 19 FREEZE | 保留板上网络名称 |
+| ANEG / BNEG / NNEG | 1（反相 A）/ 11（反相 B）/ 22（反相 N） | 与 A/B/N 分别独立，不能合并 |
+| DCSTEP_STALL / DC_OUT / STDBY_CLK | 8 MP1 / 9 MP2 / 32 STDBY_CLK | 顶部从左至右三个接点 |
+
+顶视方向以左上 VCC、右上 INTR 为准。左列从上至下为 VCC/GND/CLK/NRST/CSN/SCK/SDI/SDO/HOME_REF/STOPR/STOPL/NFREEZE/START/STPIN/DIRIN；右列为 INTR/TARGET_R/CSN_DRV/SCK_DRV/SDO_DRV/SDI_DRV/STPOUT/DIROUT/ANEG/A/BNEG/B/NNEG/N/GND。两个 GND 经原理图确认共网。符号引脚编号与封装焊盘名继续使用模块功能名，不能套用裸芯片数字脚号。本次核对未更改电气标识或封装几何。
+
+按用户最终选择，保留 BOB 板上丝印名称。下一级驱动器统一标为 `NEXT`，不限定具体型号；以下按兼容的 SPI 与 STEP/DIR 接口说明连接，信号方向以 TMC4361A-BOB 为参照。NEXT 的实际端口名称及接口兼容性须按所选器件手册确认：
+
+| TMC4361A-BOB | 方向 | NEXT |
+| --- | --- | --- |
+| CSN_DRV | → | CSN |
+| SCK_DRV | → | SCK |
+| SDI_DRV（芯片 SDODRV） | → | SDI |
+| SDO_DRV（芯片 SDIDRV） | ← | SDO |
+| STPOUT | → | STEP |
+| DIROUT | → | DIR |
+| GND | 共地 | GND |
+
+SPI 用于配置／读取 NEXT，STEP/DIR 用于运动脉冲控制；需配置相应接口工作模式，不能仅接 SPI 就假定已完成运动控制。TMC4361A-BOB 与 NEXT 的逻辑电平须兼容；NEXT 的逻辑电源、电机电源范围及使能极性按所选器件手册确定，不沿用某一具体驱动器的参数。NEXT 的使能由主控控制，初始化前保持禁能。dcStep 等可选接口不包含在上述基本连接中，按需另行核对与配置。
 
 SSD1306 OLED 模块迁入 `3rd.module.display`，裸屏仍在 `3rd.display`。按用户确认的控制器型号命名，未由外观推断板厂或更改控制器。`SSD1306_I2C_128x64` 配套 0.96 寸 27.3×27.8 mm 封装；`SSD1306_SPI_128x64` 配套 0.96 寸 27.3×27.8 mm。符号引脚编号和封装焊盘名采用功能标识：I2C 为 GND/VCC/SCL/SDA；SPI 为 GND/VCC/SCLK/MOSI/RES/DC/CS，显示面朝上、排针在上方时从左至右。板上 D0/D1 对应 SCLK/MOSI。
 
