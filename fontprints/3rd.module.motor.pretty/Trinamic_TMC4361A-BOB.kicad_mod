@@ -90,5 +90,19 @@
 (fp_text user "DC_OUT" (at -1.905000 -16.080000 90) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right)))
 (pad "STDBY_CLK" thru_hole circle (at 0.635000 -17.780000) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask"))
 (fp_text user "STDBY_CLK" (at 0.635000 -16.080000 90) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right)))
-(fp_text user "TMC4361A-BOB" (at 0 5) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+(fp_text user "NEXT WIRING" (at 0 -1.2) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+
+(fp_text user "SDO_DRV <- NEXT.SDO" (at 1 4.000 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
+
+(fp_text user "SDI_DRV -> NEXT.SDI" (at 1 5.500 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
+
+(fp_text user "CSN_DRV -> NEXT.CSN" (at 1 7.000 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
+
+(fp_text user "SCK_DRV -> NEXT.SCK" (at 1 8.500 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
+
+(fp_text user "STPOUT -> NEXT.STEP" (at 1 10.000 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
+
+(fp_text user "DIROUT -> NEXT.DIR" (at 1 11.500 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
+
+(fp_text user "GND = NEXT.GND" (at 1 13.000 0) (layer "F.SilkS") (effects (font (size 0.55 0.55) (thickness 0.10))))
 )

@@ -901,8 +901,8 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "937c82e67c6b8250982c2add279c79ab05e2ec8d131cd6879fd6f472354ca596",
-    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged.",
+    "approved_geometry_sha256": "789891145fe6638f74a3a3be22901c06b887299591f3b609c4969f7108464570",
+    "geometry_changes": "2026-10-14 user-requested functional pad identifiers; geometry and layers verified unchanged relative to pre-migration workspace. ; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged. 2026-10-15: added user-requested NEXT wiring silkscreen; pad identifiers and all pad geometry unchanged.",
     "pad_number_changes_20261014": {
       "1": "VCC",
       "2": "GND",
