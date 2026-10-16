@@ -50,7 +50,7 @@
 				)
 			)
 		)
-		(property "Description" "6-pin Tag-Connect TC2030 ESP"
+		(property "Description" "6-pin Tag-Connect TC2030 ESP UART; pin 2 ESP TX output, pin 4 ESP RX input"
 			(at 0 -22.8600 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61,7 +61,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "TC2030 Tag-Connect ESP SWD BOOT"
+		(property "ki_keywords" "TC2030 Tag-Connect ESP UART BOOT"
 			(at 0 -27.9400 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -104,10 +104,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 12.7 2.54 180)
 				(length 5.08)
-				(name "SWDIO"
+				(name "ESP TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -143,7 +143,7 @@
 			(pin input line
 				(at 12.7 0 180)
 				(length 5.08)
-				(name "SWCLK"
+				(name "ESP RX"
 					(effects
 						(font
 							(size 1.27 1.27)
