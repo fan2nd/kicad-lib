@@ -235,3 +235,17 @@ E73 LP/LX 按 docs/Ebyte_E73-2G4M_UserManual_CN_V1.2.pdf 第 5–6 页共用引�
 命名迁移：`ADS1115_8Pin` → `ZY-ADS1115`（用户指定模块名称），符号、排针与贴板封装、过滤器及原始资料文件名同步更新，尺寸与功能编号不变；已有设计需更新库引用。
 
 命名迁移（2026-10-15）：按用户要求，`ST_NUCLEO-U545RE-Q_ST-MORPHO` → `ST_NUCLEO-U545RE_ST-MORPHO`，Value 同步去掉 `-Q`。官方板卡资料链接及型号描述保留；引脚和通用 NUCLEO 封装关联不变。已有原理图需更新符号库标识。
+
+
+### ZJY096T-IG11 背折排线 3D 模型
+
+`3rd.display:Zhongjingyuan_ZJY096T-IG11_Solder_Folded` 已关联
+`3dmodels/3rd.display.3dshapes/Zhongjingyuan_ZJY096T-IG11_Solder_Folded.step`，
+同目录的 `.FCStd` 为可编辑源工程。屏体最大包络 13.5×27.95×1.5 mm，
+显示区 10.8×21.7 mm；依据 `docs/Zhongjingyuan_ZJY096T-IG11_Datasheet_RevB.pdf`。
+内部层厚、FPC 未标注轮廓和弯折为外观简化，不作为制造尺寸。
+模型原点为屏体背面中心，正 Z 朝显示面；按 KiCad 3D 坐标，屏顶为正 Y，
+引脚 1 位于 X=+4.2 mm。关联偏移 (0,0,+0.32) mm、缩放 1、旋转 0，
+使金手指最低面位于 PCB 顶面。触点位于对应 0.4×3 mm 焊盘范围内。
+沿用现有模型的本机绝对路径方式；迁移库时需修改关联路径。
+此模型仅适用于背折版，不关联 `Solder_ThroughPCB_1.6mm` 穿板背焊版。

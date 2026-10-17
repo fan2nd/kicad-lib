@@ -1106,7 +1106,9 @@
     "before_sha256": "001d6464767fd2ffca9cf12dafb5e744b1fe5fc346cfee787bbdd009c392b5ab",
     "name_changes": {
       "ZJY096T-IG11_Solder_Folded": "Zhongjingyuan_ZJY096T-IG11_Solder_Folded"
-    }
+    },
+    "approved_geometry_sha256": "cf412a95905341cc4a19be5933afdb4e9ad2e425a971e5fd72d7a49d3c45fa5d",
+    "geometry_changes": " 2026-10-17: associate folded-display STEP model; parsed footprint excluding model is identical to HEAD; pad and graphic geometry unchanged."
   },
   {
     "kind": "footprint",

@@ -43,4 +43,10 @@
 
 
 
+
+ (model "/Users/fan/KiCad/lib/3dmodels/3rd.display.3dshapes/Zhongjingyuan_ZJY096T-IG11_Solder_Folded.step"
+  (offset (xyz 0 0 0.32))
+  (scale (xyz 1 1 1))
+  (rotate (xyz 0 0 0))
+ )
 )
