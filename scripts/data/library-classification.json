@@ -2444,5 +2444,53 @@
     "library": "3rd.module.interface",
     "before_sha256": "4f160502668a598c4fef1840d26a70bed24f393d2601368f41f69e9f9fdb4e06",
     "name_changes": {}
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.switch.pretty/Kailh_PG1350_HotSwap.kicad_mod",
+    "new_path": "fontprints/3rd.switch.pretty/Kailh_PG1350_HotSwap.kicad_mod",
+    "library": "3rd.switch",
+    "before_sha256": "6cc967e297e673ef0367aaaad088e1f25423a5e616c3d7ef718c88a1c7cdf7ee",
+    "name_changes": {}
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.switch.pretty/Kailh_MX_HotSwap.kicad_mod",
+    "new_path": "fontprints/3rd.switch.pretty/Kailh_MX_HotSwap.kicad_mod",
+    "library": "3rd.switch",
+    "before_sha256": "baf3a4cf7a86b77dbafc3b157f4089eb7a1b061feb868c66b207a6528a828b29",
+    "name_changes": {}
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.switch.pretty/XUNPU_TS-1089S-02526.kicad_mod",
+    "new_path": "fontprints/3rd.switch.pretty/XUNPU_TS-1089S-02526.kicad_mod",
+    "library": "3rd.switch",
+    "before_sha256": "4a18dbed993cadc5f800a49d90e0719661efbaba0590022d41b7e0ae46d207e4",
+    "name_changes": {},
+    "approved_geometry_sha256": "22e9b0d241a57f60cd3d6ecec5b854b07e6dc17d9660e26c1b5f1403f870ab61",
+    "geometry_changes": "User requested two electrical pin numbers: old 1/2 -> 1; old 3/4 -> 2. Pad geometry and 3D models unchanged.",
+    "pin_identifier_migration": {
+      "1": "1",
+      "2": "1",
+      "3": "2",
+      "4": "2"
+    }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.switch.pretty/Shouhan_TS3425BA.kicad_mod",
+    "new_path": "fontprints/3rd.switch.pretty/Shouhan_TS3425BA.kicad_mod",
+    "library": "3rd.switch",
+    "before_sha256": "a9e72c4119c221a585115b1bc379cd55b3033f430464322225eefcc4b024d6d6",
+    "name_changes": {},
+    "approved_geometry_sha256": "5bae61f52f979d6ab7f27dd19605ee2309af1e0508fb1745f608d1a8e3af4ff1",
+    "geometry_changes": "User requested two electrical pin numbers: old 1/2 -> 1; old 3/4 -> 2. Pad geometry and 3D models unchanged.",
+    "pin_identifier_migration": {
+      "1": "1",
+      "2": "1",
+      "3": "2",
+      "4": "2"
+    }
   }
 ]

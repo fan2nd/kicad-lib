@@ -2,6 +2,21 @@
 
 按器件实际形态和用途分类。符号采用 KiCad 10 的 `.kicad_symdir` 目录库，封装采用 `.pretty` 库；库昵称与目录名保持一致。
 
+## 凯华机械轴热插拔封装
+
+新增两个独立封装，均在 `3rd.switch`：`Kailh_PG1350_HotSwap`（Choc V1/PG1350，配 CPG135001S30 座）和 `Kailh_MX_HotSwap`（标准 MX，配 CPG151101S11-16 座）。不是双轴混合孔位，不适用于 PG1353。轴体在 PCB 正面、座子在背面；保持封装放在 F.Cu 即可，焊接焊盘已定义在 B.Cu/B.Mask/B.Paste，座子外形丝印在 B.SilkS，正面只画轴体角标。两版各有 5 个 NPTH：中心柱孔、两个定位柱孔、两个直径 3 mm 的触点穿孔。触点孔不镀铜，电气连接由背面两个圆角贴片焊盘完成；编号为 1/2，可配官方 `Switch:SW_Push`，PG1350 也可配现有 `Kailh_PG1350` 符号，原直接焊接封装不变。
+
+坐标以轴心为原点，从正面看：
+
+| 封装 | 中心孔 | 定位孔 | 触点穿孔中心 | 背面焊盘中心及尺寸 |
+| --- | --- | --- | --- | --- |
+| PG1350 | Ø3.4 mm | (±5.5, 0)，Ø1.9 mm | 1=(0, 5.95)，2=(-5, 3.75)，均 Ø3 mm | 1=(3.275, 5.95)，2=(-8.275, 3.75)，2.6×2.6 mm |
+| MX | Ø4 mm | (±5.08, 0)，Ø1.7 mm | 1=(2.54, -5.08)，2=(-3.81, -2.54)，均 Ø3 mm | 1=(6.29, -5.08)，2=(-7.56, -2.54)，2.55×2.5 mm |
+
+MX 版保留五脚轴的两侧塑料定位孔，三脚轴也可安装。PG1350 座接触孔纵向差为 2.20 mm，采用 3.75/5.95 mm 的安装位置，对应轴体 3.8/5.9 mm 触点各偏移 0.05 mm，利用 Ø3 mm 座孔容差，不直接复用焊接版 Ø1.2 mm 孔。矩形电气焊盘统一 R0.25 mm；铜皮到 NPTH 边缘检查不小于 0.2 mm。F.Fab 是轴体占位，B.Fab/B.SilkS 是简化座体轮廓，未标注的小圆角只作装配示意；封装不生成定位板切口或 Edge.Cuts，也不自带 LED 焊盘。
+
+来源：[凯华 PG1350 座原始手册](docs/Kailh_CPG135001S30_Datasheet_RevB.pdf)、[凯华 MX 座原始尺寸及手册](docs/Kailh_CPG151101S11-16_Dimensions_Datasheet.pdf)。座孔直径、触点孔相对间距和焊盘尺寸依原厂图；轴心到孔位及焊盘中心位置与 [daprice/keyswitches.pretty](https://github.com/daprice/keyswitches.pretty) 的 PG1350/MX 安装坐标交叉核对；未复制该库图形。MX 中心及定位柱孔另与已安装 KiCad 官方 `SW_Cherry_MX_1.00u_PCB` 核对。正式选用时须匹配上述座子型号，PG1350 推荐板厚按座子手册为 1.6 mm。
+
 ## W5500 Lite 以太网模块
 
 新增 `3rd.module.interface:W5500_Lite`，关联 `W5500_Lite_PinHeader_P2.54mm_23x25mm_Provisional`。按用户提供的 [尺寸图](docs/W5500_Lite_Dimensions.jpg)、[元件面照片](docs/W5500_Lite_Pinout.png) 及最新 [尺寸和引脚图](docs/W5500_Lite_Dimensions_Pinout.png) 绘制；未知板厂不添加 WIZnet、USR 等厂商前缀。模块位于底板上方，RJ45 插口朝上，J1 左列从上至下为 GND/GND/MOSI/SCLK/CS/INT，J2 右列为 GND/3V3/3V3/NC/RST/MISO。照片 MO/MI 对应 MOSI/MISO；J2-4 按照片 NC 标识保留独立 `NC`，不套用其他版本的 PWDN。CS、INT、RST 低有效。符号和焊盘均使用功能编号，重复 GND/3V3 分别共网。
@@ -249,3 +264,37 @@ E73 LP/LX 按 docs/Ebyte_E73-2G4M_UserManual_CN_V1.2.pdf 第 5–6 页共用引�
 使金手指最低面位于 PCB 顶面。触点位于对应 0.4×3 mm 焊盘范围内。
 沿用现有模型的本机绝对路径方式；迁移库时需修改关联路径。
 此模型仅适用于背折版，不关联 `Solder_ThroughPCB_1.6mm` 穿板背焊版。
+
+### C455282 / C2681476 轻触开关
+
+新增 `3rd.switch:XUNPU_TS-1089S-02526`（C455282）和
+`3rd.switch:Shouhan_TS3425BA`（C2681476）。原始资料分别保存为
+`docs/XUNPU_TS-1089S-02526_Datasheet.pdf`（装配图第 2 页）及
+`docs/Shouhan_TS3425BA_Datasheet.pdf`（第 1 页）。
+
+| 封装 | 本体/mm | 端子总宽/mm | 焊盘尺寸/mm | 焊盘中心 X/mm | 焊盘中心 Y/mm |
+| --- | --- | --- | --- | --- | --- |
+| XUNPU_TS-1089S-02526 | 4.2×3.25 | 5.10 | 1.20×0.65 | ±2.15 | ±1.075 |
+| Shouhan_TS3425BA | 4.2×3.20 | 4.60 | 1.05×0.65 | ±2.075 | ±1.075 |
+
+均按原厂推荐焊盘的内外边缘计算，矩形焊盘依项目规则作圆角处理。
+俯视图：上排两个焊盘均为 1，下排两个焊盘均为 2；同排内部相通，
+按下后两排接通，可配合官方 `Switch:SW_Push` 两脚符号使用。
+按用户要求将旧编号 1/2 合并为 1，旧编号 3/4 合并为 2；焊盘几何和模型不变。
+已有 PCB 如使用旧四脚编号，应同步更新符号及焊盘网络。
+
+配套模型位于 `3dmodels/3rd.switch.3dshapes/`，每款提供 `.step`、`.wrl`
+及可编辑 `.FCStd`。两款均已改用立创原始 STEP，取消先前自建的简化几何。
+封装关联 WRL；同名 STEP 用于 KiCad 的 STEP 导出替代。
+原始模型保存于 `docs/XUNPU_TS-1089S-02526_Model_LCSC.step` 和
+`docs/Shouhan_TS3425BA_Model_LCSC.step`，保持下载字节不变。
+来源模型 UUID 分别为 `ccf428d0f05443699e8e5d7213d16527`、
+`2b59e85a5ed544cb9a7fbd649d351ea1`（通过 EasyEDA 的对应 LCSC 料号接口获取）。
+
+只清除 logo 几何并对齐贴板面：XUNPU 填平底面刻字、削除右侧凸字，模型 Z 平移
++1.7 mm；Shouhan 削除底面凸字，模型 Z 平移 +0.01 mm，保留原始向上包脚。
+处理后原点位于主体中心投影、端子最低面 Z=0，封装关联无额外偏移或旋转。
+立创原模型包络分别为 5.20×3.25×2.50 mm 和 4.65×3.30×2.51 mm；
+与原厂图纸存在细微差异，保持模型原几何，焊盘仍以原厂图纸为准。
+WRL 按 KiCad 的 0.1 英寸单位导出，STEP/FCStd 采用毫米；模型关联沿用本库绝对路径。
+可用 FreeCAD Python 运行 `scripts/build_tact_switch_models.py` 重建并校验 STEP 包络。
