@@ -15,4 +15,6 @@
 (pad "" np_thru_hole circle (at 5.5 0) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask"))
 (fp_text user "LED" (at 0 -4.7) (layer "Dwgs.User") (effects (font (size 0.7 0.7) (thickness .12))))
 (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness .12))))
+
+(model "/Users/fan/KiCad/lib/3dmodels/3rd.switch.3dshapes/SW_Kailh_Choc_V1.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 180)))
 )

@@ -357,8 +357,8 @@
         "reason": "User requested rectangular pad rounding; all other geometry preserved"
       }
     ],
-    "approved_geometry_sha256": "f7c6ebb3d283d3b671072efbba5ae18d5a96e3272341f07f830208094ea68ddb",
-    "geometry_changes": "; rectangular pads changed to roundrect, radius=min(25% of short side,0.25mm); coordinates, dimensions, drills and layers unchanged."
+    "approved_geometry_sha256": "ac2e8bee3e29a630ef5e6a51dc2f94d5bd94634fb5293cfb8f6a8fd4ed3d925a",
+    "geometry_changes": "2026-10-24: add top-side 2x04 socket silk/fab and 8.5mm 3D socket; pads unchanged."
   },
   {
     "kind": "footprint",
@@ -504,7 +504,9 @@
         "reason": "User confirmed complete model ESPC2-01-N2",
         "date": "2026-10-05"
       }
-    ]
+    ],
+    "approved_geometry_sha256": "63f3957315e7212d5cf69ed0bfa0c0c67b901ee44c988437f2deb73cba72c891",
+    "geometry_changes": "2026-10-24: add top-side 2x04 socket silk/fab and 8.5mm 3D socket; pads unchanged."
   },
   {
     "kind": "footprint",
@@ -2451,7 +2453,9 @@
     "new_path": "fontprints/3rd.switch.pretty/Kailh_PG1350_HotSwap.kicad_mod",
     "library": "3rd.switch",
     "before_sha256": "6cc967e297e673ef0367aaaad088e1f25423a5e616c3d7ef718c88a1c7cdf7ee",
-    "name_changes": {}
+    "name_changes": {},
+    "approved_geometry_sha256": "e633cd40a202446e45b0234bdd7735372fc0983fab1cd27834b4c13833c608e2",
+    "geometry_changes": "2026-10-23: attach switch/socket 3D models only; pads and graphics unchanged."
   },
   {
     "kind": "footprint",
@@ -2459,7 +2463,9 @@
     "new_path": "fontprints/3rd.switch.pretty/Kailh_MX_HotSwap.kicad_mod",
     "library": "3rd.switch",
     "before_sha256": "baf3a4cf7a86b77dbafc3b157f4089eb7a1b061feb868c66b207a6528a828b29",
-    "name_changes": {}
+    "name_changes": {},
+    "approved_geometry_sha256": "99e9aec9eef838fcd8462a8b89be7f66f0dcd51ef987565e9b1b583934159162",
+    "geometry_changes": "2026-10-23: attach switch/socket 3D models only; pads and graphics unchanged."
   },
   {
     "kind": "footprint",
@@ -2492,5 +2498,39 @@
       "3": "2",
       "4": "2"
     }
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/HRO_U-A-24DS-W-1.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/HRO_U-A-24DS-W-1.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "40714e60ec46db21e8857b3bc6546a91094dc92ef9c1e445742a1fac9da15947",
+    "name_changes": {},
+    "approved_geometry_sha256": "1fac2c35750c46575df53056ffabc5b7237322a646957663e905cf46936e0645",
+    "geometry_changes": "User requested pin-1 silk dot replacing text and cleaned LCSC 3D model association; electrical pad geometry unchanged."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/HongCheng_HC-USB3.0-C34-P.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/HongCheng_HC-USB3.0-C34-P.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "a2ab8ea99b93d90724a32586c0c6511154ac385cbb43e61c7dab87e6d2e6cb1d",
+    "name_changes": {}
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/HongCheng_HC-USB3.0-C225-P.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/HongCheng_HC-USB3.0-C225-P.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "a7fdd4bc7996f9c843a6865d0aac16d0285f320a1f700f98f4d4bdf377ada7e9",
+    "name_changes": {}
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.connector.pretty/HongCheng_HC-USB3.0-C345-P.kicad_mod",
+    "new_path": "fontprints/3rd.connector.pretty/HongCheng_HC-USB3.0-C345-P.kicad_mod",
+    "library": "3rd.connector",
+    "before_sha256": "caaac73870745c9299ebbe1eb930656f8c87fda87066097b8e4846a4120a90d8",
+    "name_changes": {}
   }
 ]

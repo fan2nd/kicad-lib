@@ -376,4 +376,7 @@
 (fp_line (start 7.85000 -0.60000) (end -9.10000 -0.60000) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
 (fp_line (start -9.10000 -0.60000) (end -9.10000 -7.00000) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
 (fp_text user "CPG151101S11-16" (at 0 -10) (layer "B.Fab") (effects (font (size 0.7 0.7) (thickness .12)) (justify mirror)))
+
+(model "/Users/fan/KiCad/lib/3dmodels/3rd.switch.3dshapes/SW_Cherry_MX_PCB.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+(model "/Users/fan/KiCad/lib/3dmodels/3rd.switch.3dshapes/SW_Hotswap_Kailh_MX.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

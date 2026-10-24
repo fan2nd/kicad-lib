@@ -447,4 +447,7 @@
 (fp_line (start 4.85000 8.55000) (end -9.85000 8.55000) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
 (fp_line (start -9.85000 8.55000) (end -9.85000 1.15000) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
 (fp_text user "CPG135001S30" (at 0 10) (layer "B.Fab") (effects (font (size 0.7 0.7) (thickness .12)) (justify mirror)))
+
+(model "/Users/fan/KiCad/lib/3dmodels/3rd.switch.3dshapes/SW_Kailh_Choc_V1.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 180)))
+(model "/Users/fan/KiCad/lib/3dmodels/3rd.switch.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 180)))
 )

@@ -298,3 +298,82 @@ E73 LP/LX 按 docs/Ebyte_E73-2G4M_UserManual_CN_V1.2.pdf 第 5–6 页共用引�
 与原厂图纸存在细微差异，保持模型原几何，焊盘仍以原厂图纸为准。
 WRL 按 KiCad 的 0.1 英寸单位导出，STEP/FCStd 采用毫米；模型关联沿用本库绝对路径。
 可用 FreeCAD Python 运行 `scripts/build_tact_switch_models.py` 重建并校验 STEP 包络。
+
+
+### HRO U-A-24DS-W-1（C530628）
+
+新增 `3rd.connector:HRO_U-A-24DS-W-1`，使用安装库已有的
+`Connector:USB_A` 通用符号，不重复创建符号。焊盘 1=VBUS、2=D-、3=D+、4=GND，
+四个屏蔽壳焊脚均为 `SH`，与当前官方符号逐项匹配。
+来源：`docs/HRO_U-A-24DS-W-1_Datasheet.pdf`，HRO（韩荣）2021-06-21 图纸。
+信号焊盘 1.15×2.45 mm，X=-3.5/-1/+1/+3.5 mm、Y=-1.825 mm；
+屏蔽壳焊盘 1.3×2.3 mm、镀铜长圆孔 0.8×1.8 mm，X=±7.775 mm、Y=0/5.5 mm。
+
+封装包含三边开放的 U 形 `Edge.Cuts` 沉板槽：X=±6.6 mm、后边 Y=0，
+两端到 Y=9.5 mm 的主板边缘。必须将两端与主板板框连接，删除横跨槽口的原板边线；
+不能把该封装直接放在完整闭合主板内部。`Dwgs.User` 虚线为主板边缘参考，
+`F.Fab` 为插座实体轮廓；丝印避开开槽和壳脚，前端悬空区域不印丝印。
+手册没有标注槽宽，13.2 mm 采用立创对应料号参考封装；制板前核对实物间隙和板厚。
+参考封装来源 [嘉立创EDA](https://lceda.cn/) / [EasyEDA](https://easyeda.com/) 官方库，
+原始器件接口 `https://easyeda.com/api/products/C530628/components?version=6.4.19.5`。
+可通过 `scripts/build_hro_usb_a.py` 重建封装。
+
+C530628 已关联去标识立创 3D 模型（UUID `56bfa40334ac452f8b0ea67224a29821`）。
+原始 STEP 保存在 `docs/HRO_U-A-24DS-W-1_Model_LCSC.step`；处理后 STEP/WRL/FCStd
+位于 `3dmodels/3rd.connector.3dshapes/`。只清除壳体侧面与底面 logo，
+原始模型平移 (0,-10.25,+1.24) mm，信号脚底面落于 Z=0；外壳下沉保留。
+使用原模型几何，不据其修改手册焊盘；原模型外壳深度与手册略有差异。
+生成脚本为 `scripts/build_hro_usb_a_model.py`，模型关联采用既有绝对路径惯例。
+封装 1 脚丝印改为小圆点，电气编号不变。
+
+### HongCheng recessed USB 3.0 Type-A (C7501852 / C7501855 / C7501863)
+
+Added `HongCheng_HC-USB3.0-C34-P`, `HongCheng_HC-USB3.0-C225-P`, and
+`HongCheng_HC-USB3.0-C345-P` in `3rd.connector`, with original LCSC STEP sources
+and manufacturer datasheets in `docs/`. STEP / WRL / editable FCStd models are
+in `3dmodels/3rd.connector.3dshapes/`; raised LCSC lettering/logo is removed,
+while shell springs, windows, contacts and mounting tabs are preserved.
+Generators: `scripts/build_hongcheng_usb3.py` and `scripts/build_hongcheng_usb3_models.py`.
+
+Signal lands follow the respective recommended PCB drawings (C34/C225: 9 lands,
+0.70 x 1.60 mm; C345: four 1.00 x 2.20 mm plus four 0.45 x 2.20 mm).
+All shell contacts use `SH`; pin 1 is identified by a silk dot.
+C345 has **no independent external pad 7** in the supplied PCB drawing or model;
+do not invent a land or assume GND_DRAIN is electrically bonded to the shell.
+A generic nine-contact USB3 symbol therefore requires explicit treatment of pin 7.
+
+Open U-shaped `Edge.Cuts` must be joined to the carrier outline, with the USB
+opening facing +Y. C345 notch width 13.60 mm and rear edge y=1.70 mm follow its
+PCB drawing. C34/C225 drawings do not fully dimension the carrier notch: rear
+edges use LCSC CAD (2.05 / 1.435 mm); width is 13.20 mm, clearing the nominal
+13.10 mm housing and leaving the specified shell lands intact. C34's wider
+LCSC cutout was narrowed because it intersected the datasheet shell lands.
+These two notch fits need physical verification; shell-land-to-notch clearance
+is only 0.05 mm, so confirm the board fabricator's edge-copper process.
+Nominal body depths below PCB are 3.40 / 2.25 / 3.45 mm respectively.
+The original C225 model differs by 0.01 mm in body height and C345 by 0.05 mm
+in a mounting-tab location; the original geometry is retained.
+
+### 按键轴 3D 模型（2026-10-23）
+
+为 `Kailh_PG1350_Solder`、`Kailh_PG1350_HotSwap`、
+`Kailh_MX_HotSwap` 关联本地 3D 模型；两种热插拔封装同时显示正面轴体和背面座子。
+PG1350 模型转 Z 轴 180°，匹配本库 LED 朝北方向。背面座模型按约 1.6 mm
+PCB 安装位置提供，其他板厚需调整模型高度。焊盘、钻孔、丝印均未修改。
+MX 轴体为通用 Cherry MX 装配示意，非特定凯华轴款。
+KiSwitch 模型为 WRL。来源、许可和限制见
+[模型来源说明](3dmodels/3rd.switch.3dshapes/SOURCES.md)。
+
+2026-10-23：按用户要求删除 `Kailh_PG1353` 符号、`Kailh_PG1353_Solder` 封装及专用 STEP/WRL 模型。原始手册保留归档；历史条目不代表当前可用器件。已有设计中的该符号／封装需另行替换。
+
+### ESPC2-01-N2 / E01C-ML01D 排母（2026-10-24）
+
+`DOIT_ESPC2-01-N2` 和 `Ebyte_E01C-ML01D` 增加正面 2×4、2.54 mm
+直立排母装配轮廓与 3D 模型。排母塑壳为 10.16×5.08×8.5 mm，脚伸出
+PCB 顶面以下 3.1 mm；属于通用排母示意，具体采购高度需匹配。
+模型由本机 KiCad 官方 `Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Vertical.step`
+旋转并居中，保留原始几何；放在本项目 `3dmodels/3rd.connector.3dshapes/`
+供两封装共用。原官方库文件未修改。上游来源为
+https://gitlab.com/kicad/libraries/kicad-packages3D ，遵循上游模型许可。
+排母安装在底板正面，丝印为 F.SilkS；焊盘、钻孔和功能编号保持不变。
+ESPC2 移除了指向本机不存在文件的旧 ESP-01 模型引用，当前显示排母而非模块轴测外形。
