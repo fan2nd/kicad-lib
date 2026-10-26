@@ -2532,5 +2532,99 @@
     "library": "3rd.connector",
     "before_sha256": "caaac73870745c9299ebbe1eb930656f8c87fda87066097b8e4846a4120a90d8",
     "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-5-csi-22pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-mipi-22pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "77c833e7c2f2957bddc15896a32a350cfe989b4105b80d93a8e89487d8237fa7",
+    "name_changes": {
+      "RaspberryPi_5_CSI_22Pin": "RaspberryPi_MIPI_22Pin"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-5-dsi-22pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-mipi-22pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "3594fdb2fb61af4e005224dcba9596c4826b1f1a6d1318293beb8033d9e86a76",
+    "name_changes": {
+      "RaspberryPi_5_DSI_22Pin": "RaspberryPi_MIPI_22Pin"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-csi-15pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-csi-15pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "8333f839db719daba7c89dbcf30174f9ec590a1dd9cb36c2298d76f6ddc1dabe",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-dsi-15pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-dsi-15pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "b2eaa28c7cdfce30e23b97ab74558857378aea1056dae264796cdce427f119c2",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-pcie-fpc-16pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-pcie-fpc-16pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "0b89aa2e66eece2b83ca90e908a2b0ccea31428355690f227c625d157679f25a",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/qwiic.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/qwiic.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "0df31fc52d22c25362109a930aff92c91da1d42572708000a5a39ff649120f62",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/grove-iic.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/grove-iic.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "b436864cd7906c508f1d345f701a49d1c8785138983ced71d63bb934690babd8",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/mipi-22pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-mipi-22pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "f6e2722ba7e6eb2beac2babec6e949420cf596cc0c918fe1fd410413ced9c81d",
+    "name_changes": {
+      "mipi_22pin": "RaspberryPi_MIPI_22Pin"
+    }
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-swd-3pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-swd-3pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "f629d3a02f3906a0ab4170afbce2c440f09e23f4c56d23e5e0a4c55723d3dbf2",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-uart-host-3pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-uart-host-3pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "01f64ed8e06e86505e4014bf7496a3b4c4d041f2cf7c6caaf57e140cee6b93a4",
+    "name_changes": {}
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-uart-target-3pin.kicad_sym",
+    "new_path": "symbols/3rd.connector.kicad_symdir/raspberrypi-uart-target-3pin.kicad_sym",
+    "library": "3rd.connector",
+    "before_sha256": "12ebec6ae2764bb08fd6d27a9ca16eabbd8f61045ed60148f7b04001b3bcdd7b",
+    "name_changes": {}
   }
 ]

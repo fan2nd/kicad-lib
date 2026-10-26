@@ -377,3 +377,47 @@ PCB 顶面以下 3.1 mm；属于通用排母示意，具体采购高度需匹配
 https://gitlab.com/kicad/libraries/kicad-packages3D ，遵循上游模型许可。
 排母安装在底板正面，丝印为 F.SilkS；焊盘、钻孔和功能编号保持不变。
 ESPC2 移除了指向本机不存在文件的旧 ESP-01 模型引用，当前显示排母而非模块轴测外形。
+
+### Raspberry Pi CSI / DSI 接口符号（2026-10-27）
+
+新增到 `3rd.connector`，仅定义接口，不绑定具体 FPC 座封装：
+
+| 符号 | 接口 |
+| --- | --- |
+| `RaspberryPi_CSI_15Pin` | 旧版 15P、1.0 mm、双数据通道 CSI |
+| `RaspberryPi_DSI_15Pin` | 旧版 15P、1.0 mm、双数据通道 DSI |
+| `RaspberryPi_MIPI_22Pin` | Pi 5 CAM/DISP0 或 CAM/DISP1，22P、0.5 mm、CSI/DSI 共用 |
+
+这些是标准接口，pin number 保留 1–15 / 1–22，pin name 显示功能，所有接点采用 passive 类型；GND 和 3V3 的多个接点分别保留各自编号。旧版 CSI 与 DSI 不兼容：CSI 的 D0/D1/CLK 分别在 2–3/5–6/8–9，DSI 则是 D1/CLK/D0；电源和 I2C 位置也不同。Pi 5 使用一个共用符号和物理引脚表，17/18 保留 CAM_IO0/CAM_IO1，不擅自接地。符号不代表显示端一定使用这些辅助 GPIO。
+
+来源：[官方 CSI 15P/22P 引脚表](https://www.raspberrypi.com/documentation/accessories/camera.html)、[Pi 4B 官方原理图 DISPLAY J4](docs/RaspberryPi_4B_Schematic_Reduced.pdf)、[官方 Pi 5 共用 CSI/DSI 接口说明](https://www.raspberrypi.com/documentation/computers/sbcs.html)。这里只定义旧版树莓派接口与 Pi 5，不声称适配 Compute Module 底板。连接器的观察方向、触点面及排线翻转需按实际座子核对，不能由符号左右布局判断。生成脚本：`scripts/build_raspberrypi5_mipi_symbols.py`。
+
+### Raspberry Pi PCIe FPC 接口（2026-10-27）
+
+`3rd.connector:RaspberryPi_PCIe_FPC_16Pin` 按[官方 PCIe 规范 v1.1](docs/RaspberryPi_PCIe_StandardSpecification_1.1.pdf)图 1 定义 16 个数字接点，0.5 mm 间距，PCIe x1；无封装绑定，机械固定脚不属于排线接口，未加入符号。引脚类型为 passive。RX/TX 以树莓派主机为参照：RX 接外设发送端，TX 接外设接收端。
+
+1/2=5V，3/6/9/12=GND，4/5=PCIE_CLK_P/N，7/8=PCIE_RX_P/N，10/11=PCIE_TX_P/N，13=PCIE_PWR_EN，14=PCIE_DET_WAKE，15=PCIE_CLKREQ_N，16=PCIE_RST_B。控制信号为 3.3 V；PCIE_PWR_EN 是主机输出，DET_WAKE 用于外设检测/唤醒。不得将 5V 电源和 3.3V 控制信号混淆。生成脚本：`scripts/build_raspberrypi_pcie_symbol.py`。
+
+### Qwiic 接口符号（2026-10-27）
+
+新增 `3rd.connector:Qwiic`，按 [SparkFun Qwiic 标准](https://www.sparkfun.com/qwiic)及[官方参考原理图](https://cdn.sparkfun.com/assets/0/0/3/5/4/Qwiic-OpenLog.pdf)定义：1=GND、2=3V3、3=SDA、4=SCL。采用数字接点编号及 passive 类型，JST SH 4P、1.0 mm 接口；未绑定封装，可按卧贴/立贴等实际连接器选择。符号不包含机械固定焊脚。生成脚本为 `scripts/build_qwiic_symbol.py`。
+
+### Grove-IIC 与接口符号布局更新（2026-10-27）
+
+新增 `3rd.connector:Grove_IIC`，依据 [Seeed Grove 官方定义](https://wiki.seeedstudio.com/Grove_System/)：1=SCL、2=SDA、3=VCC、4=GND。VCC 根据实际系统为 3.3V 或 5V，不固定为 3V3；数字接点编号、passive 类型、不绑定封装。生成脚本为 `scripts/build_grove_iic_symbol.py`。
+
+本次新增的旧版 CSI/DSI、Pi 5 MIPI、PCIe、Qwiic、Grove-IIC 共六个接口符号均改为右侧出线，编号自上而下保持不变。`RaspberryPi_5_CSI_22Pin` 和 `RaspberryPi_5_DSI_22Pin` 合并为 `RaspberryPi_MIPI_22Pin`，没有保留旧名副本；已放置的符号若使用旧名需重新指定库符号。
+
+命名修正：临时名 `mipi_22pin` 已更正为 `RaspberryPi_MIPI_22Pin`，保留树莓派接口前缀及 MIPI 标准大写；引脚定义和右出线布局不变。
+
+### Raspberry Pi SH 1.0 mm 三针调试接口（2026-10-27）
+
+依据[官方三针调试接口规范 rev 4](docs/RaspberryPi_DebugConnector_StandardSpecification_4.pdf)，新增以下 `3rd.connector` 符号，均右出线、数字接点编号、passive 类型，不绑定封装：
+
+| 符号 | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| `RaspberryPi_SWD_3Pin` | SWCLK | GND | SWDIO |
+| `RaspberryPi_UART_Host_3Pin` | TX | GND | RX |
+| `RaspberryPi_UART_Target_3Pin` | RX | GND | TX |
+
+UART 名称以符号所代表的本地设备为参照：Host 是调试探针，Target 是被调试设备（包括 Pi 5 的调试串口）。规范表格采用 Target 视角，所以不能把表格中的 RX/TX 原样标到 Host。使用 1→1、2→2、3→3 的直通线，Host TX 即连接 Target RX。SWD 两端接点功能相同，无需拆分 Host/Target；时钟由 Host 驱动。接口没有 VCC/VTref/复位接点。标准连接器为 JST SH 1.0 mm 3P，顶插 BM03B-SRSS-TB 或侧插 SM03B-SRSS-TB，具体封装另选。规范建议信号源端串联 100Ω，Host 为 3.3V IO；这些电路要求没有嵌入连接器符号。生成脚本：`scripts/build_raspberrypi_debug_symbols.py`。
