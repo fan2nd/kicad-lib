@@ -4,7 +4,7 @@
 
 ## 凯华机械轴热插拔封装
 
-新增两个独立封装，均在 `3rd.switch`：`Kailh_PG1350_HotSwap`（Choc V1/PG1350，配 CPG135001S30 座）和 `Kailh_MX_HotSwap`（标准 MX，配 CPG151101S11-16 座）。不是双轴混合孔位，不适用于 PG1353。轴体在 PCB 正面、座子在背面；保持封装放在 F.Cu 即可，焊接焊盘已定义在 B.Cu/B.Mask/B.Paste，座子外形丝印在 B.SilkS，正面只画轴体角标。两版各有 5 个 NPTH：中心柱孔、两个定位柱孔、两个直径 3 mm 的触点穿孔。触点孔不镀铜，电气连接由背面两个圆角贴片焊盘完成；编号为 1/2，可配官方 `Switch:SW_Push`，PG1350 也可配现有 `Kailh_PG1350` 符号，原直接焊接封装不变。
+新增两个独立封装，均在 `3rd.switch`：`Kailh_PG1350_HotSwap`（Choc V1/PG1350，配 CPG135001S30 座）和 `Kailh_MX_HotSwap`（标准 MX，配 CPG151101S11-16 座）。不是双轴混合孔位，不适用于 PG1353。轴体在 PCB 正面、座子在背面；保持封装放在 F.Cu 即可，焊接焊盘已定义在 B.Cu/B.Mask/B.Paste，座子外形丝印在 B.SilkS，正面只画轴体角标。两版各有 5 个 NPTH：中心柱孔、两个定位柱孔、两个直径 3 mm 的触点穿孔。触点孔不镀铜，电气连接由背面两个圆角贴片焊盘完成；编号为 1/2，可配官方 `Switch:SW_Push`，原直接焊接封装不变。
 
 坐标以轴心为原点，从正面看：
 
@@ -421,3 +421,11 @@ ESPC2 移除了指向本机不存在文件的旧 ESP-01 模型引用，当前显
 | `RaspberryPi_UART_Target_3Pin` | RX | GND | TX |
 
 UART 名称以符号所代表的本地设备为参照：Host 是调试探针，Target 是被调试设备（包括 Pi 5 的调试串口）。规范表格采用 Target 视角，所以不能把表格中的 RX/TX 原样标到 Host。使用 1→1、2→2、3→3 的直通线，Host TX 即连接 Target RX。SWD 两端接点功能相同，无需拆分 Host/Target；时钟由 Host 驱动。接口没有 VCC/VTref/复位接点。标准连接器为 JST SH 1.0 mm 3P，顶插 BM03B-SRSS-TB 或侧插 SM03B-SRSS-TB，具体封装另选。规范建议信号源端串联 100Ω，Host 为 3.3V IO；这些电路要求没有嵌入连接器符号。生成脚本：`scripts/build_raspberrypi_debug_symbols.py`。
+
+### ZY-MAX3232 TTL / RS-232 模块
+
+新增 `3rd.module.interface:ZY-MAX3232` 符号，以及独立的排针版和贴板版封装。根据用户提供的[实物照片](docs/ZY-MAX3232_Pinout.jpg)及[原理图和尺寸](docs/ZY-MAX3232_Dimensions.jpg)，元件面视角左侧为 RS232、右侧为 TTL，两侧自上而下为 VCC、RXD、TXD、GND；符号和焊盘以 `RS232_RXD`、`RS232_TXD`、`TTL_RXD`、`TTL_TXD` 区分不同信号，两侧 VCC 共用 `VCC`，GND 共用 `GND`。原理图的两侧 RXD 均为模块输入、TXD 均为模块输出；TTL_RXD 驱动 RS232_TXD，RS232_RXD 驱动 TTL_TXD。模组尺寸按图为 15×12 mm；排针行距 12.70 mm 和单列间距 2.54 mm 参照照片与同类模块估算，封装标为 `Provisional`，制板前需用实物核对。排针版默认关联到符号，可改选贴板版。
+
+两块 ZY 串口模块的符号现直接标出外部接线。依据 [TI MAX3232 手册](https://www.ti.com/lit/ds/symlink/max3232.pdf)和 [ADI MAX485 手册](https://www.analog.com/MAX481/datasheet)，并结合用户提供的模块原理图：3232 的 TTL_RXD 接芯片 T1IN、RS232_TXD 接 T1OUT，RS232_RXD 接 R1IN、TTL_TXD 接 R1OUT；485 的模块 RXD 接芯片 DI、TXD 接 RO，EN 同时控制 DE 和 /RE，高电平发送、低电平接收。两块模块的 MCU TX 接模块 RXD，MCU RX 接模块 TXD；具体标注可在原理图符号主体下方查看。芯片手册确认的是芯片引脚功能，模块信号与芯片的对应关系来自用户提供的模块原理图。
+
+按用户要求移除 `3rd.switch:Kailh_PG1350` 符号；PG1350 直接焊接及热插拔封装保留，使用官方 `Switch:SW_Push` 时将对应封装设为所需版本。已使用旧符号的设计需另行替换。

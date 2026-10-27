@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "3rd.module.motor:TMC2209"
-			(at 0 -29.2100 0)
+			(at 0 -29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -34.2900 0)
+			(at 0 -34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Description" "TMC2209 V1.1; VREF/INDEX/DIAG auxiliary contacts; L4 default UART, L5 selectable by solder configuration"
-			(at 0 -39.3700 0)
+			(at 0 -39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 		(property "ki_keywords" "TMC2209 StepStick stepper motor driver module PDN CLK"
-			(at 0 -44.4500 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -74,10 +74,148 @@
 				)
 			)
 		)
-		(symbol "TMC2209_0_1" (rectangle (start -12.7 12.7) (end 12.7 -24.13) (stroke (width 0.254) (type default)) (fill (type background))))
+		(symbol "TMC2209_0_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -24.13)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "TMC2209_1_1"
+			(pin output line
+				(at 17.78 1.27 180)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 3.81 180)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -1.27 180)
+				(length 5.08)
+				(name "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -3.81 180)
+				(length 5.08)
+				(name "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -20.3200 8.8900 0)
+				(at -17.78 -3.81 0)
+				(length 5.08)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "CLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 -19.05 180)
+				(length 7.62)
+				(name "DIAG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "DIAG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -8.89 0)
+				(length 5.08)
+				(name "DIR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "DIR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 8.89 0)
 				(length 7.62)
 				(name "~{EN}"
 					(effects
@@ -87,6 +225,60 @@
 					)
 				)
 				(number "EN_N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 6.35 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -8.89 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 -13.97 180)
+				(length 7.62)
+				(name "INDEX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "INDEX"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -149,7 +341,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.3200 -1.2700 0)
+				(at -20.32 -1.27 0)
 				(length 7.62)
 				(name "PDN_ALT"
 					(effects
@@ -167,25 +359,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -3.81 0)
-				(length 5.08)
-				(name "CLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "CLK"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.3200 -6.3500 0)
+				(at -20.32 -6.35 0)
 				(length 7.62)
 				(name "STEP"
 					(effects
@@ -195,132 +369,6 @@
 					)
 				)
 				(number "STEP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -8.89 0)
-				(length 5.08)
-				(name "DIR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "DIR"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 8.89 180)
-				(length 5.08)
-				(name "VM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "VM"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 6.35 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 3.81 180)
-				(length 5.08)
-				(name "A2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 1.27 180)
-				(length 5.08)
-				(name "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 -1.27 180)
-				(length 5.08)
-				(name "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 -3.81 180)
-				(length 5.08)
-				(name "B2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -347,16 +395,16 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -8.89 180)
+				(at 17.78 8.89 180)
 				(length 5.08)
-				(name "GND"
+				(name "VM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND"
+				(number "VM"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -364,12 +412,24 @@
 					)
 				)
 			)
-(pin passive line (at -20.32 -13.97 0) (length 7.62) (name "VREF" (effects (font (size 1.27 1.27)))) (number "VREF" (effects (font (size 1.016 1.016)))))
-
-(pin output line (at 20.32 -13.97 180) (length 7.62) (name "INDEX" (effects (font (size 1.27 1.27)))) (number "INDEX" (effects (font (size 1.016 1.016)))))
-
-(pin output line (at 20.32 -19.05 180) (length 7.62) (name "DIAG" (effects (font (size 1.27 1.27)))) (number "DIAG" (effects (font (size 1.016 1.016)))))
-
+			(pin passive line
+				(at -20.32 -13.97 0)
+				(length 7.62)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "VREF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)

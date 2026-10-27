@@ -2626,5 +2626,29 @@
     "library": "3rd.connector",
     "before_sha256": "12ebec6ae2764bb08fd6d27a9ca16eabbd8f61045ed60148f7b04001b3bcdd7b",
     "name_changes": {}
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.interface.pretty/ZY-MAX3232_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.interface.pretty/ZY-MAX3232_PinHeader_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.interface",
+    "before_sha256": "1b2f9fc62810a4e402330d109dc42e4de7fcf85e2176ce25c7a527c7f73509c9",
+    "reason": "ZY-MAX3232 user-supplied photographs and schematic; 12.7mm row spacing provisional, functional pad identifiers."
+  },
+  {
+    "kind": "footprint",
+    "old_path": "fontprints/3rd.module.interface.pretty/ZY-MAX3232_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "new_path": "fontprints/3rd.module.interface.pretty/ZY-MAX3232_Castellated_P2.54mm_15x12mm_Provisional.kicad_mod",
+    "library": "3rd.module.interface",
+    "before_sha256": "a12097e712abe8179f3b2f9678f71cca086be884434f1adf4d0e2135deb266ce",
+    "reason": "ZY-MAX3232 user-supplied photographs and schematic; 12.7mm row spacing provisional, functional pad identifiers."
+  },
+  {
+    "kind": "symbol",
+    "old_path": "symbols/3rd.module.interface.kicad_symdir/zy-max3232.kicad_sym",
+    "new_path": "symbols/3rd.module.interface.kicad_symdir/zy-max3232.kicad_sym",
+    "library": "3rd.module.interface",
+    "before_sha256": "226a350fee04b204ee68689bf1e5026ce0e8c43fea5979b90d82414c91ac7e6e",
+    "reason": "ZY-MAX3232 user-supplied photographs and schematic; 12.7mm row spacing provisional, functional pad identifiers."
   }
 ]
